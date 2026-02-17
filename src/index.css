@@ -34,3 +34,90 @@ button {
   -webkit-user-select: none;
   user-select: none;
 }
+
+/* ========================================
+   MEDIA QUERIES PARA RESPONSIVIDADE
+   ======================================== */
+
+/* Mobile pequeno: 320px - 374px */
+@media (max-width: 374px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Mobile médio: 375px - 767px */
+@media (min-width: 375px) and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* Tablet: 768px - 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Desktop: 1024px+ */
+@media (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Landscape mobile: altura pequena */
+@media (max-height: 500px) and (orientation: landscape) {
+  #root {
+    min-height: auto;
+  }
+
+  /* Reduz paddings verticais no landscape */
+  body {
+    padding-top: min(env(safe-area-inset-top), 8px);
+    padding-bottom: min(env(safe-area-inset-bottom), 8px);
+  }
+}
+
+/* Safe area para devices com notch */
+@media (min-width: 375px) {
+  html {
+    padding: max(env(safe-area-inset-top), 12px)
+             max(env(safe-area-inset-right), 12px)
+             max(env(safe-area-inset-bottom), 12px)
+             max(env(safe-area-inset-left), 12px);
+  }
+}
+
+/* Melhorias para touch devices */
+@media (hover: none) and (pointer: coarse) {
+  button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Aumenta área de toque dos inputs */
+  input {
+    min-height: 44px;
+  }
+}
+
+/* Ajustes para telas muito pequenas (< 320px) */
+@media (max-width: 319px) {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    min-width: 280px;
+  }
+}
+
+/* Ajustes para telas grandes (desktop) */
+@media (min-width: 1440px) {
+  /* Limita o crescimento em telas muito grandes */
+  body {
+    font-size: 16px;
+  }
+}

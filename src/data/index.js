@@ -13,6 +13,17 @@ import { COISAS_2 } from "./coisas2";
 import { BRASIL_CULTURA } from "./brasil_cultura";
 import { FOFOCAS_POP } from "./fofocas_pop";
 import { NERD_INTL } from "./nerd_intl";
+import { ANIME_MANGA } from "./anime_manga";
+import { FILMES_SERIES } from "./filmes_series";
+import { MEMES_INTERNET } from "./memes_internet";
+import { MUSICA_BRASILEIRA } from "./musica_brasileira";
+import { TECNOLOGIA_APPS } from "./tecnologia_apps";
+import { ESPORTES_COPA } from "./esportes_copa";
+import { CIENCIA_ESPACO } from "./ciencia_espaco";
+import { MUNDO_ANIMAL } from "./mundo_animal";
+import { COMIDA_GASTRONOMIA } from "./comida_gastronomia";
+import { GEOGRAFIA_MUNDIAL } from "./geografia_mundial";
+import { HISTORIA_BRASIL } from "./historia_brasil";
 
 // =====================================================
 // 🏷️ CLASSIFICADOR AUTOMÁTICO DE TEMAS
@@ -118,6 +129,17 @@ const todasCartas = [
   ...BRASIL_CULTURA,
   ...FOFOCAS_POP,
   ...NERD_INTL,
+  ...ANIME_MANGA,
+  ...FILMES_SERIES,
+  ...MEMES_INTERNET,
+  ...MUSICA_BRASILEIRA,
+  ...TECNOLOGIA_APPS,
+  ...ESPORTES_COPA,
+  ...CIENCIA_ESPACO,
+  ...MUNDO_ANIMAL,
+  ...COMIDA_GASTRONOMIA,
+  ...GEOGRAFIA_MUNDIAL,
+  ...HISTORIA_BRASIL,
 ];
 
 // Remove duplicatas e classifica temas
