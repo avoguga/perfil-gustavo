@@ -372,35 +372,43 @@ export default function PerfilExpress() {
             </div>
           </div>
 
-          {/* Preferência de modo de dicas */}
-          <div style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 12, padding: "clamp(10px, 2.5vw, 12px) clamp(10px, 2.5vw, 14px)", marginBottom: "clamp(16px, 4vw, 20px)" }}>
-            <span style={{ color: "#94a3b8", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 700, display: "block", marginBottom: "clamp(6px, 1.5vw, 8px)" }}>⚙️ Modo de jogo:</span>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 120px), 1fr))", gap: "clamp(6px, 1.5vw, 8px)" }}>
-              {[
-                { id: "todas", label: "📖 Todas as dicas", desc: "Veja todas de uma vez" },
-                { id: "progressivo", label: "💡 Uma por vez", desc: "Revele dica por dica" },
-              ].map(m => (
-                <button
-                  key={m.id}
-                  onClick={() => { setModoDicas(m.id); salvarPreferencia("modoDicas", m.id); }}
-                  style={{
-                    padding: "clamp(8px, 2vw, 10px)", borderRadius: 10, cursor: "pointer",
-                    background: modoDicas === m.id ? "rgba(245,158,11,0.12)" : "rgba(255,255,255,0.03)",
-                    border: `1px solid ${modoDicas === m.id ? "rgba(245,158,11,0.3)" : "rgba(255,255,255,0.06)"}`,
-                    textAlign: "center",
-                    minHeight: 60,
-                  }}
-                >
-                  <span style={{ display: "block", fontSize: "clamp(12px, 2.8vw, 13px)", fontWeight: 700, color: modoDicas === m.id ? "#f59e0b" : "#94a3b8" }}>{m.label}</span>
-                  <span style={{ display: "block", fontSize: "clamp(9px, 2vw, 10px)", color: "#64748b", marginTop: 2 }}>{m.desc}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <p style={{ color: "#64748b", fontSize: "clamp(12px, 3vw, 14px)", margin: "0 0 clamp(16px, 4vw, 20px)" }}>
+          <p style={{ color: "#64748b", fontSize: "clamp(12px, 3vw, 14px)", margin: "0 0 clamp(12px, 3vw, 16px)" }}>
             🃏 <strong style={{ color: "#e2e8f0" }}>{totalFiltrado}</strong> cartas {nenhumSelecionado ? "disponíveis" : "selecionadas"}
           </p>
+
+          {/* Indicador do modo atual */}
+          <div style={{
+            display: "flex", alignItems: "center", justifyContent: "center", gap: "clamp(6px, 1.5vw, 8px)",
+            marginBottom: "clamp(16px, 4vw, 20px)",
+            padding: "clamp(8px, 2vw, 10px) clamp(12px, 3vw, 16px)",
+            background: "rgba(245,158,11,0.08)",
+            border: "1px solid rgba(245,158,11,0.2)",
+            borderRadius: 10,
+          }}>
+            <span style={{ color: "#f59e0b", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 600 }}>
+              {modoDicas === "todas" ? "📖 Todas as dicas" : "💡 Uma por vez"}
+            </span>
+            <button
+              onClick={() => {
+                const novo = modoDicas === "todas" ? "progressivo" : "todas";
+                setModoDicas(novo);
+                salvarPreferencia("modoDicas", novo);
+              }}
+              style={{
+                padding: "clamp(4px, 1vw, 6px) clamp(8px, 2vw, 10px)",
+                fontSize: "clamp(10px, 2.2vw, 11px)",
+                fontWeight: 600,
+                color: "#94a3b8",
+                background: "rgba(255,255,255,0.06)",
+                border: "1px solid rgba(255,255,255,0.1)",
+                borderRadius: 6,
+                cursor: "pointer",
+                minHeight: 28,
+              }}
+            >
+              Trocar
+            </button>
+          </div>
 
           <button
             onClick={sortearCarta}
@@ -516,6 +524,23 @@ export default function PerfilExpress() {
               {EMOJI_TEMA[cartaAtual.tema] || "🎯"} {cartaAtual.tema}
             </span>
             <span style={s.badge(cor)}>{cartaAtual.categoria}</span>
+            <button
+              onClick={() => setMostrarConfig(true)}
+              style={{
+                width: 36, height: 36, minWidth: 44, minHeight: 44,
+                display: "flex", alignItems: "center", justifyContent: "center",
+                background: "rgba(255,255,255,0.06)",
+                border: "1px solid rgba(255,255,255,0.1)",
+                borderRadius: 10, cursor: "pointer",
+                fontSize: "clamp(14px, 3.5vw, 16px)",
+                color: "#94a3b8",
+                transition: "all 0.2s",
+                padding: 0,
+              }}
+              title="Configurações"
+            >
+              ⚙️
+            </button>
           </div>
         </div>
 
@@ -549,36 +574,38 @@ export default function PerfilExpress() {
           </div>
         )}
 
-        {/* Dicas */}
-        <div style={{ display: "flex", flexDirection: "column", gap: "clamp(5px, 1.2vw, 6px)", marginBottom: "clamp(10px, 2.5vw, 12px)", flex: 1, overflowY: "auto", paddingRight: 4, minHeight: 0 }}>
-          {cartaAtual.dicas.map((dica, i) => {
-            const revelada = isProgressivo ? i <= dicaIndex : true;
-            return (
-              <div key={i} style={{
-                background: revelada ? "rgba(255,255,255,0.05)" : "rgba(255,255,255,0.015)",
-                border: `1px solid ${revelada ? "rgba(255,255,255,0.08)" : "rgba(255,255,255,0.03)"}`,
-                borderRadius: 10, padding: "clamp(6px, 1.5vw, 8px) clamp(8px, 2vw, 10px)", display: "flex", gap: "clamp(6px, 1.5vw, 8px)", alignItems: "flex-start",
-                transition: "all 0.3s"
-              }}>
-                <span style={{
-                  background: revelada ? `${cor.bg}22` : "rgba(255,255,255,0.03)",
-                  color: revelada ? cor.bg : "#334155",
-                  fontWeight: 800, fontSize: "clamp(10px, 2.5vw, 11px)", minWidth: "clamp(22px, 5vw, 24px)", height: "clamp(22px, 5vw, 24px)",
-                  display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 6, flexShrink: 0,
+        {/* Dicas - wrapper com flex-end para ancorar proximo ao input */}
+        <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "flex-end", minHeight: 0 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "clamp(5px, 1.2vw, 6px)", marginBottom: "clamp(10px, 2.5vw, 12px)", maxHeight: "clamp(280px, 55vh, 450px)", overflowY: "auto", paddingRight: 4 }}>
+            {cartaAtual.dicas.map((dica, i) => {
+              const revelada = isProgressivo ? i <= dicaIndex : true;
+              return (
+                <div key={i} style={{
+                  background: revelada ? "rgba(255,255,255,0.05)" : "rgba(255,255,255,0.015)",
+                  border: `1px solid ${revelada ? "rgba(255,255,255,0.08)" : "rgba(255,255,255,0.03)"}`,
+                  borderRadius: 10, padding: "clamp(6px, 1.5vw, 8px) clamp(8px, 2vw, 10px)", display: "flex", gap: "clamp(6px, 1.5vw, 8px)", alignItems: "flex-start",
+                  transition: "all 0.3s"
                 }}>
-                  {i + 1}
-                </span>
-                <span style={{
-                  color: revelada ? "#e2e8f0" : "#1e293b",
-                  fontSize: "clamp(12px, 3vw, 13px)", lineHeight: 1.5,
-                  userSelect: revelada ? "auto" : "none",
-                  flex: 1,
-                }}>
-                  {revelada ? dica : "• • • • • • • •"}
-                </span>
-              </div>
-            );
-          })}
+                  <span style={{
+                    background: revelada ? `${cor.bg}22` : "rgba(255,255,255,0.03)",
+                    color: revelada ? cor.bg : "#334155",
+                    fontWeight: 800, fontSize: "clamp(10px, 2.5vw, 11px)", minWidth: "clamp(22px, 5vw, 24px)", height: "clamp(22px, 5vw, 24px)",
+                    display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 6, flexShrink: 0,
+                  }}>
+                    {i + 1}
+                  </span>
+                  <span style={{
+                    color: revelada ? "#e2e8f0" : "#1e293b",
+                    fontSize: "clamp(12px, 3vw, 13px)", lineHeight: 1.5,
+                    userSelect: revelada ? "auto" : "none",
+                    flex: 1,
+                  }}>
+                    {revelada ? dica : "• • • • • • • •"}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
         </div>
 
         {/* Input e botões */}
@@ -664,8 +691,187 @@ export default function PerfilExpress() {
         </div>
       </div>
 
+      {/* Modal de Configurações */}
+      {mostrarConfig && (
+        <div
+          style={{
+            position: "fixed", inset: 0, zIndex: 1000,
+            background: "rgba(0,0,0,0.6)",
+            backdropFilter: "blur(4px)",
+            display: "flex", alignItems: "flex-end", justifyContent: "center",
+            animation: "fadeIn 0.2s ease-out",
+          }}
+          onClick={(e) => { if (e.target === e.currentTarget) setMostrarConfig(false); }}
+        >
+          <div
+            style={{
+              width: "100%", maxWidth: 520,
+              background: "linear-gradient(180deg, #1e293b 0%, #0f172a 100%)",
+              borderRadius: "20px 20px 0 0",
+              padding: "clamp(16px, 4vw, 20px)",
+              maxHeight: "85vh",
+              overflowY: "auto",
+              animation: "slideUp 0.3s ease-out",
+            }}
+          >
+            {/* Header do modal */}
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(16px, 4vw, 20px)" }}>
+              <h3 style={{ color: "#e2e8f0", fontSize: "clamp(16px, 4vw, 18px)", fontWeight: 700, margin: 0 }}>⚙️ Configurações</h3>
+              <button
+                onClick={() => setMostrarConfig(false)}
+                style={{
+                  width: 36, height: 36, minWidth: 44, minHeight: 44,
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  background: "rgba(255,255,255,0.06)",
+                  border: "1px solid rgba(255,255,255,0.1)",
+                  borderRadius: 10, cursor: "pointer",
+                  fontSize: "clamp(16px, 4vw, 18px)",
+                  color: "#94a3b8",
+                  padding: 0,
+                }}
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Seção: Modo de Jogo */}
+            <div style={{ marginBottom: "clamp(16px, 4vw, 20px)" }}>
+              <span style={{ color: "#94a3b8", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 700, display: "block", marginBottom: "clamp(8px, 2vw, 10px)" }}>
+                MODO DE JOGO
+              </span>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 140px), 1fr))", gap: "clamp(8px, 2vw, 10px)" }}>
+                {[
+                  { id: "todas", label: "📖 Todas as dicas", desc: "Veja todas de uma vez" },
+                  { id: "progressivo", label: "💡 Uma por vez", desc: "Revele dica por dica" },
+                ].map(m => (
+                  <button
+                    key={m.id}
+                    onClick={() => {
+                      const novoModo = m.id;
+                      // Se mudar de progressivo para todas, revela todas as dicas
+                      if (modoDicas === "progressivo" && novoModo === "todas") {
+                        setDicaIndex(cartaAtual.dicas.length - 1);
+                      }
+                      setModoDicas(novoModo);
+                      salvarPreferencia("modoDicas", novoModo);
+                    }}
+                    style={{
+                      padding: "clamp(10px, 2.5vw, 12px)", borderRadius: 12, cursor: "pointer",
+                      background: modoDicas === m.id ? "rgba(245,158,11,0.15)" : "rgba(255,255,255,0.04)",
+                      border: `2px solid ${modoDicas === m.id ? "rgba(245,158,11,0.4)" : "rgba(255,255,255,0.08)"}`,
+                      textAlign: "center",
+                      minHeight: 70,
+                      transition: "all 0.2s",
+                    }}
+                  >
+                    <span style={{ display: "block", fontSize: "clamp(13px, 3vw, 14px)", fontWeight: 700, color: modoDicas === m.id ? "#f59e0b" : "#e2e8f0" }}>{m.label}</span>
+                    <span style={{ display: "block", fontSize: "clamp(10px, 2.2vw, 11px)", color: "#64748b", marginTop: 4 }}>{m.desc}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Seção: Temas Ativos */}
+            <div>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(8px, 2vw, 10px)", flexWrap: "wrap", gap: 8 }}>
+                <span style={{ color: "#94a3b8", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 700 }}>
+                  TEMAS ATIVOS
+                </span>
+                <button
+                  onClick={selecionarTodos}
+                  style={{
+                    padding: "clamp(4px, 1vw, 6px) clamp(10px, 2.5vw, 12px)",
+                    fontSize: "clamp(10px, 2.5vw, 11px)",
+                    fontWeight: 600,
+                    color: temasSelecionados.size === 0 ? "#f59e0b" : "#64748b",
+                    background: temasSelecionados.size === 0 ? "rgba(245,158,11,0.15)" : "rgba(255,255,255,0.05)",
+                    border: `1px solid ${temasSelecionados.size === 0 ? "rgba(245,158,11,0.3)" : "rgba(255,255,255,0.08)"}`,
+                    borderRadius: 8, cursor: "pointer", minHeight: 32,
+                  }}
+                >
+                  Todos
+                </button>
+              </div>
+
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 130px), 1fr))", gap: "clamp(6px, 1.5vw, 8px)", marginBottom: "clamp(12px, 3vw, 16px)" }}>
+                {TEMAS.map(tema => {
+                  const nenhumSelecionado = temasSelecionados.size === 0;
+                  const ativo = nenhumSelecionado || temasSelecionados.has(tema);
+                  const corTemaItem = CORES_TEMA[tema] || "#94a3b8";
+                  const emoji = EMOJI_TEMA[tema] || "🎯";
+                  const qtd = contagemPorTema[tema] || 0;
+
+                  return (
+                    <button
+                      key={tema}
+                      onClick={() => toggleTema(tema)}
+                      style={{
+                        padding: "clamp(6px, 1.5vw, 8px) clamp(6px, 1.5vw, 8px)",
+                        fontSize: "clamp(10px, 2.3vw, 11px)",
+                        fontWeight: 600,
+                        color: ativo ? corTemaItem : "#475569",
+                        background: ativo ? `${corTemaItem}15` : "rgba(255,255,255,0.02)",
+                        border: `1px solid ${ativo ? `${corTemaItem}40` : "rgba(255,255,255,0.06)"}`,
+                        borderRadius: 8,
+                        cursor: "pointer",
+                        transition: "all 0.2s",
+                        opacity: ativo ? 1 : 0.5,
+                        minHeight: 36,
+                        textAlign: "center",
+                      }}
+                    >
+                      <span style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", display: "block" }}>
+                        {emoji} {tema} <span style={{ fontSize: "clamp(8px, 1.8vw, 9px)", opacity: 0.7 }}>({qtd})</span>
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Info de cartas restantes */}
+              <div style={{
+                background: "rgba(255,255,255,0.04)",
+                border: "1px solid rgba(255,255,255,0.08)",
+                borderRadius: 10,
+                padding: "clamp(10px, 2.5vw, 12px)",
+                textAlign: "center",
+              }}>
+                <span style={{ color: "#64748b", fontSize: "clamp(11px, 2.5vw, 12px)" }}>
+                  🃏 <strong style={{ color: "#e2e8f0" }}>{restantes}</strong> cartas restantes
+                  {temasSelecionados.size > 0 && (
+                    <span> de <strong style={{ color: "#e2e8f0" }}>{cartasFiltradas.length}</strong> selecionadas</span>
+                  )}
+                </span>
+              </div>
+            </div>
+
+            {/* Botão fechar */}
+            <button
+              onClick={() => setMostrarConfig(false)}
+              style={{
+                width: "100%",
+                marginTop: "clamp(16px, 4vw, 20px)",
+                padding: "clamp(12px, 3vw, 14px)",
+                fontSize: "clamp(14px, 3.5vw, 15px)",
+                fontWeight: 700,
+                color: "#fff",
+                background: "linear-gradient(135deg, #8b5cf6, #6366f1)",
+                border: "none",
+                borderRadius: 12,
+                cursor: "pointer",
+                minHeight: 48,
+              }}
+            >
+              APLICAR
+            </button>
+          </div>
+        </div>
+      )}
+
       <style>{`
         @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-8px)} 75%{transform:translateX(8px)} }
+        @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
         input::placeholder { color: #475569; }
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-track { background: transparent; }
