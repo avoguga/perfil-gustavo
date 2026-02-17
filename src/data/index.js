@@ -578,6 +578,8 @@ function classificarTema(carta) {
 }
 
 // Junta tudo - TOTAL: 1500+ cartas
+// IMPORTANTE: A ordem importa para deduplicação!
+// Arquivos mais específicos vêm PRIMEIRO para manter o tema correto.
 const todasCartas = [
   ...ORIGINAIS,
   ...PESSOAS,
@@ -586,11 +588,11 @@ const todasCartas = [
   ...COISAS_1,
   ...COISAS_2,
   ...BRASIL_CULTURA,           // 150 cartas de cultura brasileira
-  ...FOFOCAS_POP,
-  ...NERD_INTL,
+  ...GAMES,                     // NOVO: 200+ cartas de games (ANTES de NERD_INTL para evitar duplicatas)
   ...ANIME_MANGA,
   ...ANIME_MANGA_EXPANDED,     // NOVO: 200+ cartas de anime expandido
-  ...GAMES,                     // NOVO: 200+ cartas de games
+  ...FOFOCAS_POP,
+  ...NERD_INTL,                 // Após GAMES para que duplicatas usem tema correto
   ...FILMES_SERIES,
   ...MEMES_INTERNET,
   ...MUSICA_BRASILEIRA,

@@ -3,7 +3,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Dragon Ball Z",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Toriyama usou a letra Z no titulo para indicar que seria o 'ultimo' anime do manga",
       "Os viloes foram inspirados nos editores de Toriyama: Piccolo em Torishima, Freeza em Kondo",
@@ -20,7 +20,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Naruto",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Originalmente Kishimoto queria um manga sobre culinaria com o protagonista trabalhando em um restaurante de Ramen",
       "A bandana ninja foi criada porque o autor tinha preguica de desenhar os oculos do personagem",
@@ -37,7 +37,7 @@ export const ANIME_MANGA = [
   {
     resposta: "One Piece",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O autor Eiichiro Oda dorme apenas 3 horas por dia para manter o ritmo semanal",
       "O Guinness reconheceu Oda pelo maior numero de copias de uma serie por um unico autor em 2014",
@@ -54,7 +54,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Bleach",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Tite Kubo inicialmente desenhou personagens com armas de fogo sob o titulo 'Snipe'",
       "O conceito surgiu do interesse de Kubo em shinigamis usando kimonos",
@@ -71,7 +71,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Yu Yu Hakusho",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O criador Yoshihiro Togashi e casado com Naoko Takeuchi, criadora de Sailor Moon",
       "A banda Megallica no anime foi inspirada em Metallica e Megadeth, bandas favoritas de Togashi",
@@ -88,7 +88,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Saint Seiya",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Originalmente o protagonista seria Aiolia de Leao, mas Kurumada mudou para Pegaso",
       "A ideia da chuva de meteoros foi transferida de Leao para Pegaso como golpe principal",
@@ -105,7 +105,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Captain Tsubasa",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Yoichi Takahashi foi inspirado pela Copa do Mundo de 1978 para criar o manga",
       "A aprovacao da Shueisha para o manga levou entre 2 a 3 anos",
@@ -122,7 +122,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Slam Dunk",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Takehiko Inoue comecou a jogar basquete para impressionar garotas, igual ao protagonista",
       "Inoue viajou aos EUA para assistir as finais da NBA e Olimpiadas de 1992 como pesquisa",
@@ -140,7 +140,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Demon Slayer",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O filme Mugen Train foi o mais rapido da historia a atingir 30 bilhoes de ienes no Japao",
       "Castelo Infinito quebrou recorde de 25 anos de maior bilheteria internacional nos EUA",
@@ -157,7 +157,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Jujutsu Kaisen",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Gege Akutami apareceu na TV vestido como Mechamaru para proteger sua identidade",
       "Yuji Itadori foi inspirado no irmao mais velho de Akutami",
@@ -174,7 +174,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Attack on Titan",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Isayama teve a ideia dos Titas apos um cliente agressivo o agarrar em um cyber cafe",
       "O medo de nao conseguir se comunicar com essa pessoa inspirou os Titas incompreensiveis",
@@ -191,7 +191,7 @@ export const ANIME_MANGA = [
   {
     resposta: "My Hero Academia",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Horikoshi foi inspirado pelos filmes do Homem-Aranha de Sam Raimi",
       "A serie anterior dele, Barrage, foi cancelada apos apenas 2 volumes",
@@ -208,7 +208,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Chainsaw Man",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Tatsuki Fujimoto nunca trabalhou como assistente, pulando direto para one-shots originais",
       "Tatsuya Endo (Spy x Family) comecou como assistente de Fujimoto",
@@ -225,7 +225,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Spy x Family",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Anya nao fazia parte do plano original - editores sugeriram adicionar uma crianca",
       "Tatsuya Endo foi inspirado por filmes de espionagem como Missao Impossivel e James Bond",
@@ -242,7 +242,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Tokyo Ghoul",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Sui Ishida nasceu em 1986 e trabalhou como tatuador antes de virar mangaka",
       "O manga liderou a lista de bestsellers do New York Times em 2015",
@@ -259,7 +259,7 @@ export const ANIME_MANGA = [
   {
     resposta: "The Promised Neverland",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O titulo original era apenas 'Neverland' mas foi mudado por questoes de copyright",
       "A concepcao comecou no final de 2013",
@@ -276,7 +276,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Black Clover",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Yuki Tabata dormia apenas 3 horas por noite no inicio da serializacao",
       "A Shueisha o impediu de ir para casa ate terminar manuscritos, forçando-o a ficar em hotel",
@@ -293,7 +293,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Re:Zero",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Tappei Nagatsuki trabalhava em uma loja de carnes e planejava a historia enquanto processava carne",
       "Ele comecou escrevendo fanfiction de The Familiar of Zero antes de criar Re:Zero",
@@ -311,7 +311,7 @@ export const ANIME_MANGA = [
   {
     resposta: "A Viagem de Chihiro",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Junto com O Menino e a Garca, sao os unicos filmes desenhados a mao a ganhar Oscar de Animacao",
       "Foi o filme de maior bilheteria da historia do Japao ate 2020",
@@ -328,7 +328,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Meu Amigo Totoro",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Hayao Miyazaki criou o filme em 1988",
       "Totoro e um espirito guardiao da floresta",
@@ -345,7 +345,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Studio Ghibli",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Em 2024 recebeu a Palma de Ouro honoraria em Cannes, primeira produtora a receber",
       "Seus filmes sao feitos com animacao tradicional desenhada a mao",
@@ -362,7 +362,7 @@ export const ANIME_MANGA = [
   {
     resposta: "O Menino e a Garca",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Teve a maior estreia da historia do Studio Ghibli",
       "Arrecadou 1.8 bilhao de ienes no fim de semana de estreia no Japao",
@@ -379,7 +379,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Princesa Mononoke",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Foi o filme de maior bilheteria do Japao ate Titanic em 1997",
       "Arrecadou mais de $159 milhoes no Japao",
@@ -397,7 +397,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Goku",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Akira Toriyama se inspirou na lenda chinesa Jornada ao Oeste e planejava faze-lo um macaco completo",
       "O filme Jackie Chan 'O Grande Mestre dos Lutadores' de 1978 inspirou a criacao de Dragon Ball",
@@ -414,7 +414,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Vegeta",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Toriyama originalmente planejava mata-lo rapidamente mas o manteve por popularidade",
       "Na primeira aparicao no anime, seu cabelo era vermelho e usava armadura verde e laranja",
@@ -431,7 +431,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Freeza",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Foi inspirado em especuladores imobiliarios da bolha economica japonesa dos anos 80",
       "Toriyama o chamou de 'o pior tipo de pessoa' ao descrever a inspiracao",
@@ -448,7 +448,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Luffy",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O Governo Mundial tentou obter sua fruta por 800 anos sem sucesso",
       "Sua fruta verdadeira e a Hito Hito no Mi, Modelo: Nika, uma Zoan Mitica",
@@ -465,7 +465,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Roronoa Zoro",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O sobrenome Roronoa vem da pronuncia japonesa do pirata frances Francois l'Olonnais",
       "No volume 56, Oda revelou que Zoro seria japones se vivesse no mundo real",
@@ -482,7 +482,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Naruto Uzumaki",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O nome 'Naruto' vem de um ingrediente do ramen (kamaboko em espiral)",
       "Kishimoto criou a bandana porque era trabalhoso desenhar oculos toda hora",
@@ -499,7 +499,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Sasuke Uchiha",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Kishimoto nao o tinha nos primeiros rascunhos - foi sugerido pelo editor como rival",
       "Foi inspirado em Hiei de YuYu Hakusho",
@@ -516,7 +516,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Itachi Uchiha",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Conseguia fazer selos de mao com apenas uma mao, habilidade extremamente rara",
       "Tornou-se Jonin aos 12 anos e despertou Sharingan aos 7",
@@ -533,7 +533,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Madara Uchiha",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Viveu ate 120 anos gracas a Estatua Demoniaca do Caminho Exterior",
       "Teve 3 irmaos alem de Izuna que morreram muito jovens",
@@ -550,7 +550,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Kakashi Hatake",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Copiou mais de 1000 jutsus, ganhando o apelido de Ninja Copiador",
       "Obito deu seu Sharingan para Kakashi como presente de despedida antes de morrer",
@@ -567,7 +567,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Light Yagami",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O nome Yagami significa 'Deus da Noite' dividido em 'yoru' (noite) e 'kami' (deus)",
       "No manga nasceu em 28 de fevereiro de 1986, mas no anime em 1989",
@@ -584,7 +584,7 @@ export const ANIME_MANGA = [
   {
     resposta: "L",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Sempre anda descalco e senta encolhido de forma peculiar",
       "Come apenas doces e alimentos acucarados",
@@ -601,7 +601,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Eren Yeager",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O nome 'Eren' significa 'aquele que progride para maturidade divina' em turco",
       "'Jaeger' vem do alemao 'Jager' que significa cacador",
@@ -618,7 +618,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Levi Ackerman",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O sobrenome Ackerman foi adicionado depois para conectar com a historia de Mikasa",
       "E conhecido como 'O Soldado Mais Forte da Humanidade'",
@@ -635,7 +635,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Saitama",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Seu regime de treino inclui 100 flexoes, 100 abdominais, 100 agachamentos e 10km todo dia",
       "O treino o deixou completamente careca",
@@ -652,7 +652,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Gojo Satoru",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "E descendente de um dos Tres Grandes Clas de Feiticeiros",
       "Sua tecnica Infinito cria uma barreira impossivel de atravessar",
@@ -669,7 +669,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Tanjiro Kamado",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Tem olfato extremamente aguçado que pode detectar emocoes e demonios",
       "Usa brincos hanafuda que sao uma heranca de familia",
@@ -686,7 +686,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Shinji Ikari",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Foi abandonado pelo pai Gendo aos 3 anos de idade",
       "Tem 14 anos e sofre de depressao e baixa autoestima",
@@ -704,7 +704,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Akira Toriyama",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Usou editores como inspiracao para viloes: Torishima virou Piccolo Daimao",
       "Esqueceu da personagem Lunch e ela simplesmente parou de aparecer em DBZ",
@@ -721,7 +721,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Masashi Kishimoto",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criava 18 paginas por semana durante a serializacao de Naruto",
       "Casou em 2003 mas so pode sair em lua de mel apos o manga terminar em 2014",
@@ -738,7 +738,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Eiichiro Oda",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Dorme apenas 3 horas por dia para manter o prazo semanal",
       "O Guinness o reconheceu em 2014 pelo maior numero de copias por um unico autor",
@@ -755,7 +755,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Yoshihiro Togashi",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Sofre de dores lombares cronicas e ficou 2 anos acamado sem sentar",
       "So consegue desenhar enquanto deitado devido aos problemas de saude",
@@ -772,7 +772,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Hayao Miyazaki",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "E o unico diretor asiatico a vencer Oscar de Melhor Animacao duas vezes",
       "Anunciou aposentadoria multiplas vezes mas sempre voltou",
@@ -789,7 +789,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Kentaro Miura",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criou seu primeiro manga 'Miuranger' aos 10 anos com 40 volumes para colegas",
       "Aos 18 anos ja tinha conceitos de Berserk enquanto era assistente de George Morikawa",
@@ -806,7 +806,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Hiromu Arakawa",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Adotou o nome masculino 'Hiromu' porque nao queria ser desconsiderada por ser mulher",
       "Nao existe nenhuma foto conhecida dela na internet",
@@ -823,7 +823,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Naoko Takeuchi",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Tem licenciatura em quimica farmaceutica pela Universidade de Keio",
       "Muitos personagens de Sailor Moon sao nomeados apos minerais e gemas",
@@ -840,7 +840,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Hajime Isayama",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "A ideia dos Titas veio de um cliente agressivo em um cyber cafe que o agarrou",
       "O medo de nao conseguir se comunicar inspirou criaturas incompreensiveis",
@@ -857,7 +857,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Tite Kubo",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Inicialmente criou personagens com armas de fogo sob o titulo 'Snipe'",
       "Mudou para espadas de ultima hora, criando o conceito de Zanpakuto",
@@ -874,7 +874,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Gege Akutami",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Apareceu na TV vestido como Mechamaru para proteger sua identidade",
       "O pseudonimo original seria 'Dokudami Milk' em vez de Akutami",
@@ -891,7 +891,7 @@ export const ANIME_MANGA = [
   {
     resposta: "ONE",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Comecou publicando webcomics tirando fotos dos manuscritos com celular",
       "As telas de celular eram pequenas demais e qualquer tremor borrava as palavras",
@@ -909,7 +909,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Neon Genesis Evangelion",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Hideaki Anno caiu em depressao apos Nadia e o fracasso de Royal Space Force em 1992",
       "Restricoes de tempo forcaram Anno a substituir o final planejado por episodios psicologicos",
@@ -926,7 +926,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Mobile Suit Gundam",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Originalmente seria chamado 'Gunboy' antes de virar Mobile Suit Gundam",
       "Nao foi popular na primeira exibicao e foi cancelado apos 43 episodios",
@@ -943,7 +943,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Code Geass",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "CLAMP originalmente imaginou Lelouch com cabelo branco",
       "Lelouch foi inspirado em Light Yagami de Death Note e Char Aznable de Gundam",
@@ -961,7 +961,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Haikyuu",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Haruichi Furudate foi membro do clube de volei na escola como bloqueador",
       "O autor e fa de terror, o que explica cenas com personagens 'assustadores'",
@@ -978,7 +978,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Kuroko no Basket",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Os membros da Geracao dos Milagres tem nomes com cores em japones",
       "Cada jogador tem cabelo e olhos da mesma cor do seu nome",
@@ -996,7 +996,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Cowboy Bebop",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Shinichiro Watanabe 'proibiu' Yoko Kanno de criar musicas de space opera",
       "O conceito de 'jamming' reflete como a producao era uma danca entre Watanabe e colaboradores",
@@ -1013,7 +1013,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Steins;Gate",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "'STEINS' e abreviacao de Einstein em homenagem ao fisico",
       "O jogo original e muito maior que o anime - 12 horas equivalem a episodios 9-10",
@@ -1030,7 +1030,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Fullmetal Alchemist",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O conceito de troca equivalente veio da experiencia de Hiromu Arakawa em fazenda",
       "A versao de 2003 divergiu do manga pois ele ainda nao tinha terminado",
@@ -1047,7 +1047,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Hunter x Hunter",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "2015 foi o primeiro ano sem capitulos, seguido por 2019, 2020 e 2021",
       "O titulo foi concebido enquanto Togashi assistia ao programa de TV Downtown",
@@ -1064,7 +1064,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Sword Art Online",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Kawahara escreveu o primeiro volume em 2001 mas excedeu o limite de paginas do concurso",
       "Publicou como web novel sob o pseudonimo Fumio Kunori",
@@ -1081,7 +1081,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Death Note",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O caderno tem regras especificas que devem ser seguidas para funcionar",
       "Ryuk deixou o caderno cair no mundo humano por estar entediado",
@@ -1098,7 +1098,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Your Name",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Arrecadou $382 milhoes, tornando-se o terceiro anime de maior bilheteria mundial",
       "Ficou atras apenas de Demon Slayer e A Viagem de Chihiro",
@@ -1115,7 +1115,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Violet Evergarden",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Foi o primeiro a vencer tres categorias no Kyoto Animation Award em 2014",
       "Ganhou premio de Melhor Romance na 5a edicao do premio",
@@ -1132,7 +1132,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Berserk",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Miura criou seu primeiro manga aos 10 anos com 40 volumes para colegas de escola",
       "Inspirou Cloud de Final Fantasy VII, Dante de Devil May Cry e a serie Dark Souls",
@@ -1149,7 +1149,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Mob Psycho 100",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O episodio 8 da primeira temporada foi animado por time feminino em homenagem ao Dia da Mulher",
       "O nome Shigeo e tributo ao mangaka Shigeru Mizuki e escritor Edogawa Rampo",
@@ -1166,7 +1166,7 @@ export const ANIME_MANGA = [
   {
     resposta: "One Punch Man",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Yusuke Murata ganhou concursos de design para Mega Man 4 e 5 quando adolescente",
       "Dust Man e Crystal Man de Mega Man foram baseados nos desenhos de Murata",
@@ -1184,7 +1184,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Shonen Jump",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Usa sistema de votacao dos leitores para decidir quais series continuar",
       "Sua circulacao ja passou de 6 milhoes de copias por semana nos anos 90",
@@ -1201,7 +1201,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Isekai",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Truck-kun e uma piada da comunidade sobre protagonistas morrendo atropelados",
       "Sword Art Online e considerado um dos precursores modernos do genero",
@@ -1218,7 +1218,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Otaku",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "A palavra vem do japones e originalmente significa 'sua casa'",
       "No Japao tinha conotacao negativa de pessoa reclusa e obsessiva",
@@ -1235,7 +1235,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Cosplay",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O termo foi criado por Nobuyuki Takahashi em 1984",
       "Comecou no Japao mas se espalhou pelo mundo inteiro",
@@ -1252,7 +1252,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Akatsuki",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Cada membro usa um anel especifico em um dedo designado",
       "Tobi/Obito e o verdadeiro manipulador por tras da organizacao",
@@ -1269,7 +1269,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Sailor Moon",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Originalmente seria apenas 'Codename wa Sailor V' como historia curta",
       "A abordagem de temas feministas inspirou uma geracao",
@@ -1286,7 +1286,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Pokemon",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Satoshi Tajiri teve a ideia ao ver dois Game Boys conectados por cabo",
       "Imaginou insetos viajando pelos cabos entre os consoles",
@@ -1303,7 +1303,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Pikachu",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Originalmente seria mais gordinho e rabugento no design inicial",
       "Foi desenhado por Atsuko Nishida em 1996",
@@ -1320,7 +1320,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Totoro",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Existe em tres tamanhos: grande, medio e pequeno",
       "So pode ser visto por criancas de coracao puro",
@@ -1337,7 +1337,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Fate/Stay Night",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Foi o primeiro trabalho comercial da Type-Moon apos transicao de grupo doujin",
       "O jogo tem tres rotas: Fate, Unlimited Blade Works e Heaven's Feel",
@@ -1355,7 +1355,7 @@ export const ANIME_MANGA = [
   {
     resposta: "All Might",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Seu nome verdadeiro e Toshinori Yagi",
       "Sofreu ferimento grave que limita seu tempo de acao a 3 horas inicialmente",
@@ -1372,7 +1372,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Chopper",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Sua recompensa e ridicularmente baixa: apenas 1000 berries",
       "O Governo Mundial o considera apenas o 'pet' da tripulacao",
@@ -1389,7 +1389,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Mikasa Ackerman",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "E de descendencia asiatica, algo extremamente raro no mundo da serie",
       "Perdeu os pais em um ataque quando crianca e foi salva por Eren",
@@ -1406,7 +1406,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Sakura Haruno",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Inicialmente era vista como a mais fraca do Time 7",
       "Foi treinada por Tsunade, a Quinta Hokage",
@@ -1423,7 +1423,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Nezuko Kamado",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Consegue encolher para caber em uma caixa nas costas de Tanjiro",
       "Usa uma mordaca de bambu para nao morder humanos",
@@ -1440,7 +1440,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Spike Spiegel",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "E um ex-membro do sindicato do crime Red Dragon",
       "Seu estilo de luta Jeet Kune Do e inspirado em Bruce Lee",
@@ -1457,7 +1457,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Edward Elric",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Perdeu o braco direito e a perna esquerda tentando ressuscitar a mae",
       "Sua armadura de automail foi feita por Winry Rockbell",
@@ -1474,7 +1474,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Lelouch vi Britannia",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "CLAMP originalmente o imaginou com cabelo branco",
       "Foi eleito personagem masculino mais popular por 3 anos consecutivos na Animage",
@@ -1491,7 +1491,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Ken Kaneki",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Sofreu transplante de orgaos de um ghoul apos um acidente",
       "Trabalha na cafeteria Anteiku que abriga ghouls pacificos",
@@ -1508,7 +1508,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Guts",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Nasceu literalmente do cadaver de sua mae enforcada",
       "Sua espada Dragonslayer e maior que ele e pesa mais de 200kg",
@@ -1525,7 +1525,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Griffith",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Lidera o Bando do Falcao como um comandante carismatico e brilhante",
       "Possui o Behelit carmesim, um artefato que pode invocar a Mao de Deus",
@@ -1542,7 +1542,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Killua Zoldyck",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Vem da familia Zoldyck, a mais famosa familia de assassinos do mundo",
       "Foi treinado desde bebe para resistir a venenos e tortura",
@@ -1559,7 +1559,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Subaru Natsuki",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O autor planejava a historia dele enquanto trabalhava cortando carne",
       "Seu dragao Patrasche foi nomeado em homenagem ao anime 'Um Cao de Flandres'",
@@ -1576,7 +1576,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Denji",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Vivia em extrema pobreza pagando dividas do pai falecido",
       "Seu cachorro Pochita era o Demonio Motosserra",
@@ -1593,7 +1593,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Anya Forger",
     categoria: "Pessoa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Nao fazia parte do plano original - editores sugeriram adicionar uma crianca",
       "E uma telepata que pode ler mentes, mas esconde isso dos pais",
@@ -1611,7 +1611,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Inuyasha",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Rumiko Takahashi, famosa tambem por Ranma 1/2",
       "O manga foi serializado de 1996 a 2008 com 558 capitulos",
@@ -1628,7 +1628,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Ranma 1/2",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Rumiko Takahashi em 1987",
       "O manga tem 38 volumes e foi serializado ate 1996",
@@ -1645,7 +1645,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Rurouni Kenshin",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Nobuhiro Watsuki em 1994",
       "Se passa no Japao da Era Meiji (1868-1912)",
@@ -1662,7 +1662,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Cardcaptor Sakura",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado pelo grupo CLAMP em 1996",
       "Sakura Kinomoto e uma estudante de 10 anos",
@@ -1679,7 +1679,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Dragon Ball",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Comecou em 1984 com foco em aventura e comedia",
       "Inspirado na lenda chinesa Jornada ao Oeste",
@@ -1696,7 +1696,7 @@ export const ANIME_MANGA = [
   {
     resposta: "JoJo's Bizarre Adventure",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Hirohiko Araki em 1987 e ainda em publicacao",
       "Cada parte segue um protagonista diferente da familia Joestar",
@@ -1713,7 +1713,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Vinland Saga",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Makoto Yukimura em 2005",
       "Se passa na era dos Vikings no seculo XI",
@@ -1730,7 +1730,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Made in Abyss",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Akihito Tsukushi em 2012",
       "O Abyss e um buraco gigantesco e misterioso",
@@ -1747,7 +1747,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Dr. Stone",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Riichiro Inagaki e ilustrado por Boichi",
       "A humanidade e petrificada por uma luz misteriosa",
@@ -1764,7 +1764,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Kaguya-sama: Love is War",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Aka Akasaka em 2015",
       "Kaguya Shinomiya e Miyuki Shirogane sao os protagonistas",
@@ -1781,7 +1781,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Dororo",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Osamu Tezuka originalmente em 1967",
       "Hyakkimaru nasce sem 48 partes do corpo",
@@ -1798,7 +1798,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Toradora",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Baseado em light novel de Yuyuko Takemiya de 2006",
       "Ryuuji Takasu parece assustador mas e gentil e domestico",
@@ -1815,7 +1815,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Clannad",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Baseado em visual novel da Key de 2004",
       "Tomoya Okazaki e um estudante delinquente sem motivacao",
@@ -1832,7 +1832,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Mushoku Tensei",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Rifujin na Magonote, comecou como web novel em 2012",
       "E considerado um dos precursores do genero isekai moderno",
@@ -1849,7 +1849,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Overlord",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Kugane Maruyama, comecou em 2010",
       "Momonga e um jogador preso no corpo de seu avatar undead",
@@ -1866,7 +1866,7 @@ export const ANIME_MANGA = [
   {
     resposta: "That Time I Got Reincarnated as a Slime",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Fuse, comecou como web novel em 2013",
       "Satoru Mikami morre e reencarna como um slime",
@@ -1883,7 +1883,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Konosuba",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Natsume Akatsuki em 2013",
       "Kazuma Satou morre de forma patetica e e levado a outro mundo",
@@ -1900,7 +1900,7 @@ export const ANIME_MANGA = [
   {
     resposta: "No Game No Life",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Yuu Kamiya em 2012",
       "Sora e Shiro sao irmaos gamers imbativeis conhecidos como Blank",
@@ -1917,7 +1917,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Goblin Slayer",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Kumo Kagyu em 2016",
       "O protagonista so caca goblins e nada mais",
@@ -1934,7 +1934,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Shield Hero",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Aneko Yusagi em 2012",
       "Naofumi Iwatani e convocado como o Heroi do Escudo",
@@ -1951,7 +1951,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Solo Leveling",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Chugong, e um manhwa coreano de 2016",
       "Sung Jin-Woo e o Cacador mais fraco Rank E",
@@ -1968,7 +1968,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Death Parade",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado pelo estudio Madhouse em 2015",
       "Decim e um arbitro que julga almas em um bar",
@@ -1985,7 +1985,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Parasyte",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Hitoshi Iwaaki em 1988",
       "Parasitas alienigenas invadem a Terra e tomam cerebros humanos",
@@ -2002,7 +2002,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Assassination Classroom",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Yusei Matsui em 2012",
       "Uma criatura amarela e professor de uma classe de alunos fracassados",
@@ -2019,7 +2019,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Spy x Family",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Anya nao fazia parte do plano original - editores sugeriram adicionar uma crianca",
       "Tatsuya Endo foi inspirado por filmes de espionagem como Missao Impossivel e James Bond",
@@ -2036,7 +2036,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Blue Lock",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Muneyuki Kaneshiro e ilustrado por Yusuke Nomura",
       "Comecou em 2018 na Weekly Shonen Magazine",
@@ -2053,7 +2053,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Bocchi the Rock",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Aki Hamaji em 2018",
       "Hitori 'Bocchi' Gotoh e uma guitarrista extremamente timida",
@@ -2070,7 +2070,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Oshi no Ko",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Aka Akasaka (Kaguya-sama) e ilustrado por Mengo Yokoyari",
       "Um medico e sua paciente reencarnam como filhos de uma idol",
@@ -2087,7 +2087,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Frieren",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Kanehito Yamada e ilustrado por Tsukasa Abe",
       "Comecou em 2020 na Weekly Shonen Sunday",
@@ -2104,7 +2104,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Mob Psycho 100",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "O episodio 8 da primeira temporada foi animado por time feminino em homenagem ao Dia da Mulher",
       "O nome Shigeo e tributo ao mangaka Shigeru Mizuki e escritor Edogawa Rampo",
@@ -2121,7 +2121,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Cyberpunk Edgerunners",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Produzido pelo estudio Trigger em parceria com CD Projekt Red",
       "Se passa no universo do jogo Cyberpunk 2077",
@@ -2138,7 +2138,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Dandadan",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Yukinobu Tatsu em 2021",
       "Momo acredita em fantasmas, Okarun acredita em alienigenas",
@@ -2155,7 +2155,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Doraemon",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Fujiko F. Fujio em 1969",
       "Doraemon e um gato-robo do seculo 22",
@@ -2172,7 +2172,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Crayon Shin-chan",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Yoshito Usui em 1990",
       "Shinnosuke 'Shin-chan' Nohara e um garoto de 5 anos",
@@ -2189,7 +2189,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Detective Conan",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Gosho Aoyama em 1994",
       "Shinichi Kudo e um detetive genio do ensino medio",
@@ -2206,7 +2206,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Fruits Basket",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Natsuki Takaya em 1998",
       "Tohru Honda e uma orfa que vive em uma barraca",
@@ -2223,7 +2223,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Ouran High School Host Club",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Bisco Hatori em 2002",
       "Haruhi Fujioka e uma estudante bolsista em escola de ricos",
@@ -2240,7 +2240,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Howl's Moving Castle",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Dirigido por Hayao Miyazaki e lancado em 2004",
       "Baseado no livro de Diana Wynne Jones de 1986",
@@ -2257,7 +2257,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Ponyo",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Dirigido por Hayao Miyazaki e lancado em 2008",
       "Inspirado no conto A Pequena Sereia de Hans Christian Andersen",
@@ -2274,7 +2274,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Castelo Animado",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Dirigido por Hayao Miyazaki em 2004",
       "Sophie Hatter e transformada em idosa por maldicao",
@@ -2291,7 +2291,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Weathering With You",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Dirigido por Makoto Shinkai e lancado em 2019",
       "Hodaka e um fugitivo que vai para Tokyo",
@@ -2308,7 +2308,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Trigun",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Yasuhiro Nightow em 1995",
       "Vash the Stampede tem 60 bilhoes de recompensa por sua cabeca",
@@ -2325,7 +2325,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Samurai Champloo",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Shinichiro Watanabe, mesmo de Cowboy Bebop",
       "Mistura era Edo do Japao com cultura hip-hop moderna",
@@ -2342,7 +2342,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Great Teacher Onizuka",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Tohru Fujisawa em 1997",
       "Eikichi Onizuka e um ex-delinquente de gangue de motoqueiros",
@@ -2359,7 +2359,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Elfen Lied",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Lynn Okamoto em 2002",
       "Lucy e uma Diclonius - humana com chifres e bracos invisiveis",
@@ -2376,7 +2376,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Angel Beats",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Jun Maeda da Key em 2010",
       "Otonashi acorda em uma escola sem memorias",
@@ -2393,7 +2393,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Anohana",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Titulo completo e 'The Flower We Saw That Day'",
       "Criado por Mari Okada em 2011",
@@ -2410,7 +2410,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Your Lie in April",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Naoshi Arakawa em 2011",
       "Kousei Arima e um pianista prodígio que nao consegue mais ouvir as notas",
@@ -2427,7 +2427,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Durarara",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Escrito por Ryohgo Narita, mesmo de Baccano",
       "Se passa em Ikebukuro, Tokyo",
@@ -2444,7 +2444,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Hellsing Ultimate",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Kouta Hirano em 1997",
       "Alucard e um vampiro ultra poderoso que serve a Organizacao Hellsing",
@@ -2461,7 +2461,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Monster",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Naoki Urasawa em 1994",
       "Dr. Kenzo Tenma e um cirurgiao japones na Alemanha",
@@ -2478,7 +2478,7 @@ export const ANIME_MANGA = [
   {
     resposta: "20th Century Boys",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Naoki Urasawa em 1999",
       "Kenji e dono de uma loja de conveniencia com passado misterioso",
@@ -2495,7 +2495,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Golden Kamuy",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Satoru Noda em 2014",
       "Se passa em Hokkaido apos a Guerra Russo-Japonesa",
@@ -2512,7 +2512,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Land of the Lustrous",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Haruko Ichikawa em 2012",
       "As Gemas sao seres humanoidas feitas de minerais",
@@ -2529,7 +2529,7 @@ export const ANIME_MANGA = [
   {
     resposta: "March Comes in Like a Lion",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Chica Umino em 2007",
       "Rei Kiriyama e um jogador profissional de shogi de 17 anos",
@@ -2546,7 +2546,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Nichijou",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Keiichi Arawi em 2006",
       "O titulo significa 'Vida Cotidiana' em japones",
@@ -2563,7 +2563,7 @@ export const ANIME_MANGA = [
   {
     resposta: "K-On",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Kakifly em 2007",
       "Yui, Mio, Ritsu, Tsumugi e Azusa formam a banda Ho-kago Tea Time",
@@ -2580,7 +2580,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Lucky Star",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Kagami Yoshimizu em 2004",
       "Konata Izumi e uma otaku fanatica por anime e jogos",
@@ -2597,7 +2597,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Azumanga Daioh",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Kiyohiko Azuma em 1999",
       "E considerado um dos precursores do genero slice of life moe",
@@ -2614,7 +2614,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Daily Lives of High School Boys",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Yasunobu Yamauchi em 2009",
       "Tadakuni, Hidenori e Yoshitake sao os protagonistas",
@@ -2631,7 +2631,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Gintama",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Hideaki Sorachi em 2003",
       "Se passa em um Japao Edo alternativo ocupado por alienigenas",
@@ -2648,7 +2648,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Saiki Kusuo no Psi-nan",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Shuichi Aso em 2012",
       "Saiki Kusuo e um psiquico todo-poderoso",
@@ -2665,7 +2665,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Komi Can't Communicate",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Tomohito Oda em 2016",
       "Komi Shouko e linda mas tem ansiedade social extrema",
@@ -2682,7 +2682,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Odd Taxi",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Kazuya Konomoto em 2021",
       "Odokawa e um taxista morsa solitario e cinico",
@@ -2699,7 +2699,7 @@ export const ANIME_MANGA = [
   {
     resposta: "Space Dandy",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado por Shinichiro Watanabe de Cowboy Bebop",
       "Dandy e um cacador de alienigenas raros vaidoso e idiota",
@@ -2716,7 +2716,7 @@ export const ANIME_MANGA = [
   {
     resposta: "FLCL",
     categoria: "Coisa",
-    tema: "Anime & Manga",
+    tema: "Anime & Mangá",
     dicas: [
       "Criado pelo estudio Gainax em 2000",
       "Haruko Haruhara e uma alienigena que bate em pessoas com guitarra",
