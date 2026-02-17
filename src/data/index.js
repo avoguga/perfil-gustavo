@@ -14,6 +14,8 @@ import { BRASIL_CULTURA } from "./brasil_cultura";
 import { FOFOCAS_POP } from "./fofocas_pop";
 import { NERD_INTL } from "./nerd_intl";
 import { ANIME_MANGA } from "./anime_manga";
+import { ANIME_MANGA_EXPANDED } from "./anime_manga_expanded";  // NOVO: 200+ cartas de anime
+import { GAMES } from "./games";  // NOVO: 200+ cartas de games
 import { FILMES_SERIES } from "./filmes_series";
 import { MEMES_INTERNET } from "./memes_internet";
 import { MUSICA_BRASILEIRA } from "./musica_brasileira";
@@ -575,7 +577,7 @@ function classificarTema(carta) {
   return "Geral";
 }
 
-// Junta tudo
+// Junta tudo - TOTAL: 1500+ cartas
 const todasCartas = [
   ...ORIGINAIS,
   ...PESSOAS,
@@ -583,10 +585,12 @@ const todasCartas = [
   ...ANOS,
   ...COISAS_1,
   ...COISAS_2,
-  ...BRASIL_CULTURA,
+  ...BRASIL_CULTURA,           // 150 cartas de cultura brasileira
   ...FOFOCAS_POP,
   ...NERD_INTL,
   ...ANIME_MANGA,
+  ...ANIME_MANGA_EXPANDED,     // NOVO: 200+ cartas de anime expandido
+  ...GAMES,                     // NOVO: 200+ cartas de games
   ...FILMES_SERIES,
   ...MEMES_INTERNET,
   ...MUSICA_BRASILEIRA,
