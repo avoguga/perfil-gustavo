@@ -276,11 +276,11 @@ export default function PerfilExpress() {
   const restantes = cartasFiltradas.length - cartasJogadas.length;
 
   const s = {
-    page: { minHeight: "100vh", background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)", display: "flex", alignItems: "center", justifyContent: "center", padding: 16, fontFamily: "'Segoe UI', system-ui, sans-serif" },
+    page: { minHeight: "100dvh", background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)", display: "flex", alignItems: "center", justifyContent: "center", padding: "16px 12px", fontFamily: "'Segoe UI', system-ui, sans-serif" },
     card: { width: "100%", maxWidth: 520 },
-    badge: (c) => ({ display: "inline-block", padding: "4px 14px", borderRadius: 20, fontSize: 12, fontWeight: 700, background: c.badge, color: c.badgeText }),
-    btn: (bg, clr = "#fff") => ({ padding: "14px 32px", fontSize: 16, fontWeight: 700, color: clr, background: bg, border: "none", borderRadius: 14, cursor: "pointer", transition: "transform 0.15s" }),
-    btnSec: { padding: "14px 24px", fontSize: 15, fontWeight: 600, color: "#94a3b8", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 14, cursor: "pointer" },
+    badge: (c) => ({ display: "inline-block", padding: "4px 12px", borderRadius: 20, fontSize: 11, fontWeight: 700, background: c.badge, color: c.badgeText, whiteSpace: "nowrap" }),
+    btn: (bg, clr = "#fff") => ({ padding: "14px 28px", fontSize: 16, fontWeight: 700, color: clr, background: bg, border: "none", borderRadius: 14, cursor: "pointer", transition: "transform 0.15s", minHeight: 48 }),
+    btnSec: { padding: "14px 20px", fontSize: 15, fontWeight: 600, color: "#94a3b8", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 14, cursor: "pointer", minHeight: 48 },
   };
 
   const curiosidadeBox = mostrarCuriosidade && curiosidade ? (
@@ -298,9 +298,9 @@ export default function PerfilExpress() {
     return (
       <div style={s.page}>
         <div style={{ ...s.card, textAlign: "center" }}>
-          <div style={{ fontSize: 56, marginBottom: 4 }}>🎯</div>
-          <h1 style={{ fontSize: 40, fontWeight: 900, background: "linear-gradient(135deg, #f59e0b, #ef4444, #8b5cf6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: "0 0 6px", letterSpacing: -1 }}>PERFIL EXPRESS</h1>
-          <p style={{ color: "#94a3b8", fontSize: 15, lineHeight: 1.6, margin: "0 0 20px" }}>
+          <div style={{ fontSize: "clamp(40px, 12vw, 56px)", marginBottom: 4 }}>🎯</div>
+          <h1 style={{ fontSize: "clamp(28px, 8vw, 40px)", fontWeight: 900, background: "linear-gradient(135deg, #f59e0b, #ef4444, #8b5cf6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: "0 0 6px", letterSpacing: -1 }}>PERFIL EXPRESS</h1>
+          <p style={{ color: "#94a3b8", fontSize: 14, lineHeight: 1.6, margin: "0 0 20px" }}>
             Leia as dicas e descubra a resposta!
           </p>
 
@@ -327,7 +327,7 @@ export default function PerfilExpress() {
                     key={tema}
                     onClick={() => toggleTema(tema)}
                     style={{
-                      padding: "7px 12px",
+                      padding: "8px 12px",
                       fontSize: 12,
                       fontWeight: 600,
                       color: ativo ? corTema : "#475569",
@@ -337,6 +337,7 @@ export default function PerfilExpress() {
                       cursor: "pointer",
                       transition: "all 0.2s",
                       opacity: ativo ? 1 : 0.5,
+                      minHeight: 38,
                     }}
                   >
                     {emoji} {tema} <span style={{ fontSize: 10, opacity: 0.7 }}>({qtd})</span>
@@ -400,10 +401,10 @@ export default function PerfilExpress() {
     return (
       <div style={s.page}>
         <div style={{ ...s.card, textAlign: "center" }}>
-          <div style={{ fontSize: 56, marginBottom: 4 }}>{emoji}</div>
-          <h2 style={{ fontSize: 30, fontWeight: 800, color: "#f59e0b", margin: "0 0 4px" }}>FIM DE JOGO!</h2>
-          <p style={{ fontSize: 44, fontWeight: 900, color: "#fff", margin: "0 0 2px" }}>{pontos} pts</p>
-          <p style={{ color: "#94a3b8", margin: "0 0 20px", fontSize: 14 }}>{acertos} de {historico.length} acertos ({taxa}%)</p>
+          <div style={{ fontSize: "clamp(40px, 12vw, 56px)", marginBottom: 4 }}>{emoji}</div>
+          <h2 style={{ fontSize: "clamp(22px, 6vw, 30px)", fontWeight: 800, color: "#f59e0b", margin: "0 0 4px" }}>FIM DE JOGO!</h2>
+          <p style={{ fontSize: "clamp(32px, 10vw, 44px)", fontWeight: 900, color: "#fff", margin: "0 0 2px" }}>{pontos} pts</p>
+          <p style={{ color: "#94a3b8", margin: "0 0 16px", fontSize: 14 }}>{acertos} de {historico.length} acertos ({taxa}%)</p>
           <div style={{ background: "rgba(255,255,255,0.05)", borderRadius: 14, padding: 16, marginBottom: 20, textAlign: "left", maxHeight: 300, overflowY: "auto" }}>
             {historico.map((h, i) => (
               <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "9px 0", borderBottom: i < historico.length - 1 ? "1px solid rgba(255,255,255,0.06)" : "none" }}>
@@ -429,11 +430,11 @@ export default function PerfilExpress() {
     return (
       <div style={s.page}>
         <div style={{ ...s.card, textAlign: "center" }}>
-          <div style={{ fontSize: 56, marginBottom: 4 }}>{ok ? "🎉" : "😞"}</div>
-          <h2 style={{ fontSize: 26, fontWeight: 800, color: ok ? "#10b981" : "#ef4444", margin: "0 0 6px" }}>
+          <div style={{ fontSize: "clamp(40px, 12vw, 56px)", marginBottom: 4 }}>{ok ? "🎉" : "😞"}</div>
+          <h2 style={{ fontSize: "clamp(20px, 5.5vw, 26px)", fontWeight: 800, color: ok ? "#10b981" : "#ef4444", margin: "0 0 6px" }}>
             {ok ? "VOCÊ ACERTOU!" : "NÃO FOI DESSA VEZ..."}
           </h2>
-          <p style={{ fontSize: 34, fontWeight: 900, color: "#fff", margin: "0 0 8px" }}>{cartaAtual.resposta}</p>
+          <p style={{ fontSize: "clamp(24px, 7vw, 34px)", fontWeight: 900, color: "#fff", margin: "0 0 8px", wordBreak: "break-word" }}>{cartaAtual.resposta}</p>
           <span style={s.badge(cor)}>{cartaAtual.categoria}</span>
           {ok && (
             <p style={{ color: "#94a3b8", marginTop: 14, fontSize: 14 }}>
@@ -476,16 +477,16 @@ export default function PerfilExpress() {
   const temaCor = CORES_TEMA[cartaAtual.tema] || "#94a3b8";
 
   return (
-    <div style={{ minHeight: "100vh", background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)", padding: "16px 12px", fontFamily: "'Segoe UI', system-ui, sans-serif" }}>
-      <div style={{ maxWidth: 520, margin: "0 auto" }}>
+    <div style={{ minHeight: "100dvh", background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)", padding: "12px 10px", fontFamily: "'Segoe UI', system-ui, sans-serif", display: "flex", flexDirection: "column" }}>
+      <div style={{ maxWidth: 520, margin: "0 auto", width: "100%", flex: 1, display: "flex", flexDirection: "column" }}>
         {/* Header */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <span style={{ color: "#f59e0b", fontWeight: 800, fontSize: 16 }}>⭐ {pontos}</span>
-            <span style={{ color: "#475569", fontSize: 13 }}>Carta {rodada}/{cartasFiltradas.length}</span>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8, flexWrap: "wrap", gap: 4 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <span style={{ color: "#f59e0b", fontWeight: 800, fontSize: 15 }}>⭐ {pontos}</span>
+            <span style={{ color: "#475569", fontSize: 12 }}>Carta {rodada}/{cartasFiltradas.length}</span>
           </div>
-          <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
-            <span style={{ padding: "3px 10px", borderRadius: 12, fontSize: 10, fontWeight: 700, background: `${temaCor}20`, color: temaCor, border: `1px solid ${temaCor}40` }}>
+          <div style={{ display: "flex", gap: 4, alignItems: "center", flexWrap: "wrap", justifyContent: "flex-end" }}>
+            <span style={{ padding: "3px 8px", borderRadius: 12, fontSize: 10, fontWeight: 700, background: `${temaCor}20`, color: temaCor, border: `1px solid ${temaCor}40`, whiteSpace: "nowrap", maxWidth: 140, overflow: "hidden", textOverflow: "ellipsis" }}>
               {EMOJI_TEMA[cartaAtual.tema] || "🎯"} {cartaAtual.tema}
             </span>
             <span style={s.badge(cor)}>{cartaAtual.categoria}</span>
@@ -523,27 +524,27 @@ export default function PerfilExpress() {
         )}
 
         {/* Dicas */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 7, marginBottom: 16, maxHeight: 340, overflowY: "auto", paddingRight: 4 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 12, flex: 1, overflowY: "auto", paddingRight: 4, minHeight: 0 }}>
           {cartaAtual.dicas.map((dica, i) => {
             const revelada = isProgressivo ? i <= dicaIndex : true;
             return (
               <div key={i} style={{
                 background: revelada ? "rgba(255,255,255,0.05)" : "rgba(255,255,255,0.015)",
                 border: `1px solid ${revelada ? "rgba(255,255,255,0.08)" : "rgba(255,255,255,0.03)"}`,
-                borderRadius: 10, padding: "10px 14px", display: "flex", gap: 10, alignItems: "flex-start",
+                borderRadius: 10, padding: "8px 10px", display: "flex", gap: 8, alignItems: "flex-start",
                 transition: "all 0.3s"
               }}>
                 <span style={{
                   background: revelada ? `${cor.bg}22` : "rgba(255,255,255,0.03)",
                   color: revelada ? cor.bg : "#334155",
-                  fontWeight: 800, fontSize: 11, minWidth: 26, height: 26,
-                  display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 7
+                  fontWeight: 800, fontSize: 11, minWidth: 24, height: 24,
+                  display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 6, flexShrink: 0,
                 }}>
                   {i + 1}
                 </span>
                 <span style={{
                   color: revelada ? "#e2e8f0" : "#1e293b",
-                  fontSize: 14, lineHeight: 1.5,
+                  fontSize: 13, lineHeight: 1.5,
                   userSelect: revelada ? "auto" : "none"
                 }}>
                   {revelada ? dica : "• • • • • • • •"}
@@ -554,8 +555,8 @@ export default function PerfilExpress() {
         </div>
 
         {/* Input e botões */}
-        <div style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 14, padding: 16 }}>
-          <div style={{ display: "flex", gap: 8, marginBottom: 10 }}>
+        <div style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 14, padding: "12px 10px", flexShrink: 0 }}>
+          <div style={{ display: "flex", gap: 6, marginBottom: 8 }}>
             <input
               type="text"
               value={palpite}
@@ -563,55 +564,57 @@ export default function PerfilExpress() {
               onKeyDown={e => e.key === "Enter" && palpite.trim() && verificarPalpite()}
               placeholder="Digite seu palpite..."
               style={{
-                flex: 1, padding: "11px 14px", fontSize: 15,
+                flex: 1, padding: "12px 12px", fontSize: 16,
                 background: "rgba(255,255,255,0.06)",
                 border: `2px solid ${shake ? "#ef4444" : "rgba(255,255,255,0.1)"}`,
                 borderRadius: 10, color: "#fff", outline: "none",
                 transition: "border-color 0.3s",
-                animation: shake ? "shake 0.5s ease" : "none"
+                animation: shake ? "shake 0.5s ease" : "none",
+                minWidth: 0,
               }}
             />
             <button
               onClick={verificarPalpite}
               disabled={!palpite.trim()}
               style={{
-                padding: "11px 20px", fontWeight: 700, fontSize: 14, color: "#fff",
+                padding: "12px 16px", fontWeight: 700, fontSize: 14, color: "#fff",
                 background: palpite.trim() ? cor.bg : "#334155",
                 border: "none", borderRadius: 10,
                 cursor: palpite.trim() ? "pointer" : "default",
-                opacity: palpite.trim() ? 1 : 0.5
+                opacity: palpite.trim() ? 1 : 0.5,
+                minHeight: 44, whiteSpace: "nowrap",
               }}
             >
               CHUTAR
             </button>
           </div>
-          <div style={{ display: "flex", gap: 8 }}>
-            {/* Botão de próxima dica (modo progressivo) OU revelar resposta (modo todas) */}
-            {isProgressivo ? (
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+            {/* Botão de próxima dica (modo progressivo) */}
+            {isProgressivo && (
               <button
                 onClick={proximaDica}
                 disabled={dicaIndex >= cartaAtual.dicas.length - 1}
                 style={{
-                  flex: 1, padding: "11px", fontWeight: 600, fontSize: 13,
+                  flex: "1 1 auto", padding: "10px 12px", fontWeight: 600, fontSize: 13,
                   color: dicaIndex >= cartaAtual.dicas.length - 1 ? "#475569" : "#e2e8f0",
                   background: "rgba(255,255,255,0.06)",
                   border: "1px solid rgba(255,255,255,0.08)",
-                  borderRadius: 10,
+                  borderRadius: 10, minHeight: 44,
                   cursor: dicaIndex >= cartaAtual.dicas.length - 1 ? "default" : "pointer"
                 }}
               >
-                {dicaIndex >= cartaAtual.dicas.length - 1 ? "Sem mais dicas" : "💡 PRÓXIMA DICA"}
+                {dicaIndex >= cartaAtual.dicas.length - 1 ? "Sem mais dicas" : "💡 DICA"}
               </button>
-            ) : null}
+            )}
             <button
               onClick={() => setRespostaRevelada(v => !v)}
               style={{
-                flex: isProgressivo ? undefined : 1,
-                padding: "11px 14px", fontWeight: 600, fontSize: 13,
+                flex: "1 1 auto",
+                padding: "10px 12px", fontWeight: 600, fontSize: 13,
                 color: respostaRevelada ? "#10b981" : "#ef4444",
                 background: respostaRevelada ? "rgba(16,185,129,0.08)" : "rgba(239,68,68,0.08)",
                 border: `1px solid ${respostaRevelada ? "rgba(16,185,129,0.2)" : "rgba(239,68,68,0.2)"}`,
-                borderRadius: 10, cursor: "pointer"
+                borderRadius: 10, cursor: "pointer", minHeight: 44,
               }}
             >
               {respostaRevelada ? "🙈 ESCONDER" : "👁️ REVELAR"}
@@ -619,10 +622,11 @@ export default function PerfilExpress() {
             <button
               onClick={pularCarta}
               style={{
-                padding: "11px 14px", fontWeight: 600, fontSize: 13,
+                flex: "1 1 auto",
+                padding: "10px 12px", fontWeight: 600, fontSize: 13,
                 color: "#f59e0b", background: "rgba(245,158,11,0.08)",
                 border: "1px solid rgba(245,158,11,0.2)",
-                borderRadius: 10, cursor: "pointer"
+                borderRadius: 10, cursor: "pointer", minHeight: 44,
               }}
             >
               ⏭️ PULAR
@@ -637,6 +641,7 @@ export default function PerfilExpress() {
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+        button:active { transform: scale(0.97); }
       `}</style>
     </div>
   );

@@ -2,15 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  /* safe area for notch phones */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
+  min-height: 100dvh;
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   background: #0f172a;
+  overscroll-behavior: none;
 }
 
 #root {
   width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Prevent zoom on input focus (iOS) */
+input, select, textarea {
+  font-size: 16px !important;
+}
+
+button {
+  -webkit-user-select: none;
+  user-select: none;
 }
