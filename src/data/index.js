@@ -35,7 +35,7 @@ import { HISTORIA_BRASIL } from "./historia_brasil";
 
 const TEMAS_POR_KEYWORDS = {
   // ============================================================================
-  // 🎯 SISTEMA DE CLASSIFICAÇÃO DE TEMAS - PERFIL EXPRESS
+  // 🎯 SISTEMA DE CLASSIFICAÇÃO DE TEMAS - DICA A DICA
   // ============================================================================
   // REGRA: Cada keyword deve estar em APENAS UM tema para evitar conflitos!
   // A ORDEM importa: temas mais específicos vêm PRIMEIRO.
@@ -623,4 +623,4 @@ export const CARTAS = todasCartas
 const temasSet = new Set(CARTAS.map(c => c.tema));
 export const TEMAS = [...temasSet].sort();
 
-console.log(`🎯 Perfil Express: ${CARTAS.length} cartas | ${TEMAS.length} temas: ${TEMAS.join(", ")}`);
+console.log(`🎯 Dica a Dica: ${CARTAS.length} cartas | ${TEMAS.length} temas: ${TEMAS.join(", ")}`);

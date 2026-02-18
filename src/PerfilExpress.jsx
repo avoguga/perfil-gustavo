@@ -2,7 +2,7 @@ import { useState, useCallback, useMemo } from "react";
 import { CARTAS, TEMAS } from "./data";
 
 // =====================================================
-// 🎮 PERFIL EXPRESS - JOGO DE PERGUNTAS E DICAS
+// 🎮 DICA A DICA - JOGO DE PERGUNTAS E DICAS
 // =====================================================
 // PALETA: Vibrante/Trivia Crack - alegre e divertida
 // =====================================================
@@ -389,7 +389,7 @@ export default function PerfilExpress() {
       <div style={s.page}>
         <div style={{ ...s.card, textAlign: "center" }}>
           <div style={{ fontSize: "clamp(48px, 14vw, 72px)", marginBottom: 8, filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.1))" }}>🎯</div>
-          <h1 style={{ fontSize: "clamp(32px, 10vw, 48px)", fontWeight: 900, background: `linear-gradient(135deg, ${PALETA.rosa}, ${PALETA.roxo}, ${PALETA.azul})`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: "0 0 8px", letterSpacing: -1, textShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>PERFIL EXPRESS</h1>
+          <h1 style={{ fontSize: "clamp(32px, 10vw, 48px)", fontWeight: 900, background: `linear-gradient(135deg, ${PALETA.rosa}, ${PALETA.roxo}, ${PALETA.azul})`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text", margin: "0 0 8px", letterSpacing: -1, filter: temaVisual === "dark" ? "brightness(1.3)" : "none" }}>DICA A DICA</h1>
           <p style={{ color: PALETA.textSecondary, fontSize: "clamp(14px, 3.5vw, 16px)", lineHeight: 1.6, margin: "0 0 clamp(16px, 4vw, 20px)", fontWeight: 500 }}>
             Leia as dicas e descubra a resposta!
           </p>
