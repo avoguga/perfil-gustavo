@@ -4,55 +4,80 @@ import { CARTAS, TEMAS } from "./data";
 // =====================================================
 // 🎮 PERFIL EXPRESS - JOGO DE PERGUNTAS E DICAS
 // =====================================================
+// PALETA: Vibrante/Trivia Crack - alegre e divertida
+// =====================================================
+
+// Paleta principal - cores vibrantes e saturadas
+const PALETA = {
+  // Fundos
+  bgPrimary: "#FEFDF8",      // Branco cremoso
+  bgSecondary: "#FFF8E7",    // Amarelo suave
+  bgCard: "#FFFFFF",         // Branco puro
+  bgDark: "#2D3748",         // Para contraste quando necessário
+
+  // Cores principais vibrantes
+  verde: "#1FC868",          // Verde vibrante (acertos)
+  amarelo: "#F8DE41",        // Amarelo dourado
+  rosa: "#F452AF",           // Rosa quente
+  roxo: "#8D44B6",           // Roxo vivo
+  azul: "#4DABF7",           // Azul alegre
+  laranja: "#FF8C42",        // Laranja coral
+  vermelho: "#FF6B6B",       // Vermelho coral (erros)
+  turquesa: "#20C997",       // Turquesa fresco
+
+  // Texto
+  textPrimary: "#2D3748",    // Cinza escuro quente
+  textSecondary: "#718096",  // Cinza médio
+  textLight: "#FFFFFF",      // Branco
+};
 
 const CORES_CATEGORIA = {
-  Pessoa: { bg: "#8b5cf6", badge: "#ede9fe", badgeText: "#6d28d9" },
-  Lugar: { bg: "#10b981", badge: "#d1fae5", badgeText: "#047857" },
-  Coisa: { bg: "#f59e0b", badge: "#fef3c7", badgeText: "#b45309" },
-  Ano: { bg: "#0ea5e9", badge: "#e0f2fe", badgeText: "#0369a1" },
+  Pessoa: { bg: PALETA.roxo, badge: "#F3E8FF", badgeText: "#6B21A8" },
+  Lugar: { bg: PALETA.turquesa, badge: "#D1FAE5", badgeText: "#047857" },
+  Coisa: { bg: PALETA.laranja, badge: "#FFF3E0", badgeText: "#C65D07" },
+  Ano: { bg: PALETA.azul, badge: "#E0F2FE", badgeText: "#0369A1" },
 };
 
 const CORES_TEMA = {
-  // Temas principais
-  "Cultura Brasileira": "#22c55e",
-  "Anime & Mangá": "#e11d48",
-  "Anime & Manga": "#e11d48",  // Alias para compatibilidade
-  "Games": "#8b5cf6",
-  "Esportes": "#3b82f6",
-  "Esportes & Copa": "#ea580c",
-  "Ciência & Tech": "#06b6d4",
-  "Ciência & Espaço": "#7c3aed",
-  "Astronomia": "#6366f1",
-  "Geografia": "#14b8a6",
-  "Geografia Mundial": "#0d9488",
-  "História": "#a78bfa",
-  "História do Brasil": "#059669",
-  "Música & Arte": "#e879f9",
-  "Música Brasileira": "#16a34a",
-  "Comida & Bebida": "#f97316",
-  "Comida & Gastronomia": "#d97706",
-  "Natureza & Animais": "#84cc16",
-  "Mundo Animal": "#65a30d",
-  "Materiais & Recursos": "#78716c",
-  "Invenções & Objetos": "#0891b2",
-  "Datas Comemorativas": "#f43f5e",
-  "Cultura Nerd": "#7c3aed",
-  "Fofocas & Famosos": "#ec4899",
-  "Fofocas Internacionais": "#f472b6",
-  "Influencers & Pop": "#f43f5e",
-  "TV & Novelas": "#fbbf24",
-  "Filmes & Séries": "#dc2626",
-  "Memes & Internet": "#06b6d4",
-  "Tecnologia & Apps": "#2563eb",
-  "Personalidades": "#8b5cf6",
-  "Geral": "#94a3b8",
+  // Cores vibrantes e distintas para cada tema
+  "Cultura Brasileira": "#1FC868",
+  "Anime & Mangá": "#F452AF",
+  "Anime & Manga": "#F452AF",
+  "Games": "#8D44B6",
+  "Esportes": "#4DABF7",
+  "Esportes & Copa": "#FF8C42",
+  "Ciência & Tech": "#20C997",
+  "Ciência & Espaço": "#6C5CE7",
+  "Astronomia": "#A55EEA",
+  "Geografia": "#00B894",
+  "Geografia Mundial": "#00CEC9",
+  "História": "#FDCB6E",
+  "História do Brasil": "#1FC868",
+  "Música & Arte": "#FD79A8",
+  "Música Brasileira": "#00B894",
+  "Comida & Bebida": "#FF8C42",
+  "Comida & Gastronomia": "#E17055",
+  "Natureza & Animais": "#00B894",
+  "Mundo Animal": "#55A3FF",
+  "Materiais & Recursos": "#636E72",
+  "Invenções & Objetos": "#0984E3",
+  "Datas Comemorativas": "#FF6B6B",
+  "Cultura Nerd": "#A55EEA",
+  "Fofocas & Famosos": "#FD79A8",
+  "Fofocas Internacionais": "#E84393",
+  "Influencers & Pop": "#FF6B6B",
+  "TV & Novelas": "#FDCB6E",
+  "Filmes & Séries": "#FF6B6B",
+  "Memes & Internet": "#00CEC9",
+  "Tecnologia & Apps": "#0984E3",
+  "Personalidades": "#A55EEA",
+  "Geral": "#636E72",
 };
 
 const EMOJI_TEMA = {
-  // Temas principais
   "Cultura Brasileira": "🇧🇷",
   "Anime & Mangá": "🎌",
-  "Anime & Manga": "🎌",  // Alias para compatibilidade
+  "Anime & Manga": "🎌",
   "Games": "🎮",
   "Esportes": "⚽",
   "Esportes & Copa": "🏆",
@@ -312,17 +337,17 @@ export default function PerfilExpress() {
   const restantes = cartasFiltradas.length - cartasJogadas.length;
 
   const s = {
-    page: { minHeight: "100dvh", background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)", display: "flex", alignItems: "center", justifyContent: "center", padding: "clamp(12px, 3vw, 16px)", fontFamily: "'Segoe UI', system-ui, sans-serif" },
+    page: { minHeight: "100dvh", background: `linear-gradient(180deg, ${PALETA.bgPrimary} 0%, ${PALETA.bgSecondary} 100%)`, display: "flex", alignItems: "center", justifyContent: "center", padding: "clamp(12px, 3vw, 16px)", fontFamily: "'Nunito', 'Segoe UI', system-ui, sans-serif" },
     card: { width: "100%", maxWidth: 520 },
-    badge: (c) => ({ display: "inline-block", padding: "clamp(3px, 1vw, 4px) clamp(8px, 2vw, 12px)", borderRadius: 20, fontSize: "clamp(10px, 2.5vw, 11px)", fontWeight: 700, background: c.badge, color: c.badgeText, whiteSpace: "nowrap" }),
-    btn: (bg, clr = "#fff") => ({ padding: "clamp(12px, 3vw, 14px) clamp(20px, 5vw, 28px)", fontSize: "clamp(14px, 3.5vw, 16px)", fontWeight: 700, color: clr, background: bg, border: "none", borderRadius: 14, cursor: "pointer", transition: "transform 0.15s", minHeight: 44, width: "100%" }),
-    btnSec: { padding: "clamp(12px, 3vw, 14px) clamp(16px, 4vw, 20px)", fontSize: "clamp(13px, 3vw, 15px)", fontWeight: 600, color: "#94a3b8", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 14, cursor: "pointer", minHeight: 44, width: "100%" },
+    badge: (c) => ({ display: "inline-block", padding: "clamp(4px, 1vw, 6px) clamp(10px, 2vw, 14px)", borderRadius: 24, fontSize: "clamp(10px, 2.5vw, 12px)", fontWeight: 800, background: c.badge, color: c.badgeText, whiteSpace: "nowrap", boxShadow: `0 2px 8px ${c.bg}33` }),
+    btn: (bg, clr = "#fff") => ({ padding: "clamp(14px, 3.5vw, 18px) clamp(24px, 6vw, 32px)", fontSize: "clamp(15px, 4vw, 18px)", fontWeight: 800, color: clr, background: bg, border: "none", borderRadius: 16, cursor: "pointer", transition: "all 0.2s ease", minHeight: 50, width: "100%", boxShadow: "0 4px 14px rgba(0,0,0,0.15)", textTransform: "uppercase", letterSpacing: "0.5px" }),
+    btnSec: { padding: "clamp(12px, 3vw, 14px) clamp(16px, 4vw, 20px)", fontSize: "clamp(13px, 3vw, 15px)", fontWeight: 700, color: PALETA.textSecondary, background: PALETA.bgCard, border: `2px solid #E2E8F0`, borderRadius: 16, cursor: "pointer", minHeight: 48, width: "100%", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" },
   };
 
   const curiosidadeBox = mostrarCuriosidade && curiosidade ? (
-    <div style={{ background: "linear-gradient(135deg, rgba(245,158,11,0.1), rgba(139,92,246,0.1))", border: "1px solid rgba(245,158,11,0.2)", borderRadius: 12, padding: "clamp(10px, 2.5vw, 12px) clamp(12px, 3vw, 16px)", margin: "clamp(10px, 2.5vw, 14px) 0", textAlign: "left" }}>
-      <span style={{ fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 700, color: "#f59e0b", textTransform: "uppercase", letterSpacing: 1 }}>💡 Você sabia?</span>
-      <p style={{ color: "#e2e8f0", fontSize: "clamp(12px, 2.8vw, 13px)", margin: "6px 0 0", lineHeight: 1.5 }}>{curiosidade}</p>
+    <div style={{ background: `linear-gradient(135deg, ${PALETA.amarelo}22, ${PALETA.laranja}22)`, border: `2px solid ${PALETA.amarelo}`, borderRadius: 16, padding: "clamp(12px, 3vw, 16px)", margin: "clamp(10px, 2.5vw, 14px) 0", textAlign: "left", boxShadow: `0 4px 12px ${PALETA.amarelo}33` }}>
+      <span style={{ fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 800, color: PALETA.laranja, textTransform: "uppercase", letterSpacing: 1 }}>💡 Você sabia?</span>
+      <p style={{ color: PALETA.textPrimary, fontSize: "clamp(12px, 2.8vw, 13px)", margin: "6px 0 0", lineHeight: 1.5 }}>{curiosidade}</p>
     </div>
   ) : null;
 
@@ -334,27 +359,27 @@ export default function PerfilExpress() {
     return (
       <div style={s.page}>
         <div style={{ ...s.card, textAlign: "center" }}>
-          <div style={{ fontSize: "clamp(40px, 12vw, 56px)", marginBottom: 4 }}>🎯</div>
-          <h1 style={{ fontSize: "clamp(28px, 8vw, 40px)", fontWeight: 900, background: "linear-gradient(135deg, #f59e0b, #ef4444, #8b5cf6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: "0 0 6px", letterSpacing: -1 }}>PERFIL EXPRESS</h1>
-          <p style={{ color: "#94a3b8", fontSize: "clamp(12px, 3vw, 14px)", lineHeight: 1.6, margin: "0 0 clamp(16px, 4vw, 20px)" }}>
+          <div style={{ fontSize: "clamp(48px, 14vw, 72px)", marginBottom: 8, filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.1))" }}>🎯</div>
+          <h1 style={{ fontSize: "clamp(32px, 10vw, 48px)", fontWeight: 900, background: `linear-gradient(135deg, ${PALETA.rosa}, ${PALETA.roxo}, ${PALETA.azul})`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: "0 0 8px", letterSpacing: -1, textShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>PERFIL EXPRESS</h1>
+          <p style={{ color: PALETA.textSecondary, fontSize: "clamp(14px, 3.5vw, 16px)", lineHeight: 1.6, margin: "0 0 clamp(20px, 5vw, 28px)", fontWeight: 500 }}>
             Leia as dicas e descubra a resposta!
           </p>
 
           {/* Filtro de temas */}
-          <div style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 16, padding: "clamp(12px, 3vw, 16px) clamp(10px, 2.5vw, 14px)", marginBottom: "clamp(16px, 4vw, 20px)", textAlign: "left" }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(10px, 2.5vw, 12px)", gap: 8, flexWrap: "wrap" }}>
-              <span style={{ color: "#e2e8f0", fontSize: "clamp(12px, 3vw, 14px)", fontWeight: 700 }}>🏷️ Escolha os temas:</span>
+          <div style={{ background: PALETA.bgCard, border: "none", borderRadius: 20, padding: "clamp(16px, 4vw, 20px)", marginBottom: "clamp(16px, 4vw, 20px)", textAlign: "left", boxShadow: "0 4px 20px rgba(0,0,0,0.08)" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(12px, 3vw, 16px)", gap: 8, flexWrap: "wrap" }}>
+              <span style={{ color: PALETA.textPrimary, fontSize: "clamp(13px, 3.2vw, 15px)", fontWeight: 700 }}>🏷️ Escolha os temas:</span>
               <div style={{ display: "flex", gap: 6 }}>
-                <button onClick={selecionarTodos} style={{ padding: "clamp(4px, 1vw, 6px) clamp(8px, 2vw, 10px)", fontSize: "clamp(10px, 2.5vw, 11px)", fontWeight: 600, color: nenhumSelecionado ? "#f59e0b" : "#64748b", background: nenhumSelecionado ? "rgba(245,158,11,0.15)" : "rgba(255,255,255,0.05)", border: `1px solid ${nenhumSelecionado ? "rgba(245,158,11,0.3)" : "rgba(255,255,255,0.08)"}`, borderRadius: 8, cursor: "pointer", minHeight: 32 }}>
-                  Todos
+                <button onClick={selecionarTodos} style={{ padding: "clamp(6px, 1.5vw, 8px) clamp(12px, 3vw, 16px)", fontSize: "clamp(11px, 2.8vw, 12px)", fontWeight: 700, color: nenhumSelecionado ? PALETA.textLight : PALETA.textSecondary, background: nenhumSelecionado ? PALETA.verde : PALETA.bgSecondary, border: "none", borderRadius: 20, cursor: "pointer", minHeight: 36, boxShadow: nenhumSelecionado ? `0 2px 8px ${PALETA.verde}44` : "none", transition: "all 0.2s" }}>
+                  ✨ Todos
                 </button>
               </div>
             </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 140px), 1fr))", gap: "clamp(6px, 1.5vw, 8px)" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 140px), 1fr))", gap: "clamp(8px, 2vw, 10px)" }}>
               {TEMAS.map(tema => {
                 const ativo = nenhumSelecionado || temasSelecionados.has(tema);
-                const corTema = CORES_TEMA[tema] || "#94a3b8";
+                const corTema = CORES_TEMA[tema] || PALETA.textSecondary;
                 const emoji = EMOJI_TEMA[tema] || "🎯";
                 const qtd = contagemPorTema[tema] || 0;
 
@@ -363,22 +388,24 @@ export default function PerfilExpress() {
                     key={tema}
                     onClick={() => toggleTema(tema)}
                     style={{
-                      padding: "clamp(6px, 1.5vw, 8px) clamp(8px, 2vw, 12px)",
-                      fontSize: "clamp(11px, 2.5vw, 12px)",
-                      fontWeight: 600,
-                      color: ativo ? corTema : "#475569",
-                      background: ativo ? `${corTema}15` : "rgba(255,255,255,0.02)",
-                      border: `1px solid ${ativo ? `${corTema}40` : "rgba(255,255,255,0.06)"}`,
-                      borderRadius: 10,
+                      padding: "clamp(8px, 2vw, 10px) clamp(10px, 2.5vw, 14px)",
+                      fontSize: "clamp(11px, 2.8vw, 13px)",
+                      fontWeight: 700,
+                      color: ativo ? PALETA.textLight : PALETA.textSecondary,
+                      background: ativo ? corTema : PALETA.bgSecondary,
+                      border: "none",
+                      borderRadius: 12,
                       cursor: "pointer",
-                      transition: "all 0.2s",
-                      opacity: ativo ? 1 : 0.5,
-                      minHeight: 38,
+                      transition: "all 0.2s ease",
+                      opacity: ativo ? 1 : 0.7,
+                      minHeight: 44,
                       textAlign: "center",
+                      boxShadow: ativo ? `0 3px 10px ${corTema}44` : "0 1px 3px rgba(0,0,0,0.05)",
+                      transform: ativo ? "scale(1)" : "scale(0.98)",
                     }}
                   >
                     <span style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", display: "block" }}>
-                      {emoji} {tema} <span style={{ fontSize: "clamp(9px, 2vw, 10px)", opacity: 0.7 }}>({qtd})</span>
+                      {emoji} {tema} <span style={{ fontSize: "clamp(9px, 2.2vw, 10px)", opacity: 0.85 }}>({qtd})</span>
                     </span>
                   </button>
                 );
@@ -386,20 +413,20 @@ export default function PerfilExpress() {
             </div>
           </div>
 
-          <p style={{ color: "#64748b", fontSize: "clamp(12px, 3vw, 14px)", margin: "0 0 clamp(12px, 3vw, 16px)" }}>
-            🃏 <strong style={{ color: "#e2e8f0" }}>{totalFiltrado}</strong> cartas {nenhumSelecionado ? "disponíveis" : "selecionadas"}
+          <p style={{ color: PALETA.textSecondary, fontSize: "clamp(13px, 3.2vw, 15px)", margin: "0 0 clamp(12px, 3vw, 16px)", fontWeight: 600 }}>
+            🃏 <strong style={{ color: PALETA.textPrimary }}>{totalFiltrado}</strong> cartas {nenhumSelecionado ? "disponíveis" : "selecionadas"}
           </p>
 
           {/* Indicador do modo atual */}
           <div style={{
-            display: "flex", alignItems: "center", justifyContent: "center", gap: "clamp(6px, 1.5vw, 8px)",
+            display: "flex", alignItems: "center", justifyContent: "center", gap: "clamp(8px, 2vw, 12px)",
             marginBottom: "clamp(16px, 4vw, 20px)",
-            padding: "clamp(8px, 2vw, 10px) clamp(12px, 3vw, 16px)",
-            background: "rgba(245,158,11,0.08)",
-            border: "1px solid rgba(245,158,11,0.2)",
-            borderRadius: 10,
+            padding: "clamp(10px, 2.5vw, 14px) clamp(16px, 4vw, 20px)",
+            background: `${PALETA.amarelo}22`,
+            border: `2px solid ${PALETA.amarelo}`,
+            borderRadius: 16,
           }}>
-            <span style={{ color: "#f59e0b", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 600 }}>
+            <span style={{ color: PALETA.textPrimary, fontSize: "clamp(12px, 3vw, 14px)", fontWeight: 700 }}>
               {modoDicas === "todas" ? "📖 Todas as dicas" : "💡 Uma por vez"}
             </span>
             <button
@@ -410,17 +437,18 @@ export default function PerfilExpress() {
               }}
               style={{
                 padding: "clamp(4px, 1vw, 6px) clamp(8px, 2vw, 10px)",
-                fontSize: "clamp(10px, 2.2vw, 11px)",
-                fontWeight: 600,
-                color: "#94a3b8",
-                background: "rgba(255,255,255,0.06)",
-                border: "1px solid rgba(255,255,255,0.1)",
-                borderRadius: 6,
+                fontSize: "clamp(11px, 2.5vw, 12px)",
+                fontWeight: 700,
+                color: PALETA.textSecondary,
+                background: PALETA.bgSecondary,
+                border: "none",
+                borderRadius: 20,
                 cursor: "pointer",
-                minHeight: 28,
+                minHeight: 32,
+                padding: "6px 14px",
               }}
             >
-              Trocar
+              🔄 Trocar
             </button>
           </div>
 
@@ -428,12 +456,12 @@ export default function PerfilExpress() {
             onClick={sortearCarta}
             disabled={totalFiltrado === 0}
             style={{
-              ...s.btn("linear-gradient(135deg, #f59e0b, #ef4444)"),
+              ...s.btn(`linear-gradient(135deg, ${PALETA.verde}, ${PALETA.turquesa})`),
               opacity: totalFiltrado === 0 ? 0.4 : 1,
               cursor: totalFiltrado === 0 ? "default" : "pointer",
             }}
           >
-            ▶ JOGAR
+            🎮 JOGAR
           </button>
         </div>
       </div>
@@ -448,25 +476,25 @@ export default function PerfilExpress() {
 
     return (
       <div style={s.page}>
-        <div style={{ ...s.card, textAlign: "center" }}>
-          <div style={{ fontSize: "clamp(40px, 12vw, 56px)", marginBottom: 4 }}>{emoji}</div>
-          <h2 style={{ fontSize: "clamp(22px, 6vw, 30px)", fontWeight: 800, color: "#f59e0b", margin: "0 0 4px" }}>FIM DE JOGO!</h2>
-          <p style={{ fontSize: "clamp(32px, 10vw, 44px)", fontWeight: 900, color: "#fff", margin: "0 0 2px" }}>{pontos} pts</p>
-          <p style={{ color: "#94a3b8", margin: "0 0 clamp(12px, 3vw, 16px)", fontSize: "clamp(12px, 3vw, 14px)" }}>{acertos} de {historico.length} acertos ({taxa}%)</p>
-          <div style={{ background: "rgba(255,255,255,0.05)", borderRadius: 14, padding: "clamp(12px, 3vw, 16px)", marginBottom: "clamp(16px, 4vw, 20px)", textAlign: "left", maxHeight: "clamp(250px, 40vh, 300px)", overflowY: "auto" }}>
+        <div style={{ ...s.card, textAlign: "center", background: PALETA.bgCard, borderRadius: 24, padding: "clamp(24px, 6vw, 32px)", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
+          <div style={{ fontSize: "clamp(56px, 16vw, 80px)", marginBottom: 8, filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.15))" }}>{emoji}</div>
+          <h2 style={{ fontSize: "clamp(26px, 7vw, 36px)", fontWeight: 900, color: PALETA.laranja, margin: "0 0 8px" }}>FIM DE JOGO!</h2>
+          <p style={{ fontSize: "clamp(40px, 12vw, 56px)", fontWeight: 900, color: PALETA.textPrimary, margin: "0 0 4px" }}>{pontos} pts</p>
+          <p style={{ color: PALETA.textSecondary, margin: "0 0 clamp(16px, 4vw, 20px)", fontSize: "clamp(14px, 3.5vw, 16px)", fontWeight: 600 }}>{acertos} de {historico.length} acertos ({taxa}%)</p>
+          <div style={{ background: PALETA.bgSecondary, borderRadius: 16, padding: "clamp(12px, 3vw, 16px)", marginBottom: "clamp(16px, 4vw, 20px)", textAlign: "left", maxHeight: "clamp(250px, 40vh, 300px)", overflowY: "auto" }}>
             {historico.map((h, i) => (
-              <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "clamp(6px, 1.5vw, 9px) 0", borderBottom: i < historico.length - 1 ? "1px solid rgba(255,255,255,0.06)" : "none", gap: 8 }}>
-                <span style={{ color: "#e2e8f0", fontWeight: 600, fontSize: "clamp(12px, 3vw, 14px)", wordBreak: "break-word", flex: 1 }}>
+              <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "clamp(8px, 2vw, 12px) 0", borderBottom: i < historico.length - 1 ? `1px solid ${PALETA.bgPrimary}` : "none", gap: 8 }}>
+                <span style={{ color: PALETA.textPrimary, fontWeight: 600, fontSize: "clamp(13px, 3.2vw, 15px)", wordBreak: "break-word", flex: 1 }}>
                   {h.acertou ? "✅" : h.pulou ? "⏭️" : "❌"} {h.carta}
-                  <span style={{ fontSize: "clamp(9px, 2vw, 10px)", marginLeft: 6, color: CORES_CATEGORIA[h.cat]?.bg || "#94a3b8", display: "inline-block" }}>{h.cat}</span>
+                  <span style={{ fontSize: "clamp(10px, 2.2vw, 11px)", marginLeft: 8, color: CORES_CATEGORIA[h.cat]?.bg || PALETA.textSecondary, fontWeight: 700, display: "inline-block" }}>{h.cat}</span>
                 </span>
-                <span style={{ color: "#94a3b8", fontSize: "clamp(11px, 2.5vw, 12px)", whiteSpace: "nowrap", flexShrink: 0 }}>
-                  <strong style={{ color: h.acertou ? "#10b981" : "#ef4444" }}>{h.pontos} pts</strong>
+                <span style={{ color: PALETA.textSecondary, fontSize: "clamp(12px, 2.8vw, 14px)", whiteSpace: "nowrap", flexShrink: 0 }}>
+                  <strong style={{ color: h.acertou ? PALETA.verde : PALETA.vermelho }}>{h.pontos} pts</strong>
                 </span>
               </div>
             ))}
           </div>
-          <button onClick={reiniciar} style={s.btn("linear-gradient(135deg, #8b5cf6, #6366f1)")}>🔄 JOGAR NOVAMENTE</button>
+          <button onClick={reiniciar} style={s.btn(`linear-gradient(135deg, ${PALETA.roxo}, ${PALETA.rosa})`)}>🔄 JOGAR NOVAMENTE</button>
         </div>
       </div>
     );
@@ -477,35 +505,35 @@ export default function PerfilExpress() {
     const ok = fase === "acertou";
     return (
       <div style={s.page}>
-        <div style={{ ...s.card, textAlign: "center" }}>
-          <div style={{ fontSize: "clamp(40px, 12vw, 56px)", marginBottom: 4 }}>{ok ? "🎉" : "😞"}</div>
-          <h2 style={{ fontSize: "clamp(20px, 5.5vw, 26px)", fontWeight: 800, color: ok ? "#10b981" : "#ef4444", margin: "0 0 6px" }}>
+        <div style={{ ...s.card, textAlign: "center", background: PALETA.bgCard, borderRadius: 24, padding: "clamp(24px, 6vw, 32px)", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
+          <div style={{ fontSize: "clamp(56px, 16vw, 80px)", marginBottom: 8, filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.15))" }}>{ok ? "🎉" : "😢"}</div>
+          <h2 style={{ fontSize: "clamp(22px, 6vw, 30px)", fontWeight: 900, color: ok ? PALETA.verde : PALETA.vermelho, margin: "0 0 8px" }}>
             {ok ? "VOCÊ ACERTOU!" : "NÃO FOI DESSA VEZ..."}
           </h2>
-          <p style={{ fontSize: "clamp(24px, 7vw, 34px)", fontWeight: 900, color: "#fff", margin: "0 0 8px", wordBreak: "break-word" }}>{cartaAtual.resposta}</p>
+          <p style={{ fontSize: "clamp(28px, 8vw, 40px)", fontWeight: 900, color: PALETA.textPrimary, margin: "0 0 12px", wordBreak: "break-word" }}>{cartaAtual.resposta}</p>
           <span style={s.badge(cor)}>{cartaAtual.categoria}</span>
           {ok && (
-            <p style={{ color: "#94a3b8", marginTop: "clamp(10px, 2.5vw, 14px)", fontSize: "clamp(12px, 3vw, 14px)" }}>
-              <strong style={{ color: "#f59e0b" }}>+10 pts</strong>
+            <p style={{ color: PALETA.textSecondary, marginTop: "clamp(12px, 3vw, 16px)", fontSize: "clamp(14px, 3.5vw, 16px)", fontWeight: 700 }}>
+              <strong style={{ color: PALETA.verde, fontSize: "clamp(18px, 4.5vw, 22px)" }}>+10 pts</strong>
             </p>
           )}
           {!ok && (
-            <div style={{ marginTop: "clamp(10px, 2.5vw, 14px)", background: "rgba(255,255,255,0.04)", borderRadius: 10, padding: "clamp(10px, 2.5vw, 12px)", textAlign: "left" }}>
-              <p style={{ color: "#94a3b8", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 700, marginBottom: 6 }}>TODAS AS DICAS:</p>
+            <div style={{ marginTop: "clamp(12px, 3vw, 16px)", background: PALETA.bgSecondary, borderRadius: 14, padding: "clamp(12px, 3vw, 16px)", textAlign: "left" }}>
+              <p style={{ color: PALETA.textSecondary, fontSize: "clamp(12px, 2.8vw, 13px)", fontWeight: 700, marginBottom: 8 }}>TODAS AS DICAS:</p>
               {cartaAtual.dicas.map((d, i) => (
-                <p key={i} style={{ color: "#cbd5e1", fontSize: "clamp(11px, 2.5vw, 12px)", margin: "3px 0", lineHeight: 1.4 }}>
-                  <span style={{ color: cor.bg, fontWeight: 700 }}>{i + 1}.</span> {d}
+                <p key={i} style={{ color: PALETA.textPrimary, fontSize: "clamp(12px, 2.8vw, 13px)", margin: "4px 0", lineHeight: 1.5 }}>
+                  <span style={{ color: cor.bg, fontWeight: 800 }}>{i + 1}.</span> {d}
                 </p>
               ))}
             </div>
           )}
           {curiosidadeBox}
-          <p style={{ color: "#64748b", marginTop: 6, fontSize: "clamp(11px, 2.5vw, 13px)" }}>
-            Total: <strong style={{ color: "#fff" }}>{pontos} pts</strong> · Restam {restantes} cartas
+          <p style={{ color: PALETA.textSecondary, marginTop: 10, fontSize: "clamp(13px, 3vw, 15px)", fontWeight: 600 }}>
+            Total: <strong style={{ color: PALETA.textPrimary }}>{pontos} pts</strong> · Restam {restantes} cartas
           </p>
-          <div style={{ marginTop: "clamp(16px, 4vw, 20px)", display: "flex", gap: "clamp(8px, 2vw, 10px)", justifyContent: "center", flexDirection: "column" }}>
+          <div style={{ marginTop: "clamp(20px, 5vw, 24px)", display: "flex", gap: "clamp(10px, 2.5vw, 14px)", justifyContent: "center", flexDirection: "column" }}>
             {restantes > 0 && (
-              <button onClick={sortearCarta} style={s.btn("linear-gradient(135deg, #f59e0b, #ef4444)")}>
+              <button onClick={sortearCarta} style={s.btn(`linear-gradient(135deg, ${PALETA.verde}, ${PALETA.turquesa})`)}>
                 PRÓXIMA CARTA →
               </button>
             )}
@@ -522,34 +550,35 @@ export default function PerfilExpress() {
   const isProgressivo = modoDicas === "progressivo";
   const ptspossiveis = isProgressivo ? Math.max(cartaAtual.dicas.length - dicaIndex, 1) : 10;
   const prog = isProgressivo ? ((dicaIndex + 1) / cartaAtual.dicas.length) * 100 : 100;
-  const temaCor = CORES_TEMA[cartaAtual.tema] || "#94a3b8";
+  const temaCor = CORES_TEMA[cartaAtual.tema] || PALETA.textSecondary;
 
   return (
-    <div style={{ minHeight: "100dvh", background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)", padding: "clamp(10px, 2.5vw, 12px)", fontFamily: "'Segoe UI', system-ui, sans-serif", display: "flex", flexDirection: "column" }}>
+    <div style={{ minHeight: "100dvh", background: `linear-gradient(180deg, ${PALETA.bgPrimary} 0%, ${PALETA.bgSecondary} 100%)`, padding: "clamp(12px, 3vw, 16px)", fontFamily: "'Nunito', 'Segoe UI', system-ui, sans-serif", display: "flex", flexDirection: "column" }}>
       <div style={{ maxWidth: 520, margin: "0 auto", width: "100%", flex: 1, display: "flex", flexDirection: "column" }}>
         {/* Header */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(6px, 1.5vw, 8px)", flexWrap: "wrap", gap: "clamp(4px, 1vw, 6px)" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: "clamp(6px, 1.5vw, 8px)" }}>
-            <span style={{ color: "#f59e0b", fontWeight: 800, fontSize: "clamp(13px, 3vw, 15px)" }}>⭐ {pontos}</span>
-            <span style={{ color: "#475569", fontSize: "clamp(11px, 2.5vw, 12px)" }}>Carta {rodada}/{cartasFiltradas.length}</span>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(8px, 2vw, 12px)", flexWrap: "wrap", gap: "clamp(6px, 1.5vw, 8px)", background: PALETA.bgCard, padding: "clamp(10px, 2.5vw, 14px)", borderRadius: 16, boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "clamp(8px, 2vw, 12px)" }}>
+            <span style={{ color: PALETA.laranja, fontWeight: 800, fontSize: "clamp(15px, 3.5vw, 18px)" }}>⭐ {pontos}</span>
+            <span style={{ color: PALETA.textSecondary, fontSize: "clamp(12px, 2.8vw, 14px)", fontWeight: 600 }}>Carta {rodada}/{cartasFiltradas.length}</span>
           </div>
-          <div style={{ display: "flex", gap: "clamp(4px, 1vw, 6px)", alignItems: "center", flexWrap: "wrap", justifyContent: "flex-end" }}>
-            <span style={{ padding: "clamp(3px, 0.8vw, 4px) clamp(6px, 1.5vw, 8px)", borderRadius: 12, fontSize: "clamp(9px, 2vw, 10px)", fontWeight: 700, background: `${temaCor}20`, color: temaCor, border: `1px solid ${temaCor}40`, whiteSpace: "nowrap", maxWidth: "min(140px, 40vw)", overflow: "hidden", textOverflow: "ellipsis" }}>
+          <div style={{ display: "flex", gap: "clamp(6px, 1.5vw, 8px)", alignItems: "center", flexWrap: "wrap", justifyContent: "flex-end" }}>
+            <span style={{ padding: "clamp(4px, 1vw, 6px) clamp(8px, 2vw, 12px)", borderRadius: 20, fontSize: "clamp(10px, 2.2vw, 11px)", fontWeight: 700, background: temaCor, color: PALETA.textLight, whiteSpace: "nowrap", maxWidth: "min(140px, 40vw)", overflow: "hidden", textOverflow: "ellipsis", boxShadow: `0 2px 6px ${temaCor}44` }}>
               {EMOJI_TEMA[cartaAtual.tema] || "🎯"} {cartaAtual.tema}
             </span>
             <span style={s.badge(cor)}>{cartaAtual.categoria}</span>
             <button
               onClick={() => setMostrarConfig(true)}
               style={{
-                width: 36, height: 36, minWidth: 44, minHeight: 44,
+                width: 44, height: 44, minWidth: 44, minHeight: 44,
                 display: "flex", alignItems: "center", justifyContent: "center",
-                background: "rgba(255,255,255,0.06)",
-                border: "1px solid rgba(255,255,255,0.1)",
-                borderRadius: 10, cursor: "pointer",
-                fontSize: "clamp(14px, 3.5vw, 16px)",
-                color: "#94a3b8",
+                background: PALETA.bgSecondary,
+                border: "none",
+                borderRadius: 12, cursor: "pointer",
+                fontSize: "clamp(16px, 4vw, 18px)",
+                color: PALETA.textSecondary,
                 transition: "all 0.2s",
                 padding: 0,
+                boxShadow: "0 2px 6px rgba(0,0,0,0.06)",
               }}
               title="Configurações"
             >
@@ -561,12 +590,12 @@ export default function PerfilExpress() {
         {/* Barra de progresso (só no modo progressivo) */}
         {isProgressivo && (
           <>
-            <div style={{ background: "rgba(255,255,255,0.06)", borderRadius: 8, height: "clamp(4px, 1vw, 5px)", marginBottom: "clamp(4px, 1vw, 6px)", overflow: "hidden" }}>
-              <div style={{ width: `${prog}%`, height: "100%", background: cor.bg, borderRadius: 8, transition: "width 0.4s" }} />
+            <div style={{ background: PALETA.bgCard, borderRadius: 10, height: "clamp(8px, 2vw, 10px)", marginBottom: "clamp(6px, 1.5vw, 8px)", overflow: "hidden", boxShadow: "inset 0 2px 4px rgba(0,0,0,0.06)" }}>
+              <div style={{ width: `${prog}%`, height: "100%", background: `linear-gradient(90deg, ${PALETA.verde}, ${PALETA.turquesa})`, borderRadius: 10, transition: "width 0.4s ease-out" }} />
             </div>
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "clamp(10px, 2.5vw, 14px)", gap: 8, flexWrap: "wrap" }}>
-              <span style={{ color: "#94a3b8", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 600 }}>DICA {dicaIndex + 1} DE {cartaAtual.dicas.length}</span>
-              <span style={{ color: cor.bg, fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 700, whiteSpace: "nowrap" }}>+{ptspossiveis} pts possíveis</span>
+              <span style={{ color: PALETA.textSecondary, fontSize: "clamp(12px, 2.8vw, 13px)", fontWeight: 700 }}>DICA {dicaIndex + 1} DE {cartaAtual.dicas.length}</span>
+              <span style={{ color: PALETA.verde, fontSize: "clamp(12px, 2.8vw, 13px)", fontWeight: 800, whiteSpace: "nowrap" }}>+{ptspossiveis} pts possíveis</span>
             </div>
           </>
         )}
@@ -576,43 +605,49 @@ export default function PerfilExpress() {
           <div
             onClick={() => setRespostaRevelada(false)}
             style={{
-              background: "linear-gradient(135deg, rgba(239,68,68,0.15), rgba(245,158,11,0.15))",
-              border: "1px solid rgba(239,68,68,0.3)",
-              borderRadius: 12, padding: "clamp(10px, 2.5vw, 12px) clamp(12px, 3vw, 16px)", marginBottom: "clamp(10px, 2.5vw, 12px)", textAlign: "center",
-              cursor: "pointer"
+              background: `linear-gradient(135deg, ${PALETA.vermelho}22, ${PALETA.laranja}22)`,
+              border: `2px solid ${PALETA.vermelho}`,
+              borderRadius: 16, padding: "clamp(12px, 3vw, 16px)", marginBottom: "clamp(12px, 3vw, 16px)", textAlign: "center",
+              cursor: "pointer",
+              boxShadow: `0 4px 12px ${PALETA.vermelho}33`,
             }}
           >
-            <span style={{ fontSize: "clamp(10px, 2.5vw, 11px)", fontWeight: 700, color: "#ef4444", textTransform: "uppercase", letterSpacing: 1 }}>RESPOSTA</span>
-            <p style={{ color: "#fff", fontSize: "clamp(18px, 5vw, 22px)", fontWeight: 900, margin: "4px 0 0", wordBreak: "break-word" }}>{cartaAtual.resposta}</p>
-            <span style={{ fontSize: "clamp(9px, 2vw, 10px)", color: "#94a3b8", marginTop: 4, display: "block" }}>toque para esconder</span>
+            <span style={{ fontSize: "clamp(11px, 2.8vw, 12px)", fontWeight: 800, color: PALETA.vermelho, textTransform: "uppercase", letterSpacing: 1 }}>👁️ RESPOSTA</span>
+            <p style={{ color: PALETA.textPrimary, fontSize: "clamp(20px, 5.5vw, 26px)", fontWeight: 900, margin: "6px 0 0", wordBreak: "break-word" }}>{cartaAtual.resposta}</p>
+            <span style={{ fontSize: "clamp(10px, 2.2vw, 11px)", color: PALETA.textSecondary, marginTop: 6, display: "block" }}>toque para esconder</span>
           </div>
         )}
 
-        {/* Dicas - sem espaço vazio, começa do topo */}
+        {/* Dicas - cards vibrantes */}
         <div style={{ flex: 1, display: "flex", flexDirection: "column", minHeight: 0, overflow: "hidden" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "clamp(5px, 1.2vw, 6px)", marginBottom: "clamp(10px, 2.5vw, 12px)", flex: 1, overflowY: "auto", paddingRight: 4 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "clamp(8px, 2vw, 10px)", marginBottom: "clamp(12px, 3vw, 16px)", flex: 1, overflowY: "auto", paddingRight: 4 }}>
             {cartaAtual.dicas.map((dica, i) => {
               const revelada = isProgressivo ? i <= dicaIndex : true;
               return (
                 <div key={i} style={{
-                  background: revelada ? "rgba(255,255,255,0.05)" : "rgba(255,255,255,0.015)",
-                  border: `1px solid ${revelada ? "rgba(255,255,255,0.08)" : "rgba(255,255,255,0.03)"}`,
-                  borderRadius: 10, padding: "clamp(6px, 1.5vw, 8px) clamp(8px, 2vw, 10px)", display: "flex", gap: "clamp(6px, 1.5vw, 8px)", alignItems: "flex-start",
-                  transition: "all 0.3s"
+                  background: revelada ? PALETA.bgCard : PALETA.bgSecondary,
+                  border: "none",
+                  borderRadius: 14, padding: "clamp(10px, 2.5vw, 14px)", display: "flex", gap: "clamp(10px, 2.5vw, 12px)", alignItems: "flex-start",
+                  transition: "all 0.3s ease",
+                  boxShadow: revelada ? "0 3px 12px rgba(0,0,0,0.08)" : "0 1px 4px rgba(0,0,0,0.04)",
+                  transform: revelada ? "scale(1)" : "scale(0.98)",
+                  opacity: revelada ? 1 : 0.6,
                 }}>
                   <span style={{
-                    background: revelada ? `${cor.bg}22` : "rgba(255,255,255,0.03)",
-                    color: revelada ? cor.bg : "#334155",
-                    fontWeight: 800, fontSize: "clamp(10px, 2.5vw, 11px)", minWidth: "clamp(22px, 5vw, 24px)", height: "clamp(22px, 5vw, 24px)",
-                    display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 6, flexShrink: 0,
+                    background: revelada ? cor.bg : PALETA.bgPrimary,
+                    color: revelada ? PALETA.textLight : PALETA.textSecondary,
+                    fontWeight: 800, fontSize: "clamp(11px, 2.8vw, 13px)", minWidth: "clamp(28px, 6vw, 32px)", height: "clamp(28px, 6vw, 32px)",
+                    display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 10, flexShrink: 0,
+                    boxShadow: revelada ? `0 2px 6px ${cor.bg}44` : "none",
                   }}>
                     {i + 1}
                   </span>
                   <span style={{
-                    color: revelada ? "#e2e8f0" : "#1e293b",
-                    fontSize: "clamp(12px, 3vw, 13px)", lineHeight: 1.5,
+                    color: revelada ? PALETA.textPrimary : PALETA.textSecondary,
+                    fontSize: "clamp(13px, 3.2vw, 15px)", lineHeight: 1.6,
                     userSelect: revelada ? "auto" : "none",
                     flex: 1,
+                    fontWeight: 500,
                   }}>
                     {revelada ? dica : "• • • • • • • •"}
                   </span>
@@ -623,8 +658,8 @@ export default function PerfilExpress() {
         </div>
 
         {/* Input e botões */}
-        <div style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 14, padding: "clamp(10px, 2.5vw, 12px)", flexShrink: 0 }}>
-          <div style={{ display: "flex", gap: "clamp(4px, 1vw, 6px)", marginBottom: "clamp(6px, 1.5vw, 8px)" }}>
+        <div style={{ background: PALETA.bgCard, border: "none", borderRadius: 20, padding: "clamp(14px, 3.5vw, 18px)", flexShrink: 0, boxShadow: "0 -4px 20px rgba(0,0,0,0.08)" }}>
+          <div style={{ display: "flex", gap: "clamp(8px, 2vw, 10px)", marginBottom: "clamp(10px, 2.5vw, 12px)" }}>
             <input
               type="text"
               value={palpite}
@@ -632,45 +667,49 @@ export default function PerfilExpress() {
               onKeyDown={e => e.key === "Enter" && palpite.trim() && verificarPalpite()}
               placeholder="Digite seu palpite..."
               style={{
-                flex: 1, padding: "clamp(10px, 2.5vw, 12px)", fontSize: 16,
-                background: "rgba(255,255,255,0.06)",
-                border: `2px solid ${shake ? "#ef4444" : "rgba(255,255,255,0.1)"}`,
-                borderRadius: 10, color: "#fff", outline: "none",
-                transition: "border-color 0.3s",
+                flex: 1, padding: "clamp(12px, 3vw, 16px)", fontSize: 16,
+                background: PALETA.bgSecondary,
+                border: `3px solid ${shake ? PALETA.vermelho : PALETA.bgSecondary}`,
+                borderRadius: 14, color: PALETA.textPrimary, outline: "none",
+                transition: "all 0.3s ease",
                 animation: shake ? "shake 0.5s ease" : "none",
                 minWidth: 0,
-                minHeight: 44,
+                minHeight: 50,
+                fontWeight: 600,
               }}
             />
             <button
               onClick={verificarPalpite}
               disabled={!palpite.trim()}
               style={{
-                padding: "clamp(10px, 2.5vw, 12px) clamp(12px, 3vw, 16px)", fontWeight: 700, fontSize: "clamp(13px, 3vw, 14px)", color: "#fff",
-                background: palpite.trim() ? cor.bg : "#334155",
-                border: "none", borderRadius: 10,
+                padding: "clamp(12px, 3vw, 16px) clamp(16px, 4vw, 24px)", fontWeight: 800, fontSize: "clamp(14px, 3.5vw, 16px)", color: PALETA.textLight,
+                background: palpite.trim() ? `linear-gradient(135deg, ${PALETA.verde}, ${PALETA.turquesa})` : PALETA.bgSecondary,
+                border: "none", borderRadius: 14,
                 cursor: palpite.trim() ? "pointer" : "default",
-                opacity: palpite.trim() ? 1 : 0.5,
-                minHeight: 44, whiteSpace: "nowrap", flexShrink: 0,
+                opacity: palpite.trim() ? 1 : 0.6,
+                minHeight: 50, whiteSpace: "nowrap", flexShrink: 0,
+                boxShadow: palpite.trim() ? `0 4px 12px ${PALETA.verde}44` : "none",
+                transition: "all 0.2s ease",
               }}
             >
               CHUTAR
             </button>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: isProgressivo ? "repeat(auto-fit, minmax(min(100%, 90px), 1fr))" : "repeat(auto-fit, minmax(min(100%, 100px), 1fr))", gap: "clamp(4px, 1vw, 6px)" }}>
+          <div style={{ display: "grid", gridTemplateColumns: isProgressivo ? "repeat(auto-fit, minmax(min(100%, 95px), 1fr))" : "repeat(auto-fit, minmax(min(100%, 110px), 1fr))", gap: "clamp(8px, 2vw, 10px)" }}>
             {/* Botão de próxima dica (modo progressivo) */}
             {isProgressivo && (
               <button
                 onClick={proximaDica}
                 disabled={dicaIndex >= cartaAtual.dicas.length - 1}
                 style={{
-                  padding: "clamp(8px, 2vw, 10px) clamp(8px, 2vw, 12px)", fontWeight: 600, fontSize: "clamp(12px, 2.8vw, 13px)",
-                  color: dicaIndex >= cartaAtual.dicas.length - 1 ? "#475569" : "#e2e8f0",
-                  background: "rgba(255,255,255,0.06)",
-                  border: "1px solid rgba(255,255,255,0.08)",
-                  borderRadius: 10, minHeight: 44,
+                  padding: "clamp(10px, 2.5vw, 14px)", fontWeight: 700, fontSize: "clamp(13px, 3vw, 14px)",
+                  color: dicaIndex >= cartaAtual.dicas.length - 1 ? PALETA.textSecondary : PALETA.textLight,
+                  background: dicaIndex >= cartaAtual.dicas.length - 1 ? PALETA.bgSecondary : PALETA.amarelo,
+                  border: "none",
+                  borderRadius: 12, minHeight: 48,
                   cursor: dicaIndex >= cartaAtual.dicas.length - 1 ? "default" : "pointer",
                   textAlign: "center",
+                  boxShadow: dicaIndex >= cartaAtual.dicas.length - 1 ? "none" : `0 3px 10px ${PALETA.amarelo}44`,
                 }}
               >
                 {dicaIndex >= cartaAtual.dicas.length - 1 ? "Sem mais" : "💡 DICA"}
@@ -679,12 +718,13 @@ export default function PerfilExpress() {
             <button
               onClick={() => setRespostaRevelada(v => !v)}
               style={{
-                padding: "clamp(8px, 2vw, 10px) clamp(8px, 2vw, 12px)", fontWeight: 600, fontSize: "clamp(12px, 2.8vw, 13px)",
-                color: respostaRevelada ? "#10b981" : "#ef4444",
-                background: respostaRevelada ? "rgba(16,185,129,0.08)" : "rgba(239,68,68,0.08)",
-                border: `1px solid ${respostaRevelada ? "rgba(16,185,129,0.2)" : "rgba(239,68,68,0.2)"}`,
-                borderRadius: 10, cursor: "pointer", minHeight: 44,
+                padding: "clamp(10px, 2.5vw, 14px)", fontWeight: 700, fontSize: "clamp(13px, 3vw, 14px)",
+                color: PALETA.textLight,
+                background: respostaRevelada ? PALETA.verde : PALETA.vermelho,
+                border: "none",
+                borderRadius: 12, cursor: "pointer", minHeight: 48,
                 textAlign: "center",
+                boxShadow: respostaRevelada ? `0 3px 10px ${PALETA.verde}44` : `0 3px 10px ${PALETA.vermelho}44`,
               }}
             >
               {respostaRevelada ? "🙈 OCULTAR" : "👁️ VER"}
@@ -692,11 +732,12 @@ export default function PerfilExpress() {
             <button
               onClick={pularCarta}
               style={{
-                padding: "clamp(8px, 2vw, 10px) clamp(8px, 2vw, 12px)", fontWeight: 600, fontSize: "clamp(12px, 2.8vw, 13px)",
-                color: "#f59e0b", background: "rgba(245,158,11,0.08)",
-                border: "1px solid rgba(245,158,11,0.2)",
-                borderRadius: 10, cursor: "pointer", minHeight: 44,
+                padding: "clamp(10px, 2.5vw, 14px)", fontWeight: 700, fontSize: "clamp(13px, 3vw, 14px)",
+                color: PALETA.textLight, background: PALETA.laranja,
+                border: "none",
+                borderRadius: 12, cursor: "pointer", minHeight: 48,
                 textAlign: "center",
+                boxShadow: `0 3px 10px ${PALETA.laranja}44`,
               }}
             >
               ⏭️ PULAR
@@ -710,8 +751,8 @@ export default function PerfilExpress() {
         <div
           style={{
             position: "fixed", inset: 0, zIndex: 1000,
-            background: "rgba(0,0,0,0.6)",
-            backdropFilter: "blur(4px)",
+            background: "rgba(0,0,0,0.4)",
+            backdropFilter: "blur(8px)",
             display: "flex", alignItems: "flex-end", justifyContent: "center",
             animation: "fadeIn 0.2s ease-out",
           }}
@@ -720,27 +761,28 @@ export default function PerfilExpress() {
           <div
             style={{
               width: "100%", maxWidth: 520,
-              background: "linear-gradient(180deg, #1e293b 0%, #0f172a 100%)",
-              borderRadius: "20px 20px 0 0",
-              padding: "clamp(16px, 4vw, 20px)",
+              background: PALETA.bgCard,
+              borderRadius: "24px 24px 0 0",
+              padding: "clamp(20px, 5vw, 28px)",
               maxHeight: "85vh",
               overflowY: "auto",
               animation: "slideUp 0.3s ease-out",
+              boxShadow: "0 -8px 32px rgba(0,0,0,0.15)",
             }}
           >
             {/* Header do modal */}
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(16px, 4vw, 20px)" }}>
-              <h3 style={{ color: "#e2e8f0", fontSize: "clamp(16px, 4vw, 18px)", fontWeight: 700, margin: 0 }}>⚙️ Configurações</h3>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(20px, 5vw, 24px)" }}>
+              <h3 style={{ color: PALETA.textPrimary, fontSize: "clamp(18px, 4.5vw, 22px)", fontWeight: 800, margin: 0 }}>⚙️ Configurações</h3>
               <button
                 onClick={() => setMostrarConfig(false)}
                 style={{
-                  width: 36, height: 36, minWidth: 44, minHeight: 44,
+                  width: 44, height: 44, minWidth: 44, minHeight: 44,
                   display: "flex", alignItems: "center", justifyContent: "center",
-                  background: "rgba(255,255,255,0.06)",
-                  border: "1px solid rgba(255,255,255,0.1)",
-                  borderRadius: 10, cursor: "pointer",
-                  fontSize: "clamp(16px, 4vw, 18px)",
-                  color: "#94a3b8",
+                  background: PALETA.bgSecondary,
+                  border: "none",
+                  borderRadius: 12, cursor: "pointer",
+                  fontSize: "clamp(18px, 4.5vw, 20px)",
+                  color: PALETA.textSecondary,
                   padding: 0,
                 }}
               >
@@ -749,11 +791,11 @@ export default function PerfilExpress() {
             </div>
 
             {/* Seção: Modo de Jogo */}
-            <div style={{ marginBottom: "clamp(16px, 4vw, 20px)" }}>
-              <span style={{ color: "#94a3b8", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 700, display: "block", marginBottom: "clamp(8px, 2vw, 10px)" }}>
+            <div style={{ marginBottom: "clamp(20px, 5vw, 24px)" }}>
+              <span style={{ color: PALETA.textSecondary, fontSize: "clamp(12px, 2.8vw, 13px)", fontWeight: 700, display: "block", marginBottom: "clamp(10px, 2.5vw, 14px)", textTransform: "uppercase", letterSpacing: 1 }}>
                 MODO DE JOGO
               </span>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 140px), 1fr))", gap: "clamp(8px, 2vw, 10px)" }}>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 140px), 1fr))", gap: "clamp(10px, 2.5vw, 14px)" }}>
                 {[
                   { id: "todas", label: "📖 Todas as dicas", desc: "Veja todas de uma vez" },
                   { id: "progressivo", label: "💡 Uma por vez", desc: "Revele dica por dica" },
@@ -762,7 +804,6 @@ export default function PerfilExpress() {
                     key={m.id}
                     onClick={() => {
                       const novoModo = m.id;
-                      // Se mudar de progressivo para todas, revela todas as dicas
                       if (modoDicas === "progressivo" && novoModo === "todas") {
                         setDicaIndex(cartaAtual.dicas.length - 1);
                       }
@@ -770,16 +811,17 @@ export default function PerfilExpress() {
                       salvarPreferencia("modoDicas", novoModo);
                     }}
                     style={{
-                      padding: "clamp(10px, 2.5vw, 12px)", borderRadius: 12, cursor: "pointer",
-                      background: modoDicas === m.id ? "rgba(245,158,11,0.15)" : "rgba(255,255,255,0.04)",
-                      border: `2px solid ${modoDicas === m.id ? "rgba(245,158,11,0.4)" : "rgba(255,255,255,0.08)"}`,
+                      padding: "clamp(14px, 3.5vw, 18px)", borderRadius: 16, cursor: "pointer",
+                      background: modoDicas === m.id ? PALETA.amarelo : PALETA.bgSecondary,
+                      border: "none",
                       textAlign: "center",
-                      minHeight: 70,
-                      transition: "all 0.2s",
+                      minHeight: 80,
+                      transition: "all 0.2s ease",
+                      boxShadow: modoDicas === m.id ? `0 4px 14px ${PALETA.amarelo}44` : "0 2px 6px rgba(0,0,0,0.04)",
                     }}
                   >
-                    <span style={{ display: "block", fontSize: "clamp(13px, 3vw, 14px)", fontWeight: 700, color: modoDicas === m.id ? "#f59e0b" : "#e2e8f0" }}>{m.label}</span>
-                    <span style={{ display: "block", fontSize: "clamp(10px, 2.2vw, 11px)", color: "#64748b", marginTop: 4 }}>{m.desc}</span>
+                    <span style={{ display: "block", fontSize: "clamp(14px, 3.2vw, 16px)", fontWeight: 800, color: modoDicas === m.id ? PALETA.textPrimary : PALETA.textSecondary }}>{m.label}</span>
+                    <span style={{ display: "block", fontSize: "clamp(11px, 2.5vw, 12px)", color: PALETA.textSecondary, marginTop: 6, fontWeight: 500 }}>{m.desc}</span>
                   </button>
                 ))}
               </div>
@@ -787,31 +829,32 @@ export default function PerfilExpress() {
 
             {/* Seção: Temas Ativos */}
             <div>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(8px, 2vw, 10px)", flexWrap: "wrap", gap: 8 }}>
-                <span style={{ color: "#94a3b8", fontSize: "clamp(11px, 2.5vw, 12px)", fontWeight: 700 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "clamp(10px, 2.5vw, 14px)", flexWrap: "wrap", gap: 8 }}>
+                <span style={{ color: PALETA.textSecondary, fontSize: "clamp(12px, 2.8vw, 13px)", fontWeight: 700, textTransform: "uppercase", letterSpacing: 1 }}>
                   TEMAS ATIVOS
                 </span>
                 <button
                   onClick={selecionarTodos}
                   style={{
-                    padding: "clamp(4px, 1vw, 6px) clamp(10px, 2.5vw, 12px)",
-                    fontSize: "clamp(10px, 2.5vw, 11px)",
-                    fontWeight: 600,
-                    color: temasSelecionados.size === 0 ? "#f59e0b" : "#64748b",
-                    background: temasSelecionados.size === 0 ? "rgba(245,158,11,0.15)" : "rgba(255,255,255,0.05)",
-                    border: `1px solid ${temasSelecionados.size === 0 ? "rgba(245,158,11,0.3)" : "rgba(255,255,255,0.08)"}`,
-                    borderRadius: 8, cursor: "pointer", minHeight: 32,
+                    padding: "clamp(6px, 1.5vw, 8px) clamp(14px, 3.5vw, 18px)",
+                    fontSize: "clamp(11px, 2.8vw, 12px)",
+                    fontWeight: 700,
+                    color: temasSelecionados.size === 0 ? PALETA.textLight : PALETA.textSecondary,
+                    background: temasSelecionados.size === 0 ? PALETA.verde : PALETA.bgSecondary,
+                    border: "none",
+                    borderRadius: 20, cursor: "pointer", minHeight: 36,
+                    boxShadow: temasSelecionados.size === 0 ? `0 2px 8px ${PALETA.verde}44` : "none",
                   }}
                 >
-                  Todos
+                  ✨ Todos
                 </button>
               </div>
 
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 130px), 1fr))", gap: "clamp(6px, 1.5vw, 8px)", marginBottom: "clamp(12px, 3vw, 16px)" }}>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 130px), 1fr))", gap: "clamp(8px, 2vw, 10px)", marginBottom: "clamp(14px, 3.5vw, 18px)" }}>
                 {TEMAS.map(tema => {
                   const nenhumSelecionado = temasSelecionados.size === 0;
                   const ativo = nenhumSelecionado || temasSelecionados.has(tema);
-                  const corTemaItem = CORES_TEMA[tema] || "#94a3b8";
+                  const corTemaItem = CORES_TEMA[tema] || PALETA.textSecondary;
                   const emoji = EMOJI_TEMA[tema] || "🎯";
                   const qtd = contagemPorTema[tema] || 0;
 
@@ -820,22 +863,23 @@ export default function PerfilExpress() {
                       key={tema}
                       onClick={() => toggleTema(tema)}
                       style={{
-                        padding: "clamp(6px, 1.5vw, 8px) clamp(6px, 1.5vw, 8px)",
-                        fontSize: "clamp(10px, 2.3vw, 11px)",
-                        fontWeight: 600,
-                        color: ativo ? corTemaItem : "#475569",
-                        background: ativo ? `${corTemaItem}15` : "rgba(255,255,255,0.02)",
-                        border: `1px solid ${ativo ? `${corTemaItem}40` : "rgba(255,255,255,0.06)"}`,
-                        borderRadius: 8,
+                        padding: "clamp(8px, 2vw, 10px)",
+                        fontSize: "clamp(11px, 2.5vw, 12px)",
+                        fontWeight: 700,
+                        color: ativo ? PALETA.textLight : PALETA.textSecondary,
+                        background: ativo ? corTemaItem : PALETA.bgSecondary,
+                        border: "none",
+                        borderRadius: 12,
                         cursor: "pointer",
-                        transition: "all 0.2s",
-                        opacity: ativo ? 1 : 0.5,
-                        minHeight: 36,
+                        transition: "all 0.2s ease",
+                        opacity: ativo ? 1 : 0.7,
+                        minHeight: 40,
                         textAlign: "center",
+                        boxShadow: ativo ? `0 2px 8px ${corTemaItem}44` : "0 1px 3px rgba(0,0,0,0.04)",
                       }}
                     >
                       <span style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", display: "block" }}>
-                        {emoji} {tema} <span style={{ fontSize: "clamp(8px, 1.8vw, 9px)", opacity: 0.7 }}>({qtd})</span>
+                        {emoji} {tema} <span style={{ fontSize: "clamp(9px, 2vw, 10px)", opacity: 0.85 }}>({qtd})</span>
                       </span>
                     </button>
                   );
@@ -844,16 +888,16 @@ export default function PerfilExpress() {
 
               {/* Info de cartas restantes */}
               <div style={{
-                background: "rgba(255,255,255,0.04)",
-                border: "1px solid rgba(255,255,255,0.08)",
-                borderRadius: 10,
-                padding: "clamp(10px, 2.5vw, 12px)",
+                background: PALETA.bgSecondary,
+                border: "none",
+                borderRadius: 14,
+                padding: "clamp(12px, 3vw, 16px)",
                 textAlign: "center",
               }}>
-                <span style={{ color: "#64748b", fontSize: "clamp(11px, 2.5vw, 12px)" }}>
-                  🃏 <strong style={{ color: "#e2e8f0" }}>{restantes}</strong> cartas restantes
+                <span style={{ color: PALETA.textSecondary, fontSize: "clamp(13px, 3vw, 14px)", fontWeight: 600 }}>
+                  🃏 <strong style={{ color: PALETA.textPrimary }}>{restantes}</strong> cartas restantes
                   {temasSelecionados.size > 0 && (
-                    <span> de <strong style={{ color: "#e2e8f0" }}>{cartasFiltradas.length}</strong> selecionadas</span>
+                    <span> de <strong style={{ color: PALETA.textPrimary }}>{cartasFiltradas.length}</strong> selecionadas</span>
                   )}
                 </span>
               </div>
@@ -864,33 +908,41 @@ export default function PerfilExpress() {
               onClick={() => setMostrarConfig(false)}
               style={{
                 width: "100%",
-                marginTop: "clamp(16px, 4vw, 20px)",
-                padding: "clamp(12px, 3vw, 14px)",
-                fontSize: "clamp(14px, 3.5vw, 15px)",
-                fontWeight: 700,
-                color: "#fff",
-                background: "linear-gradient(135deg, #8b5cf6, #6366f1)",
+                marginTop: "clamp(20px, 5vw, 24px)",
+                padding: "clamp(14px, 3.5vw, 18px)",
+                fontSize: "clamp(15px, 4vw, 17px)",
+                fontWeight: 800,
+                color: PALETA.textLight,
+                background: `linear-gradient(135deg, ${PALETA.roxo}, ${PALETA.rosa})`,
                 border: "none",
-                borderRadius: 12,
+                borderRadius: 16,
                 cursor: "pointer",
-                minHeight: 48,
+                minHeight: 54,
+                boxShadow: `0 4px 14px ${PALETA.roxo}44`,
+                textTransform: "uppercase",
+                letterSpacing: "0.5px",
               }}
             >
-              APLICAR
+              ✓ APLICAR
             </button>
           </div>
         </div>
       )}
 
       <style>{`
-        @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-8px)} 75%{transform:translateX(8px)} }
-        @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+        @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-10px)} 75%{transform:translateX(10px)} }
+        @keyframes slideUp { from { transform: translateY(100%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        input::placeholder { color: #475569; }
-        ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
-        button:active { transform: scale(0.97); }
+        @keyframes bounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+        input::placeholder { color: #94a3b8; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #F1F5F9; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+        button:active { transform: scale(0.96); }
+        button:hover { filter: brightness(1.05); }
       `}</style>
     </div>
   );
