@@ -57,10 +57,10 @@ const PALETA_DARK = {
 };
 
 const CORES_CATEGORIA = {
-  Pessoa: { bg: PALETA.roxo, badge: "#F3E8FF", badgeText: "#6B21A8" },
-  Lugar: { bg: PALETA.turquesa, badge: "#D1FAE5", badgeText: "#047857" },
-  Coisa: { bg: PALETA.laranja, badge: "#FFF3E0", badgeText: "#C65D07" },
-  Ano: { bg: PALETA.azul, badge: "#E0F2FE", badgeText: "#0369A1" },
+  Pessoa: { bg: PALETA_LIGHT.roxo, badge: "#F3E8FF", badgeText: "#6B21A8" },
+  Lugar: { bg: PALETA_LIGHT.turquesa, badge: "#D1FAE5", badgeText: "#047857" },
+  Coisa: { bg: PALETA_LIGHT.laranja, badge: "#FFF3E0", badgeText: "#C65D07" },
+  Ano: { bg: PALETA_LIGHT.azul, badge: "#E0F2FE", badgeText: "#0369A1" },
 };
 
 const CORES_TEMA = {
