@@ -2,6 +2,7 @@ export const COISAS_1 = [
   {
     resposta: "Televisão",
     categoria: "Coisa",
+    tema: "Invenções & Objetos",
     dicas: [
       "Philo Farnsworth, aos 14 anos, já tinha esboçado seu conceito em um quadro-negro",
       "O primeiro sistema eletrônico funcional foi demonstrado em 1927",

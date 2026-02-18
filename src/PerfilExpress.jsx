@@ -7,13 +7,13 @@ import { CARTAS, TEMAS } from "./data";
 // PALETA: Vibrante/Trivia Crack - alegre e divertida
 // =====================================================
 
-// Paleta principal - cores vibrantes e saturadas
-const PALETA = {
+// Paletas de cores - Light e Dark
+const PALETA_LIGHT = {
   // Fundos
   bgPrimary: "#FEFDF8",      // Branco cremoso
   bgSecondary: "#FFF8E7",    // Amarelo suave
   bgCard: "#FFFFFF",         // Branco puro
-  bgDark: "#2D3748",         // Para contraste quando necessário
+  bgInput: "#FFF8E7",        // Fundo do input
 
   // Cores principais vibrantes
   verde: "#1FC868",          // Verde vibrante (acertos)
@@ -29,6 +29,31 @@ const PALETA = {
   textPrimary: "#2D3748",    // Cinza escuro quente
   textSecondary: "#718096",  // Cinza médio
   textLight: "#FFFFFF",      // Branco
+  textDisabled: "#A0AEC0",   // Texto desabilitado
+};
+
+const PALETA_DARK = {
+  // Fundos
+  bgPrimary: "#1A1D23",      // Fundo escuro principal
+  bgSecondary: "#252A33",    // Fundo escuro secundário
+  bgCard: "#2D333D",         // Card escuro
+  bgInput: "#363D4A",        // Fundo do input escuro
+
+  // Cores principais vibrantes (mantém as mesmas)
+  verde: "#2EE87A",          // Verde mais brilhante no dark
+  amarelo: "#FFE55C",        // Amarelo mais brilhante
+  rosa: "#FF69C0",           // Rosa mais brilhante
+  roxo: "#A855F7",           // Roxo mais brilhante
+  azul: "#60BFFF",           // Azul mais brilhante
+  laranja: "#FF9F5A",        // Laranja mais brilhante
+  vermelho: "#FF7B7B",       // Vermelho mais brilhante
+  turquesa: "#34D9AD",       // Turquesa mais brilhante
+
+  // Texto
+  textPrimary: "#F1F5F9",    // Branco suave
+  textSecondary: "#94A3B8",  // Cinza claro
+  textLight: "#FFFFFF",      // Branco
+  textDisabled: "#64748B",   // Texto desabilitado
 };
 
 const CORES_CATEGORIA = {
@@ -230,6 +255,10 @@ const CURIOSIDADES = [
 export default function PerfilExpress() {
   const prefsSalvas = getPrefs();
   const [fase, setFase] = useState("menu");
+  const [temaVisual, setTemaVisual] = useState(prefsSalvas.temaVisual || "light");
+
+  // Paleta dinâmica baseada no tema
+  const PALETA = temaVisual === "dark" ? PALETA_DARK : PALETA_LIGHT;
   const [temasSelecionados, setTemasSelecionados] = useState(new Set());
   const [cartasJogadas, setCartasJogadas] = useState([]);
   const [cartaAtual, setCartaAtual] = useState(null);
@@ -361,9 +390,38 @@ export default function PerfilExpress() {
         <div style={{ ...s.card, textAlign: "center" }}>
           <div style={{ fontSize: "clamp(48px, 14vw, 72px)", marginBottom: 8, filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.1))" }}>🎯</div>
           <h1 style={{ fontSize: "clamp(32px, 10vw, 48px)", fontWeight: 900, background: `linear-gradient(135deg, ${PALETA.rosa}, ${PALETA.roxo}, ${PALETA.azul})`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: "0 0 8px", letterSpacing: -1, textShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>PERFIL EXPRESS</h1>
-          <p style={{ color: PALETA.textSecondary, fontSize: "clamp(14px, 3.5vw, 16px)", lineHeight: 1.6, margin: "0 0 clamp(20px, 5vw, 28px)", fontWeight: 500 }}>
+          <p style={{ color: PALETA.textSecondary, fontSize: "clamp(14px, 3.5vw, 16px)", lineHeight: 1.6, margin: "0 0 clamp(16px, 4vw, 20px)", fontWeight: 500 }}>
             Leia as dicas e descubra a resposta!
           </p>
+
+          {/* Toggle Dark/Light */}
+          <div style={{ display: "flex", justifyContent: "center", marginBottom: "clamp(16px, 4vw, 20px)" }}>
+            <button
+              onClick={() => {
+                const novoTema = temaVisual === "light" ? "dark" : "light";
+                setTemaVisual(novoTema);
+                salvarPreferencia("temaVisual", novoTema);
+              }}
+              style={{
+                padding: "clamp(10px, 2.5vw, 12px) clamp(20px, 5vw, 28px)",
+                fontSize: "clamp(13px, 3.2vw, 15px)",
+                fontWeight: 700,
+                color: PALETA.textPrimary,
+                background: PALETA.bgCard,
+                border: `2px solid ${PALETA.azul}`,
+                borderRadius: 30,
+                cursor: "pointer",
+                minHeight: 44,
+                display: "flex",
+                alignItems: "center",
+                gap: 10,
+                boxShadow: "0 2px 10px rgba(0,0,0,0.06)",
+                transition: "all 0.2s ease",
+              }}
+            >
+              {temaVisual === "light" ? "🌙" : "☀️"} {temaVisual === "light" ? "Modo Escuro" : "Modo Claro"}
+            </button>
+          </div>
 
           {/* Filtro de temas */}
           <div style={{ background: PALETA.bgCard, border: "none", borderRadius: 20, padding: "clamp(16px, 4vw, 20px)", marginBottom: "clamp(16px, 4vw, 20px)", textAlign: "left", boxShadow: "0 4px 20px rgba(0,0,0,0.08)" }}>
@@ -436,7 +494,7 @@ export default function PerfilExpress() {
                 salvarPreferencia("modoDicas", novo);
               }}
               style={{
-                padding: "clamp(4px, 1vw, 6px) clamp(8px, 2vw, 10px)",
+                padding: "6px 14px",
                 fontSize: "clamp(11px, 2.5vw, 12px)",
                 fontWeight: 700,
                 color: PALETA.textSecondary,
@@ -445,7 +503,6 @@ export default function PerfilExpress() {
                 borderRadius: 20,
                 cursor: "pointer",
                 minHeight: 32,
-                padding: "6px 14px",
               }}
             >
               🔄 Trocar
@@ -668,8 +725,8 @@ export default function PerfilExpress() {
               placeholder="Digite seu palpite..."
               style={{
                 flex: 1, padding: "clamp(12px, 3vw, 16px)", fontSize: 16,
-                background: PALETA.bgSecondary,
-                border: `3px solid ${shake ? PALETA.vermelho : PALETA.bgSecondary}`,
+                background: PALETA.bgInput,
+                border: `3px solid ${shake ? PALETA.vermelho : PALETA.bgInput}`,
                 borderRadius: 14, color: PALETA.textPrimary, outline: "none",
                 transition: "all 0.3s ease",
                 animation: shake ? "shake 0.5s ease" : "none",
@@ -682,11 +739,12 @@ export default function PerfilExpress() {
               onClick={verificarPalpite}
               disabled={!palpite.trim()}
               style={{
-                padding: "clamp(12px, 3vw, 16px) clamp(16px, 4vw, 24px)", fontWeight: 800, fontSize: "clamp(14px, 3.5vw, 16px)", color: PALETA.textLight,
-                background: palpite.trim() ? `linear-gradient(135deg, ${PALETA.verde}, ${PALETA.turquesa})` : PALETA.bgSecondary,
-                border: "none", borderRadius: 14,
+                padding: "clamp(12px, 3vw, 16px) clamp(16px, 4vw, 24px)", fontWeight: 800, fontSize: "clamp(14px, 3.5vw, 16px)",
+                color: palpite.trim() ? PALETA.textLight : PALETA.textDisabled,
+                background: palpite.trim() ? `linear-gradient(135deg, ${PALETA.verde}, ${PALETA.turquesa})` : PALETA.bgInput,
+                border: palpite.trim() ? "none" : `2px solid ${PALETA.textDisabled}`,
+                borderRadius: 14,
                 cursor: palpite.trim() ? "pointer" : "default",
-                opacity: palpite.trim() ? 1 : 0.6,
                 minHeight: 50, whiteSpace: "nowrap", flexShrink: 0,
                 boxShadow: palpite.trim() ? `0 4px 12px ${PALETA.verde}44` : "none",
                 transition: "all 0.2s ease",
@@ -822,6 +880,39 @@ export default function PerfilExpress() {
                   >
                     <span style={{ display: "block", fontSize: "clamp(14px, 3.2vw, 16px)", fontWeight: 800, color: modoDicas === m.id ? PALETA.textPrimary : PALETA.textSecondary }}>{m.label}</span>
                     <span style={{ display: "block", fontSize: "clamp(11px, 2.5vw, 12px)", color: PALETA.textSecondary, marginTop: 6, fontWeight: 500 }}>{m.desc}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Seção: Aparência */}
+            <div style={{ marginBottom: "clamp(20px, 5vw, 24px)" }}>
+              <span style={{ color: PALETA.textSecondary, fontSize: "clamp(12px, 2.8vw, 13px)", fontWeight: 700, display: "block", marginBottom: "clamp(10px, 2.5vw, 14px)", textTransform: "uppercase", letterSpacing: 1 }}>
+                APARÊNCIA
+              </span>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 140px), 1fr))", gap: "clamp(10px, 2.5vw, 14px)" }}>
+                {[
+                  { id: "light", label: "☀️ Claro", desc: "Tema claro" },
+                  { id: "dark", label: "🌙 Escuro", desc: "Tema escuro" },
+                ].map(t => (
+                  <button
+                    key={t.id}
+                    onClick={() => {
+                      setTemaVisual(t.id);
+                      salvarPreferencia("temaVisual", t.id);
+                    }}
+                    style={{
+                      padding: "clamp(14px, 3.5vw, 18px)", borderRadius: 16, cursor: "pointer",
+                      background: temaVisual === t.id ? PALETA.azul : PALETA.bgSecondary,
+                      border: "none",
+                      textAlign: "center",
+                      minHeight: 80,
+                      transition: "all 0.2s ease",
+                      boxShadow: temaVisual === t.id ? `0 4px 14px ${PALETA.azul}44` : "0 2px 6px rgba(0,0,0,0.04)",
+                    }}
+                  >
+                    <span style={{ display: "block", fontSize: "clamp(14px, 3.2vw, 16px)", fontWeight: 800, color: temaVisual === t.id ? PALETA.textLight : PALETA.textSecondary }}>{t.label}</span>
+                    <span style={{ display: "block", fontSize: "clamp(11px, 2.5vw, 12px)", color: temaVisual === t.id ? PALETA.textLight : PALETA.textSecondary, marginTop: 6, fontWeight: 500, opacity: 0.8 }}>{t.desc}</span>
                   </button>
                 ))}
               </div>
