@@ -588,9 +588,9 @@ export default function PerfilExpress() {
           </div>
         )}
 
-        {/* Dicas - wrapper com flex-end para ancorar proximo ao input */}
-        <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "flex-end", minHeight: 0 }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "clamp(5px, 1.2vw, 6px)", marginBottom: "clamp(10px, 2.5vw, 12px)", maxHeight: "clamp(280px, 55vh, 450px)", overflowY: "auto", paddingRight: 4 }}>
+        {/* Dicas - sem espaço vazio, começa do topo */}
+        <div style={{ flex: 1, display: "flex", flexDirection: "column", minHeight: 0, overflow: "hidden" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "clamp(5px, 1.2vw, 6px)", marginBottom: "clamp(10px, 2.5vw, 12px)", flex: 1, overflowY: "auto", paddingRight: 4 }}>
             {cartaAtual.dicas.map((dica, i) => {
               const revelada = isProgressivo ? i <= dicaIndex : true;
               return (
