@@ -531,6 +531,589 @@ export const BRASIL_CULTURA = [
       "Fruto roxo amazonica consumido em tigelas geladas, muito popular como alimento saudavel"
     ]
   },
+
+  // ==================== NOVELAS CLÁSSICAS (51-62) ====================
+  {
+    resposta: "Tieta",
+    categoria: "Coisa",
+    dicas: [
+      "É baseada no romance 'Tieta do Agreste' de Jorge Amado, publicado em 1977",
+      "A protagonista foi expulsa de sua cidade natal por seu comportamento considerado imoral",
+      "Betty Faria e Claudia Ohana interpretaram a personagem-título em fases diferentes",
+      "A trama se passa em uma cidade fictícia chamada Santana do Agreste",
+      "A abertura da novela com a cabra é uma das mais lembradas da TV brasileira",
+      "A personagem volta rica e poderosa à cidade que a expulsou, escondendo sua verdadeira profissão",
+      "Aguinaldo Silva e Ana Maria Moretzsohn assinaram a adaptação para a TV",
+      "O tema de exploração industrial e ecologia é um dos conflitos centrais da trama",
+      "Foi exibida pela Rede Globo em 1989 e é considerada um marco das novelas das 20h",
+      "Novela da Globo baseada em Jorge Amado sobre uma mulher expulsa da cidade que volta rica para se vingar"
+    ]
+  },
+  {
+    resposta: "Vale Tudo",
+    categoria: "Coisa",
+    dicas: [
+      "Foi escrita por Gilberto Braga, Aguinaldo Silva e Leonor Bassères",
+      "A trama discute a eterna pergunta: 'vale a pena ser honesto no Brasil?'",
+      "A abertura mostrava cenas do cotidiano brasileiro com a música 'Brasil' de Cazuza e Gal Costa",
+      "Odete Roitman, interpretada por Beatriz Segall, é uma das maiores vilãs da TV brasileira",
+      "O assassinato de Odete Roitman no último capítulo parou o Brasil em 1989",
+      "Regina Duarte interpretava a honesta Raquel, contraponto à filha ambiciosa Maria de Fátima",
+      "Glória Pires viveu Maria de Fátima, a filha que traía a própria mãe para subir na vida",
+      "A novela foi um retrato ácido da corrupção e falta de ética na sociedade brasileira",
+      "Foi exibida pela Globo entre 1988 e 1989 no horário das 20h",
+      "Novela da Globo que perguntava se vale a pena ser honesto, famosa pela vilã Odete Roitman"
+    ]
+  },
+  {
+    resposta: "Rei do Gado",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Benedito Ruy Barbosa, o mesmo de Pantanal e Renascer",
+      "A trama aborda o conflito entre grandes fazendeiros e o movimento dos sem-terra",
+      "Antonio Fagundes interpretou o protagonista, um poderoso fazendeiro",
+      "Patrícia Pillar viveu a boia-fria Luana, par romântico do protagonista",
+      "O senador Roberto Caxias, personagem de Tarcísio Meira, é uma figura política central na trama",
+      "Raul Cortez interpretou o vilão Ralf, imigrante que enriqueceu de forma desonesta",
+      "A novela gerou debates reais sobre reforma agrária no Congresso Nacional",
+      "O casal Bruno Mezenga e Luana é um dos mais emblemáticos das novelas brasileiras",
+      "Foi exibida pela Globo em 1996 e 1997 no horário das 20h30",
+      "Novela da Globo sobre um fazendeiro que se apaixona por uma sem-terra, com Antonio Fagundes"
+    ]
+  },
+  {
+    resposta: "Mulheres de Areia",
+    categoria: "Coisa",
+    dicas: [
+      "É um remake da versão original de Ivani Ribeiro exibida pela TV Tupi em 1973",
+      "A versão da Globo foi adaptada por Alcides Nogueira e exibida em 1993",
+      "A atriz principal interpreta duas irmãs gêmeas com personalidades completamente opostas",
+      "Ruth é a gêmea boa e Raquel é a gêmea malvada que rouba tudo da irmã",
+      "Gloria Pires interpreta as duas irmãs, usando efeitos especiais para as cenas juntas",
+      "A trama se passa em uma pequena cidade litorânea com dunas de areia",
+      "Raquel enterra a irmã viva nas dunas em uma das cenas mais chocantes da TV brasileira",
+      "Guilherme Fontes e Osvaldo Louzada também estão no elenco principal",
+      "A rivalidade entre as gêmeas envolve disputas por amor, herança e identidade",
+      "Novela da Globo com Gloria Pires interpretando gêmeas rivais, uma boa e uma má, numa cidade praiana"
+    ]
+  },
+  {
+    resposta: "Senhora do Destino",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Aguinaldo Silva, conhecido também por Roque Santeiro e Vale Tudo",
+      "A protagonista é uma nordestina que migra para o Rio de Janeiro em busca da filha roubada",
+      "A vilã Nazaré Tedesco, vivida por Renata Sorrah, é considerada uma das maiores vilãs de novelas",
+      "Suzana Vieira interpreta a protagonista Maria do Carmo, uma mulher forte e determinada",
+      "A cena de Nazaré com o bebê na sacola plástica é uma das mais icônicas e virou meme mundial",
+      "A trama central é a busca de uma mãe por sua filha que foi sequestrada ao nascer",
+      "José Wilker interpreta Giovanni Improtta, um dos personagens mais carismáticos da novela",
+      "A novela também aborda temas como homossexualidade e preconceito social",
+      "Foi exibida pela Globo entre 2004 e 2005 no horário das 21h",
+      "Novela da Globo sobre uma mãe nordestina que busca a filha roubada, famosa pela vilã Nazaré"
+    ]
+  },
+  {
+    resposta: "Renascer",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Benedito Ruy Barbosa, também criador de Pantanal",
+      "A trama se passa nas fazendas de cacau do sul da Bahia",
+      "O protagonista José Inocêncio faz um pacto com o diabo enterrando uma estrela no pé de um baobá",
+      "Antonio Fagundes interpretou o protagonista na versão original de 1993",
+      "A rivalidade entre pai e filho é o motor central da narrativa",
+      "O personagem Tião Galinha, vivido por Osmar Prado, é um trabalhador rural marcante",
+      "A versão original foi exibida pela Globo em 1993 no horário das 21h",
+      "Em 2024, a Globo exibiu um remake com Marcos Palmeira no papel principal",
+      "A música 'Tô Voltando' de Simone marcou a trilha sonora da versão original",
+      "Novela da Globo ambientada nas fazendas de cacau da Bahia, com pacto com o diabo e conflito entre pai e filho"
+    ]
+  },
+  {
+    resposta: "Chocolate com Pimenta",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Walcyr Carrasco, conhecido por suas novelas no horário das 18h",
+      "A trama se passa nos anos 1920 em uma fictícia cidade do interior paulista",
+      "A protagonista Ana Francisca é uma moça pobre humilhada pelos ricos da cidade",
+      "Mariana Ximenes e Murilo Benício são os protagonistas da história de amor",
+      "O vilão Danilo, vivido por Murilo Rosa, é um cafajeste que engana as mulheres da cidade",
+      "Ana Francisca vai embora pobre e volta rica, dona de uma fábrica de chocolates",
+      "A estética da novela remete ao cinema mudo e às comédias pastelão dos anos 20",
+      "O romance entre Ana Francisca e Ludovico é cheio de desencontros e reviravoltas",
+      "Foi exibida pela Globo em 2003 e 2004 no horário das 18h",
+      "Novela de época da Globo sobre uma moça humilhada que volta rica com uma fábrica de chocolates"
+    ]
+  },
+  {
+    resposta: "Laços de Família",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Manoel Carlos, conhecido como o cronista de Copacabana e Leblon",
+      "A trama central envolve um triângulo amoroso entre mãe, filha e o mesmo homem",
+      "Vera Fischer interpreta Helena, uma mulher madura que se envolve com um homem mais jovem",
+      "Camila, vivida por Carolina Dieckmann, descobre ter leucemia em uma das tramas mais emocionantes",
+      "A cena em que Camila raspa a cabeça emocionou o Brasil e gerou campanha de doação de medula",
+      "Carolina Dieckmann realmente raspou a cabeça ao vivo para a cena, sem uso de efeitos",
+      "Edu, vivido por Reynaldo Gianecchini, é o pivô do triângulo amoroso entre mãe e filha",
+      "A novela impulsionou o cadastro de doadores de medula óssea no Brasil inteiro",
+      "Foi exibida pela Globo entre 2000 e 2001 no horário das 21h",
+      "Novela da Globo sobre mãe e filha que amam o mesmo homem, marcada pela cena de raspar a cabeça por leucemia"
+    ]
+  },
+  {
+    resposta: "Caminho das Índias",
+    categoria: "Coisa",
+    dicas: [
+      "A autora é Glória Perez, a mesma de O Clone e América",
+      "A novela mistura duas tramas paralelas: uma no Brasil e outra na Índia",
+      "As gravações na Índia incluíram locações em Jaipur, Agra e Varanasi",
+      "O sistema de castas indiano e os casamentos arranjados são temas centrais",
+      "Juliana Paes e Rodrigo Lombardi são os protagonistas da trama brasileira",
+      "A esquizofrenia é abordada de forma pioneira na TV através do personagem Tarso",
+      "A dança Bollywood se popularizou no Brasil durante a exibição da novela",
+      "Ganhou o Emmy Internacional de Melhor Telenovela em 2009",
+      "Foi exibida pela Globo em 2009 no horário das 21h",
+      "Novela da Glória Perez ambientada na Índia e no Brasil, vencedora do Emmy Internacional"
+    ]
+  },
+  {
+    resposta: "A Viagem",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Ivani Ribeiro, uma das mais importantes autoras da TV brasileira",
+      "A trama aborda temas espíritas como reencarnação, vida após a morte e obsessão espiritual",
+      "Christiane Torloni interpreta a vilã Dinorá, que após morrer volta como espírito obsessor",
+      "Antonio Fagundes viveu o protagonista Alexandre, um homem justo e bondoso",
+      "A novela foi inspirada em conceitos da doutrina espírita de Allan Kardec",
+      "Miguel Falabella e Maurício Mattar também fazem parte do elenco principal",
+      "Cenas de espíritos e planos espirituais eram mostradas com efeitos especiais inovadores para a época",
+      "O Vale dos Homossexuais, cena polêmica do 'inferno', gerou grande controvérsia na época",
+      "Foi exibida pela Globo em 1994 no horário das 19h",
+      "Novela espírita da Globo sobre vida após a morte e reencarnação, com Christiane Torloni como vilã fantasma"
+    ]
+  },
+  {
+    resposta: "Celebridade",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Gilberto Braga, mestre das novelas sobre a elite carioca",
+      "A trama disseca o mundo das celebridades, da fama fabricada e da mídia no Brasil",
+      "Malu Mader interpreta Maria Clara Diniz, uma produtora de eventos íntegra e talentosa",
+      "Claudia Abreu vive a vilã Laura Prudente da Costa, uma jornalista manipuladora e invejosa",
+      "A abertura com modelos em poses fashion é uma das mais estilosas da TV brasileira",
+      "Betty Lago interpreta a personagem Darlene, que tenta subir na vida através da fama",
+      "A novela critica a cultura de celebridades instantâneas e a imprensa sensacionalista",
+      "Edson Celulari e Dan Stulbach também protagonizam tramas importantes",
+      "Foi exibida pela Globo em 2003 e 2004 no horário das 21h",
+      "Novela da Globo sobre o mundo da fama e celebridades, com Claudia Abreu como vilã jornalista"
+    ]
+  },
+  {
+    resposta: "Que Rei Sou Eu?",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Cassiano Gabus Mendes, com colaboração de outros autores",
+      "É ambientada em um reino fictício medieval, formato incomum para novelas brasileiras",
+      "A trama é uma sátira política com referências claras ao cenário brasileiro da época",
+      "Edson Celulari interpreta Jean Pierre, o verdadeiro herdeiro do trono",
+      "A novela foi ao ar durante as primeiras eleições diretas para presidente após a ditadura, em 1989",
+      "Os personagens e situações faziam paródia de políticos e figuras públicas reais",
+      "A sátira era tão afiada que o público associava personagens a políticos da vida real",
+      "O humor e a irreverência fizeram enorme sucesso de audiência no horário das 19h",
+      "Foi exibida pela Globo em 1989 no horário das 19h",
+      "Novela-sátira da Globo ambientada num reino medieval, que fazia crítica política durante as eleições de 1989"
+    ]
+  },
+
+  // ==================== ÍCONES DA TV E CULTURA BRASILEIRA (63-75) ====================
+  {
+    resposta: "Silvio Santos",
+    categoria: "Pessoa",
+    dicas: [
+      "Seu nome verdadeiro era Senor Abravanel, nascido no Rio de Janeiro em 1930, filho de imigrantes judeus",
+      "Começou como camelô nas ruas do Rio vendendo canetas e títulos de capitalização",
+      "Criou o Baú da Felicidade, um sistema de consórcio popular que financiou seu império",
+      "Fundou o SBT (Sistema Brasileiro de Televisão) em 1981",
+      "Se candidatou à presidência da República em 1989, mas teve a candidatura impugnada",
+      "O 'Programa Silvio Santos' é o programa de auditório mais longevo da TV brasileira",
+      "O bordão 'Quem quer dinheiro?' e a risada inconfundível são marcas registradas",
+      "A Porta da Esperança e o Show do Milhão são quadros icônicos de seu programa",
+      "Suas seis filhas, incluindo Patricia e Rebeca Abravanel, trabalham no grupo empresarial",
+      "Apresentador e empresário dono do SBT, famoso por jogar aviõezinhos de dinheiro na plateia"
+    ]
+  },
+  {
+    resposta: "Xuxa",
+    categoria: "Pessoa",
+    dicas: [
+      "Seu nome verdadeiro é Maria da Graça Xuxa Meneghel, nascida em Santa Rosa, Rio Grande do Sul",
+      "Antes da fama na TV, trabalhou como modelo e foi capa de revistas internacionais",
+      "Namorou o jogador Pelé no início dos anos 80, o que a projetou na mídia",
+      "O 'Xou da Xuxa' estreou na Globo em 1986 e revolucionou a TV infantil brasileira",
+      "As 'Paquitas' eram suas assistentes de palco, grupo que revelou várias artistas",
+      "Lançou músicas como 'Ilariê', 'Lua de Cristal' e 'Brincar de Índio' que marcaram gerações",
+      "O filme 'Lua de Cristal' de 1990 foi um dos filmes brasileiros mais assistidos da época",
+      "É mãe de Sasha Meneghel, fruto do relacionamento com Luciano Szafir",
+      "Em 2023, lançou um documentário na Globoplay que revelou bastidores de sua carreira",
+      "Apresentadora loira conhecida como Rainha dos Baixinhos, ícone da TV infantil brasileira"
+    ]
+  },
+  {
+    resposta: "Gugu Liberato",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em São Paulo e começou a carreira na TV ainda adolescente, como assistente de Silvio Santos",
+      "Apresentou o 'Viva a Noite' no SBT nos anos 80, programa noturno de variedades",
+      "Seu programa dominical no SBT chegou a vencer a Globo em audiência nos anos 90",
+      "O quadro 'Banheira do Gugu' se tornou um dos mais polêmicos e populares da TV",
+      "Teve passagens pelo SBT, Record e novamente SBT ao longo da carreira",
+      "Era conhecido pela generosidade, distribuindo casas e prêmios em dinheiro a famílias carentes",
+      "Reformava casas inteiras de famílias necessitadas em quadros emocionantes do programa",
+      "Faleceu em novembro de 2019 após um acidente doméstico em Orlando, nos EUA",
+      "Deixou três filhos e uma herança que gerou disputas judiciais amplamente noticiadas",
+      "Apresentador de TV que competia com Faustão aos domingos, famoso pela banheira e pela generosidade"
+    ]
+  },
+  {
+    resposta: "Fernanda Montenegro",
+    categoria: "Pessoa",
+    dicas: [
+      "Seu nome verdadeiro é Arlette Pinheiro Esteves da Silva, nascida no Rio de Janeiro em 1929",
+      "Começou a carreira no teatro nos anos 1950 e se tornou referência absoluta dos palcos",
+      "Foi casada com o ator Fernando Torres, com quem formou um dos casais mais importantes do teatro",
+      "É mãe da atriz Fernanda Torres, que também seguiu carreira de enorme sucesso",
+      "O filme 'Central do Brasil' (1998) lhe rendeu indicação ao Oscar de Melhor Atriz",
+      "Foi a primeira atriz brasileira indicada ao Oscar na categoria principal",
+      "É considerada a maior atriz brasileira de todos os tempos por críticos e público",
+      "Sua filha Fernanda Torres venceu o Globo de Ouro por 'Ainda Estou Aqui' em 2025",
+      "Trabalhou em teatro, cinema e televisão por mais de sete décadas de carreira ininterrupta",
+      "Atriz brasileira indicada ao Oscar por Central do Brasil, considerada a maior atriz do país"
+    ]
+  },
+  {
+    resposta: "Carmen Miranda",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Marco de Canaveses, Portugal, em 1909, e veio para o Brasil ainda bebê",
+      "Cresceu no Rio de Janeiro e começou a carreira como cantora de rádio nos anos 1930",
+      "A música 'O Que é Que a Baiana Tem' de Dorival Caymmi a projetou nacionalmente em 1939",
+      "Mudou-se para os EUA e se tornou a artista latina mais bem paga de Hollywood nos anos 40",
+      "O turbante com frutas tropicais se tornou sua imagem mais icônica e reconhecível mundialmente",
+      "Estrelou filmes como 'Uma Noite no Rio' e 'Entre a Loura e a Morena' em Hollywood",
+      "Foi a primeira sul-americana a ter estrela na Calçada da Fama de Hollywood",
+      "Enfrentou críticas no Brasil por supostamente estereotipar a cultura brasileira no exterior",
+      "Faleceu jovem, aos 46 anos, em 1955, de um ataque cardíaco em Beverly Hills",
+      "Cantora e atriz luso-brasileira famosa pelo turbante de frutas, que foi estrela de Hollywood nos anos 40"
+    ]
+  },
+  {
+    resposta: "Chico Buarque",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu no Rio de Janeiro em 1944, filho do historiador Sérgio Buarque de Holanda",
+      "A música 'A Banda', vencedora do Festival da MPB de 1966, o consagrou nacionalmente aos 22 anos",
+      "Durante a ditadura, usou o pseudônimo Julinho de Adelaide para burlar a censura",
+      "Composições como 'Construção', 'Apesar de Você' e 'O Que Será' são marcos da MPB",
+      "Também é escritor premiado, autor dos romances 'Estorvo', 'Budapeste' e 'Leite Derramado'",
+      "Ganhou o Prêmio Camões em 2019, o mais importante da literatura em língua portuguesa",
+      "A parceria com Tom Jobim rendeu clássicos como 'Sabiá' e 'Retrato em Branco e Preto'",
+      "É conhecido por ser extremamente reservado e avesso a aparições públicas",
+      "A música 'Apesar de Você' foi um hino contra a ditadura militar brasileira",
+      "Compositor e escritor carioca, um dos maiores nomes da MPB, autor de 'Construção' e 'A Banda'"
+    ]
+  },
+  {
+    resposta: "Gilberto Gil",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Salvador, Bahia, em 1942, e aprendeu acordeão antes de migrar para o violão",
+      "Ao lado de Caetano Veloso, liderou o movimento Tropicália no final dos anos 1960",
+      "Foi preso pela ditadura militar em 1968 e exilado em Londres até 1972",
+      "A canção 'Aquele Abraço' foi sua despedida do Brasil antes do exílio",
+      "Foi Ministro da Cultura do Brasil no governo Lula, de 2003 a 2008",
+      "Músicas como 'Toda Menina Baiana', 'Andar com Fé' e 'Palco' são clássicos da MPB",
+      "Mistura reggae, rock, música africana e nordestina em seu estilo único e inovador",
+      "Recebeu o título de embaixador da ONU para agricultura e alimentação",
+      "Foi eleito para a Academia Brasileira de Letras em 2022",
+      "Cantor e compositor baiano, tropicalista, ex-Ministro da Cultura, autor de 'Andar com Fé'"
+    ]
+  },
+  {
+    resposta: "Jorge Amado",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Itabuna, no sul da Bahia, em 1912, em uma família de produtores de cacau",
+      "Publicou seu primeiro romance, 'O País do Carnaval', com apenas 19 anos de idade",
+      "Foi deputado federal pelo Partido Comunista e viveu exilado na Europa nos anos 1940-50",
+      "'Gabriela, Cravo e Canela' e 'Dona Flor e Seus Dois Maridos' são suas obras mais famosas",
+      "Seus livros foram traduzidos para mais de 49 idiomas e publicados em 55 países",
+      "Diversas obras foram adaptadas para novelas da Globo, como Tieta, Gabriela e Tereza Batista",
+      "A Bahia, especialmente Salvador e a região cacaueira, é cenário principal de quase todas as obras",
+      "A Casa do Rio Vermelho, em Salvador, onde viveu com Zélia Gattai, é hoje um museu",
+      "Faleceu em Salvador em 2001 e suas cinzas foram espalhadas no jardim de sua casa",
+      "Escritor baiano autor de Gabriela e Dona Flor, um dos autores brasileiros mais traduzidos no mundo"
+    ]
+  },
+  {
+    resposta: "Paulo Coelho",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu no Rio de Janeiro em 1947 e foi internado três vezes em hospitais psiquiátricos pelos pais",
+      "Antes de ser escritor, foi letrista de músicas para Raul Seixas, como 'Sociedade Alternativa'",
+      "A peregrinação pelo Caminho de Santiago de Compostela em 1986 transformou sua vida e carreira",
+      "'O Alquimista', publicado em 1988, é o livro brasileiro mais vendido da história mundial",
+      "É o autor brasileiro mais traduzido de todos os tempos, com obras em mais de 80 idiomas",
+      "Entrou para o Guinness Book por ser o autor vivo mais traduzido do mundo",
+      "É membro da Academia Brasileira de Letras desde 2002",
+      "Seus livros vendem centenas de milhões de cópias, embora receba críticas de parte da academia",
+      "Mora em Genebra, na Suíça, há muitos anos",
+      "Escritor carioca autor de 'O Alquimista', o autor brasileiro mais vendido e traduzido do mundo"
+    ]
+  },
+  {
+    resposta: "Maisa Silva",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em São Bernardo do Campo, São Paulo, em 2002",
+      "Ficou famosa aos 3 anos ao aparecer no programa do Raul Gil, chorando ao vivo",
+      "O vídeo de seu choro viralizou e a tornou uma das primeiras crianças virais da TV brasileira",
+      "Foi contratada pelo SBT ainda criança e apresentou programas infantis por anos",
+      "Apresentou o 'Bom Dia & Cia' no SBT quando tinha apenas 7 anos",
+      "Sua entrevista com Silvio Santos, onde ele a fez chorar, é um dos momentos mais lembrados da TV",
+      "Na adolescência, migrou para as redes sociais e se tornou uma das maiores influenciadoras do país",
+      "Em 2024, protagonizou a novela 'Garota do Momento' na Rede Globo",
+      "Também estreou no cinema como atriz, mostrando versatilidade artística",
+      "Apresentadora e atriz que ficou famosa criança no SBT, hoje estrela da Globo e influenciadora digital"
+    ]
+  },
+  {
+    resposta: "Dercy Gonçalves",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Santa Maria Madalena, Rio de Janeiro, em 1907",
+      "Fugiu de casa aos 14 anos para se juntar a um circo mambembe",
+      "Começou no teatro de revista nos anos 1930 e se tornou rainha do humor popular",
+      "Era conhecida pela boca suja e pelo humor sem filtro, dizendo palavrões em rede nacional",
+      "Trabalhou em todas as grandes emissoras brasileiras ao longo de décadas",
+      "Fez shows até depois dos 90 anos de idade, com energia impressionante",
+      "Foi uma das primeiras comediantes brasileiras a falar abertamente sobre sexualidade na TV",
+      "Sua irreverência e desrespeito a qualquer autoridade a tornaram adorada pelo público",
+      "Faleceu em 2008, aos 101 anos de idade, como uma lenda da comédia brasileira",
+      "Atriz e comediante centenária, rainha do humor popular brasileiro, famosa pela boca suja e irreverência"
+    ]
+  },
+
+  // ==================== CULTURA POPULAR, GASTRONOMIA E RITMOS (76-90) ====================
+  {
+    resposta: "Carnaval",
+    categoria: "Coisa",
+    dicas: [
+      "Tem raízes no Entrudo português trazido pelos colonizadores, onde se jogava água e farinha",
+      "O Rio de Janeiro realizou o primeiro desfile organizado de escolas de samba em 1932",
+      "O Sambódromo da Marquês de Sapucaí, projetado por Oscar Niemeyer, foi inaugurado em 1984",
+      "Cada escola de samba escolhe um enredo anual e compete com alegorias, fantasias e samba-enredo",
+      "Mangueira, Portela, Beija-Flor e Salgueiro são algumas das escolas mais tradicionais do Rio",
+      "O Carnaval de Salvador é o maior carnaval de rua do mundo, com trios elétricos",
+      "Olinda e Recife têm carnavais de rua famosos, com frevo e bonecos gigantes",
+      "A festa acontece nos dias que antecedem a Quarta-feira de Cinzas do calendário cristão",
+      "Gera bilhões de reais em receitas para o turismo e a economia brasileira anualmente",
+      "Maior festa popular do Brasil, com desfiles de escolas de samba, blocos de rua e trios elétricos"
+    ]
+  },
+  {
+    resposta: "Samba",
+    categoria: "Coisa",
+    dicas: [
+      "Tem raízes nas rodas de batuque dos africanos escravizados, especialmente os de origem bantu",
+      "A casa da Tia Ciata, no centro do Rio, é considerada o berço do samba urbano no início do século XX",
+      "A música 'Pelo Telefone' de 1917 é considerada o primeiro samba gravado oficialmente",
+      "O samba de raiz se distingue do pagode pelo uso de instrumentos como pandeiro, cavaquinho e surdo",
+      "Cartola, Nelson Cavaquinho, Noel Rosa e Paulinho da Viola são ícones do gênero",
+      "O samba-enredo é o estilo cantado nos desfiles das escolas de samba no Carnaval",
+      "O Dia Nacional do Samba é celebrado em 2 de dezembro, em homenagem a Ary Barroso",
+      "Foi reconhecido como Patrimônio Cultural Imaterial do Brasil pelo IPHAN",
+      "O samba de roda do Recôncavo Baiano é Patrimônio Imaterial da Humanidade pela UNESCO",
+      "Gênero musical brasileiro nascido no Rio de Janeiro, com pandeiro e cavaquinho, alma do Carnaval"
+    ]
+  },
+  {
+    resposta: "Churrasco",
+    categoria: "Coisa",
+    dicas: [
+      "A tradição no Brasil vem dos tropeiros e gaúchos que assavam carne em espetos sobre brasas",
+      "O Rio Grande do Sul é o estado mais tradicionalmente associado a esta prática culinária",
+      "O sal grosso é o tempero principal e muitas vezes único da carne na tradição gaúcha",
+      "A picanha é o corte mais valorizado e emblemático da tradição brasileira",
+      "O espeto corrido, onde garçons passam oferecendo diversos cortes, é um formato de rodízio famoso",
+      "Costela, fraldinha, linguiça e coração de frango são itens clássicos do cardápio",
+      "O fogo de chão, direto nas brasas, é o método mais tradicional de preparo no Sul",
+      "Vinagrete, farofa e pão de alho são acompanhamentos obrigatórios em muitas regiões",
+      "As churrascarias brasileiras se tornaram famosas mundialmente, especialmente o formato rodízio",
+      "Tradição gaúcha de assar carnes na brasa, especialmente picanha, que se tornou paixão nacional"
+    ]
+  },
+  {
+    resposta: "Pão de Queijo",
+    categoria: "Coisa",
+    dicas: [
+      "Sua origem está nas cozinhas de Minas Gerais, no período colonial brasileiro",
+      "Há teorias de que escravos adaptaram a receita usando polvilho no lugar da farinha de trigo",
+      "O ingrediente-chave é o polvilho (azedo ou doce), extraído da mandioca",
+      "O queijo minas curado ou meia-cura é o queijo tradicional usado na receita original",
+      "A textura crocante por fora e elástica por dentro é sua característica mais marcante",
+      "É servido em padarias, cafés e aeroportos de todo o Brasil como lanche rápido",
+      "Versões congeladas industrializadas popularizaram o produto em todo o país e no exterior",
+      "É naturalmente sem glúten, pois a base é de polvilho e não de farinha de trigo",
+      "É o lanche mais associado ao café da manhã e ao cafezinho mineiro",
+      "Bolinha de massa de polvilho com queijo, típica de Minas Gerais, crocante por fora e macia por dentro"
+    ]
+  },
+  {
+    resposta: "Coxinha",
+    categoria: "Coisa",
+    dicas: [
+      "Há uma lenda que liga sua criação a um cozinheiro que moldou o frango para agradar o filho de um nobre",
+      "São Paulo é a cidade mais associada a este salgado, com variações em cada padaria",
+      "O recheio clássico é de frango desfiado com catupiry (requeijão cremoso)",
+      "A massa é feita de farinha de trigo cozida com caldo de galinha, o que dá a textura lisa",
+      "É empanada em farinha de rosca e frita em óleo quente até dourar",
+      "Seu formato cônico com a ponta é inspirado em uma parte da galinha",
+      "É o salgado mais vendido no Brasil, presente em praticamente toda padaria e lanchonete",
+      "Variações gourmet incluem recheios de costela, camarão e até versões veganas",
+      "A 'guerra' entre este salgado e o pastel pelo título de melhor salgado é debate nacional",
+      "Salgado brasileiro em formato de gota recheado de frango com catupiry, o mais popular das padarias"
+    ]
+  },
+  {
+    resposta: "Havaianas",
+    categoria: "Coisa",
+    dicas: [
+      "Foram criadas em 1962 pela empresa Alpargatas, inspiradas nas sandálias japonesas Zori",
+      "O modelo original tinha solado de borracha branca com tiras e parte superior azul",
+      "A textura da sola com bolinhas em relevo imita grãos de arroz, referência à inspiração japonesa",
+      "O slogan 'Havaianas. As legítimas.' surgiu para combater imitações que invadiram o mercado",
+      "Até os anos 90, eram vistas como calçado de classe baixa no Brasil",
+      "A virada de imagem aconteceu nos anos 90, quando modelos coloridos viraram item de moda",
+      "Celebridades internacionais recebem versões personalizadas no Oscar e em festivais de cinema",
+      "São exportadas para mais de 100 países e vendidas em lojas de grife pelo mundo",
+      "Mais de 200 milhões de pares são vendidos por ano globalmente",
+      "Sandália de borracha brasileira que virou ícone de moda mundial, famosa pelas tiras coloridas"
+    ]
+  },
+  {
+    resposta: "Funk Carioca",
+    categoria: "Coisa",
+    dicas: [
+      "Tem origem nos bailes black do Rio de Janeiro dos anos 1970, inspirados no funk e soul americano",
+      "DJ Marlboro é considerado um dos pais do movimento, popularizando o som nos anos 1980",
+      "Os bailes funk nas favelas e comunidades do Rio se tornaram a principal forma de difusão do gênero",
+      "A batida 'tamborzão' é o ritmo eletrônico característico que define o som do gênero",
+      "Cidinho e Doca fizeram sucesso internacional com 'Rap das Armas'",
+      "Anitta, Ludmilla e MC Kevin o'Chris levaram o gênero ao pop mainstream e ao cenário internacional",
+      "O 'proibidão' é uma vertente com letras explícitas que gera controvérsia constante",
+      "Os bailes na Cidade de Deus, Rocinha e outros morros cariocas são lendários",
+      "Nos anos 2020, o funk dominou as paradas musicais e plataformas de streaming no Brasil",
+      "Gênero musical nascido nos bailes das favelas do Rio, com batida pesada, que dominou o pop brasileiro"
+    ]
+  },
+  {
+    resposta: "Sertanejo",
+    categoria: "Coisa",
+    dicas: [
+      "Tem raízes na música caipira do interior de São Paulo, Minas Gerais e Goiás",
+      "As duplas caipiras Tonico e Tinoco e Tião Carreiro e Pardinho são pioneiras do gênero",
+      "Nos anos 90, Chitãozinho e Xororó e Leandro e Leonardo modernizaram com o sertanejo romântico",
+      "A viola caipira de 10 cordas é o instrumento símbolo da vertente raiz",
+      "O 'sertanejo universitário' surgiu nos anos 2000 com artistas como Luan Santana e Gusttavo Lima",
+      "Duplas como Jorge e Mateus, Henrique e Juliano e Maiara e Maraisa dominam as paradas",
+      "Os shows em festas de peão de boiadeiro reúnem multidões pelo interior do Brasil",
+      "A Festa do Peão de Barretos é o maior evento do gênero no país",
+      "É o gênero musical mais ouvido no Brasil, dominando playlists e rádios de norte a sul",
+      "Gênero musical do interior do Brasil, das duplas caipiras ao universitário, o mais ouvido no país"
+    ]
+  },
+  {
+    resposta: "Cordel",
+    categoria: "Coisa",
+    dicas: [
+      "Tem origem na tradição oral portuguesa de literatura popular, trazida ao Brasil no período colonial",
+      "O nome vem da forma como os livretos eram expostos: pendurados em cordas nas feiras",
+      "Os folhetos são impressos em papel barato, geralmente com capas em xilogravura artesanal",
+      "As histórias são escritas em versos rimados, normalmente em estrofes de seis ou sete versos",
+      "Leandro Gomes de Barros é considerado o primeiro grande poeta do gênero no Brasil",
+      "Os temas variam entre histórias de amor, valentia, cangaço, religiosidade e crítica social",
+      "Lampião, Padre Cícero e figuras do sertão nordestino são personagens frequentes",
+      "O Nordeste brasileiro, especialmente Pernambuco e Paraíba, é o berço da tradição",
+      "Foi reconhecido como Patrimônio Cultural Imaterial do Brasil pelo IPHAN em 2018",
+      "Literatura popular nordestina em versos rimados, vendida em folhetos com xilogravura pendurados em cordas"
+    ]
+  },
+  {
+    resposta: "Frevo",
+    categoria: "Coisa",
+    dicas: [
+      "O nome vem de 'ferver', referência à efervescência das multidões dançando nas ruas",
+      "Surgiu no Recife, Pernambuco, no final do século XIX, misturando marcha, maxixe e capoeira",
+      "A sombrinha colorida é o acessório mais emblemático, usada como adereço e equilíbrio na dança",
+      "O ritmo acelerado com metais como trombones e trompetes é inconfundível e contagiante",
+      "Os passos acrobáticos incluem movimentos de capoeira adaptados, como o 'parafuso' e a 'tesoura'",
+      "É o ritmo oficial do Carnaval de Recife e Olinda, em Pernambuco",
+      "Existem três tipos: frevo de rua (instrumental), frevo de bloco (coral) e frevo canção (com letra)",
+      "O maestro Capiba e Alceu Valença são nomes importantes ligados ao gênero",
+      "Foi reconhecido como Patrimônio Cultural Imaterial da Humanidade pela UNESCO em 2012",
+      "Ritmo e dança acelerados de Pernambuco, com sombrinha colorida, patrimônio da UNESCO"
+    ]
+  },
+  {
+    resposta: "Maracatu",
+    categoria: "Coisa",
+    dicas: [
+      "Tem origem nas cerimônias de coroação de reis e rainhas negros durante o período colonial",
+      "As 'nações' de maracatu são os grupos que preservam e praticam a tradição",
+      "O maracatu nação (ou de baque virado) é a forma mais antiga, com origem em Pernambuco",
+      "Os alfaias (grandes tambores) são os instrumentos principais que produzem a batida característica",
+      "A corte real inclui personagens como o rei, a rainha, a dama do paço e os caboclos de lança",
+      "A calunga é uma boneca sagrada carregada pela dama do paço durante o cortejo",
+      "O maracatu rural (de baque solto) é uma variação do interior com caboclos de lança",
+      "Chico Science e o movimento Manguebeat nos anos 90 misturaram o ritmo com rock e eletrônico",
+      "Recife e Olinda são os centros principais onde a tradição é mantida viva",
+      "Manifestação cultural afro-brasileira de Pernambuco com tambores e cortejo de reis e rainhas negros"
+    ]
+  },
+  {
+    resposta: "Tapioca",
+    categoria: "Coisa",
+    dicas: [
+      "É de origem indígena, produzida a partir da fécula (goma) extraída da mandioca",
+      "O nome vem do tupi 'tipi'óka', que significa coágulo ou sedimento da mandioca",
+      "O preparo envolve hidratar a goma seca e passá-la na peneira antes de colocar na frigideira",
+      "No Nordeste, especialmente em Pernambuco e Ceará, é consumida como café da manhã e lanche",
+      "Os recheios mais tradicionais incluem coco, queijo coalho, manteiga e leite condensado",
+      "É naturalmente sem glúten, o que a tornou queridinha da alimentação fitness e saudável",
+      "Nos anos 2010, tapiocarias se espalharam pelo Brasil inteiro como alternativa ao pão",
+      "Versões gourmet com recheios como salmão, brie e rúcula surgiram nas grandes cidades",
+      "Na região Norte, é conhecida como beiju e tem preparo ligeiramente diferente",
+      "Disco de goma de mandioca recheado, típico do Nordeste, que virou febre fitness em todo o Brasil"
+    ]
+  },
+  {
+    resposta: "Acarajé",
+    categoria: "Coisa",
+    dicas: [
+      "Tem origem na culinária dos povos iorubás da África Ocidental, trazida ao Brasil pelos escravizados",
+      "No candomblé, é uma oferenda sagrada dedicada ao orixá Iansã (Oyá)",
+      "A massa é feita de feijão-fradinho moído, cebola e sal, frita em azeite de dendê fervente",
+      "O recheio tradicional leva vatapá, caruru, camarão seco e salada com pimenta",
+      "As baianas de acarajé são as vendedoras tradicionais, vestidas de branco com turbante e colares",
+      "O ofício das baianas de acarajé foi registrado como Patrimônio Imaterial do Brasil em 2005",
+      "Salvador, Bahia, é a capital do acarajé, com pontos de venda espalhados por toda a cidade",
+      "O 'abará' é a versão cozida na folha de bananeira, sem fritura, para quem prefere mais leve",
+      "O azeite de dendê dá a cor alaranjada e o sabor marcante característico",
+      "Bolinho de feijão-fradinho frito no dendê, recheado com vatapá e camarão, vendido pelas baianas de Salvador"
+    ]
+  },
+
   {
     resposta: "Tapioca",
     categoria: "Coisa",
@@ -2568,6 +3151,622 @@ export const BRASIL_CULTURA = [
       "O milho deve ser colhido no ponto certo para a consistencia ideal",
       "Acompanha bem cafe ou pode ser assada na brasa",
       "Quitute de milho verde cozido na palha, tradicional das festas juninas"
+    ]
+  },
+
+  // ==================== MAIS NOVELAS ICÔNICAS (91-102) ====================
+  {
+    resposta: "Escrava Isaura",
+    categoria: "Coisa",
+    dicas: [
+      "É baseada no romance homônimo de Bernardo Guimarães, publicado em 1875",
+      "A versão original da Globo foi exibida em 1976 e se tornou um fenômeno internacional",
+      "Foi uma das primeiras novelas brasileiras exportadas, vendida para mais de 80 países",
+      "Lucélia Santos interpretou a protagonista na versão clássica e ganhou fama mundial",
+      "A trama se passa no período da escravidão e retrata os horrores do sistema escravocrata",
+      "A protagonista é uma escrava de pele clara, educada como filha pela esposa do senhor de engenho",
+      "O vilão Leôncio, interpretado por Rubens de Falco, persegue a protagonista obsessivamente",
+      "Na China, a novela teve audiência massiva e Lucélia Santos se tornou celebridade no país",
+      "A Record fez um remake em 2004 com Bianca Rinaldi no papel-título",
+      "Novela baseada em romance do século XIX sobre uma escrava que luta por liberdade, sucesso mundial da TV brasileira"
+    ]
+  },
+  {
+    resposta: "Por Amor",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Manoel Carlos, o mesmo de Laços de Família e Mulheres Apaixonadas",
+      "A trama central gira em torno de uma mãe que troca seu bebê vivo pelo bebê morto da filha",
+      "Regina Duarte interpreta Helena, uma mãe disposta a tudo pela felicidade da filha",
+      "Carolina Ferraz viveu a filha Milena, que não sabe da troca dos bebês",
+      "A revelação da troca de bebês é um dos momentos mais emocionantes da história das novelas",
+      "Gabriela Duarte, filha de Regina Duarte na vida real, também fez parte do elenco",
+      "A novela aborda dilemas morais profundos sobre até onde vai o amor de uma mãe",
+      "Antonio Fagundes interpreta Atílio, o marido de Helena que descobre o segredo",
+      "Foi exibida pela Globo em 1997 e 1998 no horário das 20h",
+      "Novela da Globo sobre uma mãe que troca bebês para proteger a filha, com Regina Duarte"
+    ]
+  },
+  {
+    resposta: "A Próxima Vítima",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Silvio de Abreu, mestre das tramas de suspense e mistério",
+      "A novela funciona como um thriller policial: a cada semana, um personagem era assassinado",
+      "O público fazia apostas sobre quem seria o próximo alvo e quem era o assassino misterioso",
+      "José Mayer e Susana Vieira são parte do elenco principal",
+      "O casal Sandro e Jefferson, vividos por André Gonçalves e Lui Mendes, foi um marco na representação gay na TV",
+      "A identidade do assassino só foi revelada no último capítulo, mantendo o suspense até o fim",
+      "A trama se passa no mundo da moda e da publicidade em São Paulo",
+      "Foi uma das primeiras novelas brasileiras com estrutura de série de mistério",
+      "Foi exibida pela Globo em 1995 no horário das 20h",
+      "Novela-thriller da Globo onde personagens eram assassinados misteriosamente a cada semana"
+    ]
+  },
+  {
+    resposta: "A Força do Querer",
+    categoria: "Coisa",
+    dicas: [
+      "A autora é Glória Perez, conhecida por inserir temas polêmicos em suas novelas",
+      "A trama de identidade de gênero do personagem Ivan/Ivana, vivido por Carol Duarte, gerou grande debate",
+      "Bibi Perigosa, interpretada por Juliana Paes, é uma mulher de classe média que se envolve com o tráfico",
+      "A expressão 'Bibi Perigosa' virou meme e bordão nas redes sociais",
+      "A novela aborda o universo do tráfico de drogas nas comunidades do Rio de Janeiro",
+      "Jeiza, vivida por Paolla Oliveira, é uma policial do BOPE e lutadora de MMA",
+      "Caio Blat e Marco Pigossi também estão no elenco principal",
+      "A questão transgênero foi tratada de forma inédita e sensível na TV aberta brasileira",
+      "Foi exibida pela Globo em 2017 no horário das 21h",
+      "Novela da Glória Perez com Bibi Perigosa (Juliana Paes) e trama pioneira sobre identidade de gênero"
+    ]
+  },
+  {
+    resposta: "Verdades Secretas",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Walcyr Carrasco, em um registro completamente diferente de suas novelas das 18h",
+      "A trama se passa no mundo da moda em São Paulo, mostrando o lado obscuro das passarelas",
+      "O 'book rosa' é o termo usado na trama para o catálogo secreto de modelos que se prostituem",
+      "Grazi Massafera interpreta Fanny, uma booker que comanda o esquema de prostituição de luxo",
+      "Camila Queiroz fez sua estreia como a jovem modelo Arlete/Angel que entra nesse mundo",
+      "A relação entre Angel e o empresário Alex, vivido por Rodrigo Lombardi, é central na trama",
+      "Foi exibida originalmente na Globo em 2015 no horário das 23h",
+      "Ganhou uma segunda temporada exclusiva para o Globoplay em 2021",
+      "As cenas de nudez e o tema adulto a tornaram uma das novelas mais ousadas da Globo",
+      "Novela da Globo sobre o lado obscuro do mundo da moda, com prostituição de luxo e o 'book rosa'"
+    ]
+  },
+  {
+    resposta: "Salve Jorge",
+    categoria: "Coisa",
+    dicas: [
+      "A autora é Glória Perez, que mais uma vez trouxe um tema social urgente para a ficção",
+      "A trama principal denuncia o tráfico internacional de pessoas, especialmente mulheres",
+      "Nanda Costa interpreta Morena, uma jovem do Complexo do Alemão levada para a Turquia",
+      "As gravações na Turquia trouxeram locações reais de Istambul e Capadócia para a novela",
+      "Rodrigo Lombardi vive o vilão Russo, líder da quadrilha de tráfico de pessoas",
+      "A novela alertou sobre os golpes usados por traficantes para atrair jovens com promessas falsas",
+      "A cultura turca, incluindo a culinária e costumes, foi apresentada ao público brasileiro",
+      "Giovanna Antonelli interpreta a delegada Heloísa, que investiga os crimes",
+      "Foi exibida pela Globo entre 2012 e 2013 no horário das 21h",
+      "Novela da Glória Perez que denuncia tráfico de pessoas, com cenas gravadas na Turquia"
+    ]
+  },
+  {
+    resposta: "Cheias de Charme",
+    categoria: "Coisa",
+    dicas: [
+      "Os autores são Filipe Miguez e Izabel de Oliveira, em uma trama leve e divertida",
+      "A história gira em torno de três empregadas domésticas que formam um grupo musical",
+      "As protagonistas são Maria da Penha, Maria do Rosário e Maria Aparecida (as Empreguetes)",
+      "Taís Araújo, Leandra Leal e Isabelle Drummond interpretam as três Marias",
+      "O hit 'Vida de Empreguete' viralizou e se tornou um dos maiores fenômenos musicais de novela",
+      "A música chegou ao topo das paradas reais de sucesso durante a exibição da novela",
+      "Cláudia Abreu interpreta a vilã Chayene, uma cantora de tecnobrega arrogante e hilária",
+      "A novela faz uma homenagem bem-humorada às trabalhadoras domésticas do Brasil",
+      "Foi exibida pela Globo em 2012 no horário das 19h",
+      "Novela da Globo sobre três empregadas domésticas que viram cantoras, famosa pelo hit 'Vida de Empreguete'"
+    ]
+  },
+  {
+    resposta: "Império",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Aguinaldo Silva, veterano de grandes tramas como Vale Tudo e Roque Santeiro",
+      "A trama gira em torno de José Alfredo, um ex-catador de pedras que se torna bilionário",
+      "Alexandre Nero interpreta o protagonista, um homem poderoso mas de origem humilde",
+      "O comendador José Alfredo é apaixonado pela pedra preciosa que ele chama de 'diamante cor-de-rosa'",
+      "A vilã Maria Marta, vivida por Lilia Cabral, é a esposa que conspira contra o marido",
+      "A novela ganhou o Emmy Internacional de Melhor Telenovela em 2014",
+      "O triângulo amoroso entre José Alfredo, Maria Marta e Maria Isis movimenta a trama",
+      "Drica Moraes viveu a amante Cora, obcecada por destruir o protagonista",
+      "Foi exibida pela Globo entre 2014 e 2015 no horário das 21h",
+      "Novela da Globo sobre um ex-catador que vira bilionário, vencedora do Emmy Internacional"
+    ]
+  },
+  {
+    resposta: "Terra Nostra",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Benedito Ruy Barbosa, especialista em tramas rurais e históricas",
+      "A novela conta a saga dos imigrantes italianos que vieram para as lavouras de café em São Paulo",
+      "A trama começa na Itália e acompanha a viagem de navio até o Brasil no final do século XIX",
+      "Ana Paula Arósio e Thiago Lacerda são os protagonistas Giuliana e Matteo",
+      "A fazenda de café e a São Paulo do início do século XX são cenários principais",
+      "Raul Cortez interpreta o barão do café Francesco Magliano",
+      "A novela retrata o trabalho árduo nas fazendas e a construção de São Paulo pelos imigrantes",
+      "A música tema 'Terra Nostra' e a trilha italiana emocionaram o público",
+      "Foi exibida pela Globo entre 1999 e 2000 no horário das 20h",
+      "Novela da Globo sobre a imigração italiana para o Brasil, ambientada nas fazendas de café de São Paulo"
+    ]
+  },
+  {
+    resposta: "A Dona do Pedaço",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Walcyr Carrasco, com sua marca registrada de personagens populares e carismáticos",
+      "A protagonista Maria da Paz, vivida por Juliana Paes, é uma boleira que constrói um império",
+      "A vilã Josiane, interpretada por Agatha Moreira, é a filha ingrata que trama contra a mãe",
+      "A cena de Josiane cortando o bolo da mãe com raiva virou meme nacional",
+      "A novela celebra o empreendedorismo feminino e a força da mulher batalhadora brasileira",
+      "Régis, vivido por Reynaldo Gianecchini, é o genro golpista aliado à vilã",
+      "Fabiana Karla e Jeniffer Dias também se destacam em papéis cômicos",
+      "O bolo-confeitado se tornou símbolo da novela e impulsionou o mercado de confeitaria",
+      "Foi exibida pela Globo em 2019 no horário das 21h",
+      "Novela da Globo sobre uma boleira que fica rica mas é traída pela filha vilã, com Juliana Paes"
+    ]
+  },
+  {
+    resposta: "Dancin' Days",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Gilberto Braga, que retratou a elite carioca e a cultura disco dos anos 70",
+      "A trama se passa no auge da era disco no Brasil, com a discoteca Frenetic como cenário central",
+      "Sônia Braga interpreta Júlia Matos, uma ex-presidiária que volta para reconquistar seu lugar",
+      "A moda dos meias coloridas de lurex virou febre nacional por causa da novela",
+      "A abertura ao som de 'Don't Let Me Be Misunderstood' é uma das mais icônicas da TV",
+      "A rivalidade entre as irmãs Júlia e Yolanda (Joana Fomm) é o motor da trama",
+      "A novela influenciou a moda, os costumes e a vida noturna do Brasil inteiro",
+      "As discotecas se multiplicaram pelo país durante a exibição da novela",
+      "Foi exibida pela Globo entre 1978 e 1979 no horário das 20h",
+      "Novela da Globo que popularizou a era disco no Brasil, com Sônia Braga e meias de lurex"
+    ]
+  },
+  {
+    resposta: "Pecado Capital",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Janete Clair, uma das maiores autoras de novelas da história brasileira",
+      "A versão original de 1975 teve Francisco Cuoco como o protagonista Carlão",
+      "A trama mostra um motorista de táxi que encontra uma mala de dinheiro e sua vida muda drasticamente",
+      "O dilema moral de ficar com dinheiro que não é seu é o tema central da história",
+      "A trilha sonora com 'Feelings' de Morris Albert marcou a versão original",
+      "Em 1998, a Globo fez um remake com Antonio Fagundes no papel principal",
+      "Na versão remake, Carlão é um caminhoneiro em vez de taxista",
+      "A novela explora como o dinheiro fácil corrompe as pessoas e destrói famílias",
+      "Foi um grande sucesso de audiência em ambas as versões",
+      "Novela da Globo sobre um homem humilde que encontra uma fortuna e é consumido pela ganância"
+    ]
+  },
+
+  // ==================== INFLUENCERS E PERSONALIDADES MODERNAS (103-114) ====================
+  {
+    resposta: "Carlinhos Maia",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Penedo, Alagoas, em 1991, em uma família de origem humilde",
+      "Começou a fazer vídeos de humor caseiros no Instagram, filmando situações do cotidiano nordestino",
+      "Seu estilo de humor é baseado em situações reais com familiares e amigos, especialmente sua mãe",
+      "Foi um dos primeiros influenciadores brasileiros a ultrapassar 20 milhões de seguidores no Instagram",
+      "Seu casamento com Lucas Guimarães em 2019 foi um dos eventos mais comentados das redes sociais",
+      "É abertamente gay e fala sobre representatividade LGBTQ+ em suas redes",
+      "Diversificou os negócios com investimentos em restaurantes e marcas próprias",
+      "Seus vídeos com a família, especialmente com a mãe Dona Helena, são os mais virais",
+      "É um dos criadores de conteúdo mais ricos do Brasil segundo rankings especializados",
+      "Influenciador e humorista alagoano, famoso pelos vídeos de humor com a família nas redes sociais"
+    ]
+  },
+  {
+    resposta: "Jade Picon",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em São Paulo em 1996 e começou como influenciadora digital de moda e lifestyle",
+      "É irmã do também influenciador Leo Picon, que já era famoso nas redes",
+      "Participou do Big Brother Brasil 22 e foi uma das participantes mais comentadas da edição",
+      "No BBB, seu relacionamento com Paulo André gerou enorme repercussão nas redes sociais",
+      "Após o reality, foi convidada para atuar na novela 'Travessia' da Globo",
+      "Sua estreia como atriz dividiu opiniões e gerou debates sobre influenciadores na dramaturgia",
+      "É dona de uma marca de moda e acumula milhões de seguidores no Instagram",
+      "Seu estilo de vida luxuoso e viagens internacionais são marcas de seu conteúdo",
+      "Tornou-se um dos nomes mais pesquisados do Google Brasil durante o BBB 22",
+      "Influenciadora e atriz paulista que ficou famosa no BBB 22 e estreou em novela da Globo"
+    ]
+  },
+  {
+    resposta: "Bianca Andrade",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu na Maré, complexo de favelas do Rio de Janeiro, em 1995",
+      "Começou a carreira como youtuber de maquiagem com o canal 'Boca Rosa'",
+      "Seu canal de beleza a transformou em uma das maiores referências de maquiagem do Brasil",
+      "Participou do Big Brother Brasil 20, onde seu choro na festa gerou memes memoráveis",
+      "Criou a marca de cosméticos Boca Rosa Beauty, avaliada em milhões de reais",
+      "A parceria com a Payot para a linha Boca Rosa foi um dos maiores cases de beleza do Brasil",
+      "Fez MBA em Harvard e se tornou referência em empreendedorismo digital feminino",
+      "É mãe de Cris, fruto do relacionamento com o youtuber Fred",
+      "Sua história de origem na favela até se tornar empresária de sucesso inspira milhões",
+      "Influenciadora e empresária carioca da favela da Maré, dona da marca de cosméticos Boca Rosa"
+    ]
+  },
+  {
+    resposta: "Gil do Vigor",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Jaboatão dos Guararapes, Pernambuco, e cresceu em uma família de origem humilde",
+      "É economista formado e doutorando em economia pela Universidade da Califórnia (UC Davis)",
+      "Participou do Big Brother Brasil 21, onde seu carisma e energia o tornaram fenômeno",
+      "O grito de 'Vigoroso!' se tornou seu bordão mais famoso e virou meme nacional",
+      "Saiu do BBB como um dos participantes mais queridos, mesmo sem vencer o programa",
+      "É abertamente gay e se tornou referência de representatividade LGBTQ+ no Brasil",
+      "Após o BBB, virou apresentador e comentarista em programas da Globo",
+      "Sua história de superação, vindo de origem pobre e chegando ao doutorado nos EUA, inspira milhões",
+      "Publicou o livro 'Tem que Vigorar' contando sua trajetória de vida",
+      "Economista e ex-BBB pernambucano famoso pelo bordão 'Vigoroso!' e pela energia contagiante"
+    ]
+  },
+  {
+    resposta: "Sabrina Sato",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Penápolis, São Paulo, em 1981, filha de imigrantes japoneses",
+      "Ficou conhecida ao participar do Big Brother Brasil 3, em 2003, onde chamou atenção pelo carisma",
+      "Após o BBB, apresentou programas na Record, como o 'Programa da Sabrina'",
+      "É famosa pelos figurinos ousados e criativos no Carnaval, onde desfila como rainha de bateria",
+      "Desfilou como rainha de bateria da Gaviões da Fiel e depois da Vila Isabel",
+      "É casada com o ator Duda Nagle e tem a filha Zoe",
+      "Em 2023, foi contratada pela Globo e passou a apresentar o 'Saia Justa' no GNT",
+      "Sua ascendência japonesa e beleza brasileira a tornaram um ícone de diversidade",
+      "É uma das personalidades mais requisitadas para campanhas publicitárias no Brasil",
+      "Apresentadora nipo-brasileira, ex-BBB, famosa pelo Carnaval e pela passagem de Record à Globo"
+    ]
+  },
+  {
+    resposta: "Eliana",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em São Paulo em 1973 e começou a carreira como cantora e dançarina do grupo Banana Split",
+      "Ficou famosa como apresentadora infantil na Record nos anos 90, rival direta de Xuxa",
+      "O programa 'Eliana & Alegria' e depois 'Eliana' marcaram gerações de crianças brasileiras",
+      "Músicas como 'Os Dedinhos' e 'A Dança do Pinguim' fizeram sucesso com o público infantil",
+      "Trabalhou na Record, na Band e foi estrela do SBT por quase 15 anos",
+      "Seu programa dominical no SBT competia diretamente com Globo e Record",
+      "Em 2024, foi contratada pela Globo em uma das maiores transferências da TV brasileira",
+      "É mãe de Arthur e Manuela, e sua vida familiar é parte do seu conteúdo",
+      "É considerada uma das apresentadoras mais longevas e versáteis da TV brasileira",
+      "Apresentadora que passou por Record, Band e SBT antes de ir para a Globo, famosa desde a era infantil"
+    ]
+  },
+  {
+    resposta: "Luciano Huck",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em São Paulo em 1971, filho do publicitário Fernando Huck",
+      "Começou na TV apresentando o 'H' na Band e depois o 'Caldeirão do Huck' na Globo",
+      "O quadro 'Lata Velha', que reformava carros antigos, era um dos mais populares do Caldeirão",
+      "É casado com a apresentadora Angélica desde 2004, formando um dos casais mais famosos da TV",
+      "Em 2021, flertou publicamente com uma candidatura à presidência, que acabou não acontecendo",
+      "Assumiu o programa 'Domingão' na Globo em 2021, substituindo Faustão",
+      "O quadro 'Quem Quer Ser Um Milionário?' faz parte do novo formato dominical",
+      "É empresário e investidor em startups de tecnologia e inovação",
+      "Seus três filhos com Angélica — Joaquim, Benício e Eva — aparecem ocasionalmente na mídia",
+      "Apresentador do Domingão na Globo, casado com Angélica, ex-apresentador do Caldeirão do Huck"
+    ]
+  },
+
+  // ==================== LENDAS DA MÚSICA BRASILEIRA (115-126) ====================
+  {
+    resposta: "Tim Maia",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Niterói, Rio de Janeiro, em 1942, e passou a adolescência no subúrbio carioca",
+      "Morou nos Estados Unidos na década de 1960, onde absorveu o soul e o R&B americano",
+      "Foi deportado dos EUA após ser preso por porte de drogas, voltando ao Brasil",
+      "O álbum 'Tim Maia' de 1970, com 'Azul da Cor do Mar', é considerado um marco da música brasileira",
+      "Introduziu o soul, funk e rhythm and blues na música popular brasileira",
+      "Era conhecido pelo temperamento explosivo, atrasos e cancelamentos de shows",
+      "Aderiu à seita Universo em Desencanto e gravou os álbuns 'Racional' volumes 1 e 2",
+      "Músicas como 'Gostava Tanto de Você', 'Não Quero Dinheiro' e 'Sossego' são clássicos eternos",
+      "Faleceu em 1998, mas sua música continua sendo ouvida por novas gerações",
+      "Cantor carioca que trouxe o soul para o Brasil, dono de 'Azul da Cor do Mar' e temperamento lendário"
+    ]
+  },
+  {
+    resposta: "Raul Seixas",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Salvador, Bahia, em 1945, e era fascinado por rock'n'roll desde a adolescência",
+      "É considerado o pai do rock brasileiro, tendo revolucionado a música nacional nos anos 70",
+      "A parceria com Paulo Coelho rendeu clássicos como 'Gita', 'Metamorfose Ambulante' e 'Sociedade Alternativa'",
+      "Criou a 'Sociedade Alternativa', um projeto utópico inspirado nas ideias do ocultista Aleister Crowley",
+      "Foi perseguido pela ditadura militar e se exilou nos Estados Unidos em 1974",
+      "'Maluco Beleza', 'Tente Outra Vez' e 'Eu Nasci Há Dez Mil Anos Atrás' são hinos do rock brasileiro",
+      "Misturava rock, baião e filosofia em um estilo único e inimitável",
+      "Era chamado de 'Maluco Beleza' pelos fãs e pela imprensa",
+      "Faleceu em 1989, aos 44 anos, e é cultuado como uma lenda até hoje",
+      "Cantor baiano considerado o pai do rock brasileiro, o 'Maluco Beleza' de 'Metamorfose Ambulante'"
+    ]
+  },
+  {
+    resposta: "Elis Regina",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Porto Alegre, Rio Grande do Sul, em 1945, e começou a cantar profissionalmente aos 15 anos",
+      "Venceu o I Festival de Música Popular Brasileira em 1965 com 'Arrastão', de Edu Lobo e Vinicius",
+      "Era conhecida como o 'Furacão' pela intensidade e energia de suas interpretações",
+      "O álbum 'Elis & Tom' (1974), gravado com Tom Jobim, é considerado um dos maiores da música brasileira",
+      "Sua interpretação de 'Como Nossos Pais' de Belchior é uma das mais emblemáticas da MPB",
+      "'Águas de Março', 'O Bêbado e a Equilibrista' e 'Madalena' são interpretações antológicas",
+      "Era perfeccionista e exigia o máximo de si e dos músicos que a acompanhavam",
+      "Faleceu precocemente em 1982, aos 36 anos, causando comoção nacional",
+      "É considerada por muitos a maior cantora da história da música brasileira",
+      "Cantora gaúcha considerada a maior voz da MPB, intérprete de 'Como Nossos Pais' e 'Águas de Março'"
+    ]
+  },
+  {
+    resposta: "Cazuza",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu no Rio de Janeiro em 1958, filho do produtor musical João Araújo, presidente da Som Livre",
+      "Foi vocalista e letrista da banda Barão Vermelho nos anos 1980",
+      "A música 'Pro Dia Nascer Feliz' com o Barão Vermelho se tornou um hino da juventude brasileira",
+      "Em carreira solo, gravou clássicos como 'Exagerado', 'Codinome Beija-Flor' e 'O Tempo Não Para'",
+      "A canção 'Brasil' (com George Israel e Nilo Romero) é uma das críticas mais ácidas à situação do país",
+      "Assumiu publicamente ser portador do vírus HIV em uma época de enorme preconceito",
+      "Sua luta contra a AIDS e sua coragem em falar sobre a doença ajudaram a quebrar tabus",
+      "As letras são marcadas por paixão, rebeldia e crítica social contundente",
+      "Faleceu em 1990, aos 32 anos, e é lembrado como um dos maiores letristas do rock brasileiro",
+      "Cantor e letrista carioca do Barão Vermelho, autor de 'Exagerado' e 'O Tempo Não Para'"
+    ]
+  },
+  {
+    resposta: "Marília Mendonça",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Cristianópolis, Goiás, em 1995, e começou a compor aos 12 anos de idade",
+      "Antes de estourar como cantora, já era compositora de sucesso para outras duplas sertanejas",
+      "O álbum e DVD 'Marília Mendonça Ao Vivo' de 2016 a projetou nacionalmente",
+      "A música 'Infiel' se tornou o vídeo mais assistido do YouTube Brasil na época",
+      "É considerada a 'Rainha da Sofrência', estilo de sertanejo sobre dores de amor",
+      "Foi a artista mais ouvida do YouTube no mundo inteiro em 2019, superando nomes internacionais",
+      "A live durante a pandemia em 2020 bateu recorde mundial de audiência simultânea no YouTube",
+      "Faleceu tragicamente em um acidente de avião em novembro de 2021, aos 26 anos",
+      "Sua morte causou comoção nacional e internacional, com homenagens ao redor do mundo",
+      "Cantora sertaneja goiana, a 'Rainha da Sofrência', que morreu jovem em acidente aéreo em 2021"
+    ]
+  },
+  {
+    resposta: "Jorge Ben Jor",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu no Rio de Janeiro em 1939, filho de mãe etíope e pai brasileiro",
+      "Criou um estilo único misturando samba, funk, rock e maracatu que ele chamou de 'sacundin sacunden'",
+      "A música 'Mas Que Nada' de 1963 é a canção brasileira mais regravada por artistas internacionais",
+      "O hit 'País Tropical' se tornou um hino informal do Brasil, cantado em estádios e festas",
+      "A canção 'Taj Mahal' inspirou a melodia de 'Pais e Filhos' do Legião Urbana (tema de debate)",
+      "Rod Stewart gravou 'Do Ya Think I'm Sexy' com melodia similar a 'Taj Mahal', gerando disputa",
+      "Mudou o nome artístico de Jorge Ben para Jorge Ben Jor nos anos 1980",
+      "'Chove Chuva', 'Fio Maravilha' e 'W/Brasil' são outros clássicos de sua vasta obra",
+      "É um dos artistas brasileiros mais influentes e inovadores de todos os tempos",
+      "Cantor e compositor carioca criador de 'País Tropical' e 'Mas Que Nada', gênio da mistura musical"
+    ]
+  },
+  {
+    resposta: "Pabllo Vittar",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em São Luís, Maranhão, em 1994, e cresceu em Uberlândia, Minas Gerais",
+      "É a drag queen mais seguida do mundo nas redes sociais",
+      "O hit 'K.O.' de 2017 a tornou a primeira drag queen a alcançar o topo das paradas no Brasil",
+      "A participação no programa 'Amor & Sexo' da Globo cantando 'Corpo Sensual' a projetou nacionalmente",
+      "Fez parceria internacional com Charli XCX na música 'Flash Pose'",
+      "O álbum 'Não Para Não' rendeu indicação ao Grammy Latino de Melhor Álbum Pop Contemporâneo",
+      "Se apresentou no festival Coachella, sendo a primeira drag queen brasileira no evento",
+      "É referência de representatividade LGBTQ+ na música latina",
+      "Mistura pop, funk, forró e música eletrônica em seu estilo eclético",
+      "Drag queen maranhense, a mais seguida do mundo, cantora de 'K.O.' e ícone LGBTQ+ brasileiro"
+    ]
+  },
+  {
+    resposta: "Ludmilla",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Duque de Caxias, Rio de Janeiro, em 1995, com o nome de Ludmila Oliveira da Silva",
+      "Começou a carreira no funk com o hit 'Fala Mal de Mim' em 2012, ainda adolescente",
+      "A música 'Hoje' a consagrou no cenário pop e funk brasileiro",
+      "Migrou do funk para o pagode com o projeto 'Numanice', que se tornou um fenômeno",
+      "O 'Numanice' lotou shows por todo o Brasil e se tornou referência no pagode contemporâneo",
+      "É casada com a bailarina Brunna Gonçalves, com quem forma um casal admirado pelos fãs",
+      "Enfrentou publicamente casos de racismo e se tornou voz ativa contra a discriminação racial",
+      "Parcerias com Anitta, incluindo 'Onda Diferente', ampliaram seu alcance internacional",
+      "É a primeira mulher negra a alcançar 1 bilhão de streams no Spotify Brasil",
+      "Cantora carioca que migrou do funk ao pagode com o 'Numanice', ícone de versatilidade musical"
+    ]
+  },
+  {
+    resposta: "Zeca Pagodinho",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Irajá, subúrbio do Rio de Janeiro, em 1959, com o nome de Jesse Gomes da Silva Filho",
+      "Cresceu nas rodas de samba e pagode da Zona Norte carioca, aprendendo na prática",
+      "A música 'Camarão que Dorme a Onda Leva' de 1988 foi um de seus primeiros grandes sucessos",
+      "É conhecido por ser bon vivant, amante de cerveja gelada e churrasco com os amigos",
+      "O bordão 'Deixa a vida me levar' (título de um de seus maiores hits) resume sua filosofia de vida",
+      "O caso da disputa entre Brahma e Nova Schin, quando trocou de cerveja e depois voltou, é lendário",
+      "Seus sambas e pagodes fazem parte da trilha sonora dos botecos e churrascos do Brasil",
+      "'Verdade', 'Ogum' e 'Vai Vadiar' são alguns de seus maiores sucessos",
+      "É considerado um dos maiores nomes do pagode e do samba da sua geração",
+      "Sambista carioca de Irajá, cantor de 'Deixa a Vida Me Levar', sinônimo de bom humor e cerveja gelada"
+    ]
+  },
+  {
+    resposta: "Gloria Maria",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu no Rio de Janeiro em 1949 e foi uma das primeiras jornalistas negras da TV brasileira",
+      "Formou-se em jornalismo e ingressou na Globo em 1971, no início da emissora",
+      "Foi a primeira repórter negra a aparecer no Jornal Nacional, quebrando barreiras raciais na TV",
+      "Fez reportagens em mais de 100 países ao longo de cinco décadas de carreira",
+      "Cobriu eventos históricos como a queda do Muro de Berlim e guerras no Oriente Médio",
+      "Apresentou o programa 'Globo Repórter' por muitos anos, levando reportagens especiais ao público",
+      "Adotou duas filhas, Laura e Maria, e foi mãe solo por escolha",
+      "Era conhecida pela elegância, coragem e por entrar em situações de risco para fazer reportagens",
+      "Faleceu em fevereiro de 2023, gerando grande comoção e homenagens pelo Brasil",
+      "Jornalista negra pioneira da Globo, apresentadora do Globo Repórter, que viajou o mundo fazendo reportagens"
+    ]
+  },
+
+  // ==================== CURIOSIDADES E ÍCONES BRASILEIROS (127-135) ====================
+  {
+    resposta: "Big Brother Brasil",
+    categoria: "Coisa",
+    dicas: [
+      "É a versão brasileira do reality show holandês criado por John de Mol em 1999",
+      "A primeira edição brasileira foi ao ar em 2002, apresentada por Pedro Bial",
+      "Boninho (José Bonifácio Oliveira Sobrinho) foi o diretor que moldou o formato brasileiro",
+      "A partir do BBB 20, o programa passou a misturar anônimos ('pipocas') e famosos ('camarotes')",
+      "O paredão é a votação eliminatória onde o público decide quem sai da casa",
+      "A 'prova do líder' e a 'prova do anjo' são dinâmicas semanais que definem poderes dos participantes",
+      "Tadeu Schmidt substituiu Pedro Bial como apresentador a partir do BBB 22",
+      "O programa já revelou personalidades como Grazi Massafera, Sabrina Sato e Juliette",
+      "É um dos programas de maior audiência da Globo e movimenta bilhões em publicidade",
+      "Reality show da Globo onde participantes confinados em uma casa são eliminados pelo público"
+    ]
+  },
+  {
+    resposta: "Futebol",
+    categoria: "Coisa",
+    dicas: [
+      "Charles Miller, filho de ingleses nascido em São Paulo, é considerado o pai do futebol no Brasil",
+      "Miller trouxe duas bolas e as regras da Inglaterra em 1894, organizando os primeiros jogos",
+      "O Brasil é o maior vencedor da Copa do Mundo FIFA, com cinco títulos (1958, 1962, 1970, 1994 e 2002)",
+      "O Maracanã, no Rio de Janeiro, chegou a receber quase 200 mil torcedores no jogo da final da Copa de 1950",
+      "Pelé, Garrincha, Zico, Romário, Ronaldo e Ronaldinho Gaúcho são alguns dos maiores ídolos",
+      "A Seleção Brasileira é a única que participou de todas as edições da Copa do Mundo",
+      "Flamengo, Corinthians, São Paulo, Palmeiras e Vasco estão entre os clubes com mais torcedores",
+      "O futebol feminino brasileiro tem craques como Marta, eleita seis vezes a melhor do mundo pela FIFA",
+      "É considerado a maior paixão nacional, unindo todas as classes sociais do país",
+      "Esporte mais popular do Brasil, com cinco títulos mundiais, praticado em cada esquina do país"
+    ]
+  },
+  {
+    resposta: "Amazônia",
+    categoria: "Lugar",
+    dicas: [
+      "É a maior floresta tropical do mundo, cobrindo cerca de 5,5 milhões de km²",
+      "Abrange nove países sul-americanos, mas a maior parte (60%) está em território brasileiro",
+      "O Rio Amazonas é o maior rio do mundo em volume de água e o segundo em extensão",
+      "Abriga cerca de 10% de todas as espécies de animais e plantas do planeta",
+      "O fenômeno da 'pororoca' ocorre quando a maré do oceano encontra as águas do rio Amazonas",
+      "Os povos indígenas da região incluem mais de 350 etnias com línguas e culturas distintas",
+      "O desmatamento e as queimadas são as maiores ameaças à preservação do bioma",
+      "A cidade de Manaus, no coração da floresta, abriga o Polo Industrial da Zona Franca",
+      "O 'encontro das águas' do Rio Negro com o Rio Solimões é um dos fenômenos naturais mais visitados",
+      "Maior floresta tropical do mundo, considerada o pulmão verde do planeta, localizada no norte do Brasil"
+    ]
+  },
+  {
+    resposta: "Fernando de Noronha",
+    categoria: "Lugar",
+    dicas: [
+      "É um arquipélago vulcânico localizado a 354 km da costa de Pernambuco",
+      "O arquipélago é formado por 21 ilhas, mas apenas a maior é habitada",
+      "Foi descoberto por uma expedição portuguesa em 1503 e já foi ocupado por holandeses e franceses",
+      "Já serviu como presídio político durante o Estado Novo de Getúlio Vargas",
+      "A Baía do Sancho foi eleita diversas vezes a praia mais bonita do mundo por votação internacional",
+      "É um dos melhores pontos de mergulho do Brasil, com águas cristalinas e vida marinha abundante",
+      "Golfinhos rotadores são avistados diariamente na Baía dos Golfinhos",
+      "O número de visitantes é controlado e há taxa de preservação ambiental para entrar na ilha",
+      "É Patrimônio Natural da Humanidade pela UNESCO desde 2001",
+      "Arquipélago paradisíaco de Pernambuco com praias cristalinas, golfinhos e acesso limitado de turistas"
+    ]
+  },
+  {
+    resposta: "Jeitinho Brasileiro",
+    categoria: "Coisa",
+    dicas: [
+      "É estudado por sociólogos e antropólogos como um traço cultural único da sociedade brasileira",
+      "O antropólogo Roberto DaMatta é um dos principais estudiosos que analisaram o fenômeno",
+      "Envolve encontrar soluções criativas e improvisadas para contornar regras e obstáculos burocráticos",
+      "A expressão 'Você sabe com quem está falando?' é o lado negativo desse comportamento cultural",
+      "Pode ser visto tanto como criatividade e resiliência quanto como falta de ética e corrupção",
+      "O uso de contatos pessoais para resolver problemas burocráticos é uma manifestação comum",
+      "A gambiarra, solução improvisada para consertar algo, é uma expressão prática do conceito",
+      "Está presente em todas as classes sociais, do trabalhador informal ao empresário",
+      "É frequentemente comparado ao 'pulling strings' americano ou ao 'wasta' árabe",
+      "Expressão cultural brasileira que descreve o modo criativo e informal de resolver problemas e burlar regras"
+    ]
+  },
+  {
+    resposta: "Pelé",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Três Corações, Minas Gerais, em 1940, com o nome de Edson Arantes do Nascimento",
+      "Começou a jogar profissionalmente no Santos FC aos 15 anos de idade",
+      "Marcou mais de 1.000 gols oficiais em sua carreira, feito inédito no futebol mundial",
+      "É o único jogador na história a conquistar três Copas do Mundo: 1958, 1962 e 1970",
+      "Na Copa de 1958, na Suécia, tornou-se o jogador mais jovem a marcar em uma final, com 17 anos",
+      "Jogou a maior parte da carreira no Santos, onde formou parceria lendária com Coutinho",
+      "Encerrou a carreira no New York Cosmos em 1977, ajudando a popularizar o futebol nos EUA",
+      "Foi nomeado 'Atleta do Século' pelo Comitê Olímpico Internacional",
+      "Faleceu em dezembro de 2022, causando comoção mundial e homenagens de todos os países",
+      "O Rei do Futebol, único tricampeão mundial, considerado o maior jogador de todos os tempos"
+    ]
+  },
+  {
+    resposta: "Neymar",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em Mogi das Cruzes, São Paulo, em 1992, e começou nas categorias de base do Santos",
+      "Estreou profissionalmente aos 17 anos e logo se tornou o principal jogador do Santos",
+      "O gol de placa contra o Flamengo em 2011 é considerado um dos mais bonitos da história do futebol",
+      "Transferiu-se para o Barcelona em 2013, onde formou o trio MSN com Messi e Suárez",
+      "Em 2017, foi para o Paris Saint-Germain na transferência mais cara da história do futebol",
+      "Liderou a Seleção Brasileira na conquista da medalha de ouro nas Olimpíadas do Rio em 2016",
+      "Se tornou o maior artilheiro da história da Seleção Brasileira, superando Pelé",
+      "É um dos atletas mais seguidos nas redes sociais em todo o mundo",
+      "Seus dribles, chapéus e habilidade técnica o tornaram um dos jogadores mais talentosos da geração",
+      "Atacante brasileiro que se tornou o maior artilheiro da história da Seleção, estrela do Santos, Barça e PSG"
+    ]
+  },
+  {
+    resposta: "Ayrton Senna",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu em São Paulo em 1960, em uma família de classe alta, e começou no kart aos 4 anos",
+      "Estreou na Fórmula 1 em 1984 pela equipe Toleman e logo se destacou sob chuva no GP de Mônaco",
+      "Conquistou três títulos mundiais de Fórmula 1: em 1988, 1990 e 1991, todos pela McLaren",
+      "A rivalidade com Alain Prost é uma das mais intensas e dramáticas da história do automobilismo",
+      "É considerado o maior piloto de corridas em condições de chuva de todos os tempos",
+      "A volta de classificação no GP de Mônaco de 1988 é lendária, com mais de um segundo de vantagem",
+      "Faleceu no GP de San Marino em Ímola, Itália, em 1º de maio de 1994, durante a corrida",
+      "Sua morte causou luto nacional no Brasil, com milhões acompanhando o funeral em São Paulo",
+      "Deixou um legado de excelência, dedicação e paixão que inspira gerações até hoje",
+      "Piloto brasileiro tricampeão de Fórmula 1, considerado o maior ídolo do automobilismo mundial"
+    ]
+  },
+  {
+    resposta: "Oscar Niemeyer",
+    categoria: "Pessoa",
+    dicas: [
+      "Nasceu no Rio de Janeiro em 1907 e se formou na Escola Nacional de Belas Artes",
+      "Foi discípulo de Lúcio Costa e trabalhou no ateliê de Le Corbusier em Paris",
+      "Projetou os principais edifícios de Brasília: Congresso Nacional, Catedral e Palácio da Alvorada",
+      "As curvas são marca registrada de sua arquitetura, inspiradas nas montanhas do Rio de Janeiro",
+      "A frase 'Não é o ângulo reto que me atrai, nem a linha reta, dura, inflexível' é sua filosofia",
+      "O Museu de Arte Contemporânea de Niterói (MAC), em formato de disco voador, é um ícone mundial",
+      "Foi comunista declarado e amigo pessoal de Fidel Castro",
+      "Recebeu o Prêmio Pritzker, o Nobel da arquitetura, em 1988",
+      "Trabalhou ativamente até depois dos 100 anos de idade",
+      "Arquiteto brasileiro que projetou Brasília, famoso pelas curvas e pela arquitetura modernista"
     ]
   }
 ];
