@@ -3768,5 +3768,295 @@ export const BRASIL_CULTURA = [
       "Trabalhou ativamente até depois dos 100 anos de idade",
       "Arquiteto brasileiro que projetou Brasília, famoso pelas curvas e pela arquitetura modernista"
     ]
+  },
+
+  // ==================== AINDA MAIS NOVELAS INESQUECÍVEIS (136-153) ====================
+  {
+    resposta: "O Bem-Amado",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Dias Gomes, um dos maiores dramaturgos da televisão brasileira",
+      "É baseada na peça teatral 'Odorico, o Bem-Amado' do próprio Dias Gomes",
+      "A trama se passa na cidade fictícia de Sucupira, nome que virou sinônimo de cidade pequena",
+      "Paulo Gracindo interpreta o prefeito Odorico Paraguaçu, um político corrupto e carismático",
+      "O prefeito constrói um cemitério na cidade, mas ninguém morre para inaugurá-lo",
+      "As irmãs Cajazeiras — Dorotéia, Judiceia e Dulcinéia — são personagens icônicas da trama",
+      "Foi a primeira novela em cores da Rede Globo, exibida em 1973",
+      "A sátira política da novela é tão atemporal que continua relevante décadas depois",
+      "Virou também série de TV nos anos 1980, mantendo o mesmo elenco",
+      "Primeira novela em cores da Globo, sobre um prefeito corrupto que inaugura um cemitério sem mortos"
+    ]
+  },
+  {
+    resposta: "Gabriela",
+    categoria: "Coisa",
+    dicas: [
+      "É baseada no romance 'Gabriela, Cravo e Canela' de Jorge Amado, publicado em 1958",
+      "A versão original de 1975 teve Sônia Braga no papel-título, consagrando-a como sex symbol",
+      "A trama se passa em Ilhéus, na Bahia, durante o auge do ciclo do cacau nos anos 1920",
+      "O romance entre Gabriela e o turco Nacib é o fio condutor da história",
+      "Sônia Braga dançando na abertura ao som de 'Modinha para Gabriela' é um momento icônico da TV",
+      "A personagem é uma retirante nordestina sensual, livre e avessa às convenções sociais",
+      "Em 2012, a Globo fez um remake com Juliana Paes no papel de Gabriela",
+      "Humberto Martins interpretou Nacib no remake, enquanto na original foi Armando Bógus",
+      "A novela retrata a transição social e política de uma cidade dominada por coronéis do cacau",
+      "Novela baseada em Jorge Amado sobre uma retirante sensual na Bahia do cacau, papel icônico de Sônia Braga"
+    ]
+  },
+  {
+    resposta: "Saramandaia",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Dias Gomes, conhecido pelo uso de realismo mágico na televisão",
+      "A trama mistura fantasia e realidade com personagens que têm poderes sobrenaturais",
+      "Um dos personagens solta formigas pelo nariz quando fica nervoso",
+      "Outra personagem é uma mulher que explode literalmente de tanto comer",
+      "A novela é ambientada na fictícia cidade de Bole-Bole, que discute se deve mudar de nome",
+      "É considerada uma das novelas mais criativas e originais da história da TV brasileira",
+      "A versão original foi exibida pela Globo em 1976 no horário das 22h",
+      "Em 2013, a Globo fez um remake com Lilia Cabral e Grazi Massafera no elenco",
+      "A mistura de crítica social com elementos fantásticos era inédita na televisão da época",
+      "Novela da Globo com realismo mágico, onde personagens têm poderes estranhos como soltar formigas pelo nariz"
+    ]
+  },
+  {
+    resposta: "Selva de Pedra",
+    categoria: "Coisa",
+    dicas: [
+      "A autora é Janete Clair, considerada a rainha das novelas brasileiras",
+      "A versão original de 1972 é considerada a primeira grande novela moderna da Globo",
+      "A trama se passa no Rio de Janeiro e retrata conflitos de ambição e poder na cidade grande",
+      "Regina Duarte e Francisco Cuoco protagonizaram a versão original com química marcante",
+      "O título é uma metáfora para a cidade de concreto onde se trava a luta pela sobrevivência",
+      "A novela consolidou o horário das 20h da Globo como o mais importante da TV brasileira",
+      "Foi um marco de audiência, sendo uma das primeiras novelas a atingir índices altíssimos",
+      "Em 1986, a Globo fez um remake que também alcançou grande sucesso",
+      "Janete Clair escreveu a novela em apenas seis meses, provando seu talento extraordinário",
+      "Novela clássica de Janete Clair que consolidou o horário nobre da Globo, sobre ambição no Rio de Janeiro"
+    ]
+  },
+  {
+    resposta: "Fina Estampa",
+    categoria: "Coisa",
+    dicas: [
+      "A autora é Aguinaldo Silva, com seu estilo inconfundível de vilãs marcantes",
+      "A protagonista Griselda, vivida por Lília Cabral, é uma mulher batalhadora que ganha na loteria",
+      "O apelido 'Pereirão' acompanha a protagonista, que é dona de uma oficina mecânica",
+      "Christiane Torloni interpreta a vilã Tereza Cristina, uma socialite cruel e manipuladora",
+      "A cena de Tereza Cristina comendo o camarão no enterro do marido é antológica",
+      "A rivalidade entre Griselda e Tereza Cristina é um dos grandes duelos de novela da década",
+      "O mordomo Crô, interpretado por Marcelo Serrado, se tornou um personagem adorado pelo público",
+      "A novela mistura humor e drama em uma trama cheia de reviravoltas",
+      "Foi exibida pela Globo entre 2011 e 2012 no horário das 21h",
+      "Novela da Globo sobre uma mecânica que ganha na loteria, com a vilã Tereza Cristina e o mordomo Crô"
+    ]
+  },
+  {
+    resposta: "Amor à Vida",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Walcyr Carrasco, em uma de suas tramas mais polêmicas e discutidas",
+      "A novela ficou marcada pelo primeiro beijo gay entre homens no horário nobre da Globo",
+      "Mateus Solano e Thiago Fragoso protagonizaram a cena histórica como Félix e Niko",
+      "O vilão Félix, vivido por Mateus Solano, é um dos mais carismáticos e complexos da TV",
+      "A cena de Félix jogando o bebê na caçamba de lixo chocou o Brasil inteiro",
+      "Paolla Oliveira e Malvino Salvador também estão no elenco principal",
+      "A novela aborda temas como homossexualidade, barriga de aluguel e conflitos familiares",
+      "A redenção do vilão Félix ao longo da novela é um arco de personagem memorável",
+      "Foi exibida pela Globo entre 2013 e 2014 no horário das 21h",
+      "Novela da Globo famosa pelo primeiro beijo gay no horário nobre e pelo vilão Félix que joga bebê no lixo"
+    ]
+  },
+  {
+    resposta: "Mulheres Apaixonadas",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Manoel Carlos, que retrata como ninguém o cotidiano da classe média carioca",
+      "A trama acompanha várias mulheres e seus dramas amorosos no bairro do Leblon",
+      "Helena, vivida por Christiane Torloni, é a protagonista, uma professora apaixonada",
+      "A cena de Raquel (Helena Ranaldi) sendo agredida pelo marido Marcos gerou debate sobre violência doméstica",
+      "O casal de idosas Rafaela e Jenifer (Aracy Balabanian e Eliane Giardini) abordou homossexualidade feminina",
+      "A professora Heloísa (Giulia Gam) com a raquete de tênis batendo em alunos virou meme",
+      "A novela impulsionou a campanha pelo desarmamento que resultou no Estatuto do Desarmamento",
+      "Cenas de violência doméstica geraram aumento nas denúncias de agressão contra mulheres",
+      "Foi exibida pela Globo em 2003 no horário das 21h",
+      "Novela da Globo sobre mulheres e seus dramas no Leblon, que impulsionou debates sobre violência doméstica"
+    ]
+  },
+  {
+    resposta: "Páginas da Vida",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Manoel Carlos, mantendo sua marca de tramas urbanas e emocionais",
+      "A história central envolve a rejeição de uma criança com Síndrome de Down pela avó materna",
+      "Regina Duarte interpreta Helena (nome clássico das protagonistas de Manoel Carlos)",
+      "A personagem Malu Mader vive a mãe que morre no parto e deixa gêmeos",
+      "A novela trouxe depoimentos reais de pessoas no final de cada capítulo, formato inédito",
+      "A questão da inclusão de pessoas com deficiência foi tema central e transformador",
+      "Lilia Cabral interpreta a vilã Marta, que rejeita a neta por ela ter Down",
+      "A pequena Joana, que tem Down na trama, foi interpretada por atrizes com a síndrome",
+      "Foi exibida pela Globo entre 2006 e 2007 no horário das 21h",
+      "Novela da Globo que abordou Síndrome de Down e inclusão, com depoimentos reais no fim dos capítulos"
+    ]
+  },
+  {
+    resposta: "América",
+    categoria: "Coisa",
+    dicas: [
+      "A autora é Glória Perez, sempre trazendo temas sociais relevantes para a ficção",
+      "A trama principal retrata brasileiros que tentam entrar ilegalmente nos Estados Unidos pelo México",
+      "Sol, vivida por Deborah Secco, é uma jovem que sonha em cruzar a fronteira para uma vida melhor",
+      "A travessia pelo deserto da fronteira México-EUA é retratada de forma dramática e realista",
+      "Murilo Benício interpreta Tião, um peão de rodeio que sonha com o sucesso nos rodeios",
+      "A novela popularizou o mundo dos rodeios e a vida dos cowboys brasileiros",
+      "O beijo gay entre Júnior (Bruno Gagliasso) e Zeca foi cortado e nunca exibido, gerando polêmica",
+      "Gravações foram feitas no México e nos Estados Unidos para cenas de fronteira",
+      "Foi exibida pela Globo em 2005 no horário das 21h",
+      "Novela da Glória Perez sobre brasileiros que tentam imigrar ilegalmente para os EUA, com drama na fronteira"
+    ]
+  },
+  {
+    resposta: "O Outro Lado do Paraíso",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é Walcyr Carrasco, especialista em tramas de superação feminina",
+      "A protagonista Clara, vivida por Bianca Bin, sofre violência doméstica e luta por justiça",
+      "O vilão Gael, interpretado por Sergio Guizé, é o marido agressor na primeira fase",
+      "A grande vilã é Sophia, vivida por Marieta Severo, uma empresária manipuladora e assassina",
+      "A novela abordou violência doméstica, abuso sexual e tráfico de crianças",
+      "A trama se passa em Palmas, no Tocantins, um cenário incomum para novelas da Globo",
+      "Clara é presa injustamente e depois sai para se vingar de quem destruiu sua vida",
+      "A região das pedras preciosas e o garimpo são cenários importantes da história",
+      "Foi exibida pela Globo entre 2017 e 2018 no horário das 21h",
+      "Novela da Globo sobre uma mulher que sofre violência doméstica e renasce para se vingar, com Bianca Bin"
+    ]
+  },
+  {
+    resposta: "Totalmente Demais",
+    categoria: "Coisa",
+    dicas: [
+      "Os autores são Rosane Svartman e Paulo Halm, em uma trama leve e romântica",
+      "A protagonista Eliza, vivida por Marina Ruy Barbosa, é uma moradora de rua que vira modelo",
+      "A vilã Carolina, interpretada por Juliana Paes, é uma editora de moda poderosa e invejosa",
+      "O galã Arthur, vivido por Fábio Assunção, é dono de uma agência de modelos",
+      "A trama de Cinderela moderna, com a mocinha saindo da rua para as passarelas, cativou o público",
+      "Marina Ruy Barbosa se consolidou como uma das maiores atrizes jovens da Globo com esse papel",
+      "A rivalidade entre Eliza e Carolina por Arthur é o motor principal da história",
+      "A novela conquistou grande audiência e engajamento nas redes sociais",
+      "Foi exibida pela Globo entre 2015 e 2016 no horário das 19h",
+      "Novela da Globo sobre uma moradora de rua que vira modelo, com Marina Ruy Barbosa e Juliana Paes"
+    ]
+  },
+  {
+    resposta: "Travessia",
+    categoria: "Coisa",
+    dicas: [
+      "A autora é Glória Perez, sempre antenada aos temas mais atuais da sociedade",
+      "A novela abordou tecnologia, inteligência artificial e o impacto da internet na vida moderna",
+      "O deepfake e seus perigos são temas centrais da trama, algo inédito em novelas",
+      "Lucy Alves e Chay Suede são os protagonistas da história de amor central",
+      "Jade Picon, vinda do BBB, fez sua estreia como atriz nesta novela",
+      "A cidade de São Luís do Maranhão é um dos cenários principais da trama",
+      "A novela discutiu como a tecnologia pode ser usada para manipular e enganar pessoas",
+      "Alexandre Nero também faz parte do elenco em papel relevante",
+      "Foi exibida pela Globo entre 2022 e 2023 no horário das 21h",
+      "Novela da Glória Perez sobre tecnologia e deepfakes, com estreia de Jade Picon como atriz"
+    ]
+  },
+  {
+    resposta: "Anjo Mau",
+    categoria: "Coisa",
+    dicas: [
+      "A autora é Cassiano Gabus Mendes, com participação de Silvio de Abreu",
+      "A protagonista Nice é uma babá que usa a sedução para conquistar o patrão rico",
+      "Na versão original de 1976, Susana Vieira interpretou Nice com brilhantismo",
+      "A novela subverte o papel tradicional da mocinha: a protagonista é calculista e ambiciosa",
+      "Nice se infiltra na casa dos patrões com o objetivo claro de ascender socialmente",
+      "Em 1997, a Globo fez um remake com Glória Pires no papel-título",
+      "O remake atualizou a trama mas manteve a essência da babá sedutora",
+      "A novela discute mobilidade social e os limites da ambição feminina na sociedade",
+      "É uma das poucas novelas onde a protagonista não é moralmente íntegra",
+      "Novela da Globo sobre uma babá calculista que seduz o patrão para subir na vida"
+    ]
+  },
+  {
+    resposta: "Da Cor do Pecado",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é João Emanuel Carneiro, o mesmo de Avenida Brasil",
+      "A protagonista Preta, vivida por Taís Araújo, é a primeira protagonista negra de uma novela das 19h",
+      "A trama aborda preconceito racial de forma central e direta na história",
+      "Reynaldo Gianecchini interpreta Paco, o par romântico da protagonista",
+      "A sogra racista Bárbara Ellen, vivida por Françoise Forton, é a vilã principal",
+      "O título é uma provocação sobre o racismo que associa cor de pele a pecado",
+      "A novela foi pioneira em colocar o debate racial no centro de uma trama de novela",
+      "Taís Araújo enfrentou racismo real durante as gravações e nas redes sociais",
+      "Foi exibida pela Globo em 2004 no horário das 19h",
+      "Novela da Globo com a primeira protagonista negra no horário das 19h, abordando racismo e preconceito"
+    ]
+  },
+  {
+    resposta: "Paraíso Tropical",
+    categoria: "Coisa",
+    dicas: [
+      "Os autores são Gilberto Braga e Ricardo Linhares, mestres do suspense sofisticado",
+      "A trama se passa no mundo dos hotéis de luxo do Rio de Janeiro",
+      "Wagner Moura interpreta o vilão Olavo, um personagem magnético e imprevisível",
+      "Alessandra Negrini vive a ambígua Paula, uma mulher envolvida em jogos de poder",
+      "Camila Pitanga e Fábio Assunção são o casal protagonista da trama romântica",
+      "A novela tem clima de thriller sofisticado, com traições e reviravoltas constantes",
+      "O universo de poder e glamour dos hotéis cinco estrelas é cenário perfeito para as intrigas",
+      "Wagner Moura brilhou como vilão antes de se consagrar internacionalmente como Pablo Escobar em Narcos",
+      "Foi exibida pela Globo em 2007 no horário das 21h",
+      "Novela da Globo ambientada em hotéis de luxo no Rio, com Wagner Moura como vilão magnético"
+    ]
+  },
+  {
+    resposta: "Malhação",
+    categoria: "Coisa",
+    dicas: [
+      "É a novela mais longa da história da TV brasileira, exibida de 1995 a 2020",
+      "Foi criada originalmente por Emanuel Jacobina e ambientada em uma academia de ginástica",
+      "Ao longo dos anos, migrou para o ambiente escolar e passou a focar em temas adolescentes",
+      "Cada temporada tinha elenco quase totalmente renovado, revelando novos talentos",
+      "Revelou atores como Cauã Reymond, Grazi Massafera, Bruno Gagliasso e Fernanda Vasconcellos",
+      "É exibida no horário das 17h30, antes da novela das 18h da Globo",
+      "A trilha sonora sempre incluía hits pop nacionais e internacionais do momento",
+      "Abordou temas como bullying, drogas, sexualidade e gravidez na adolescência",
+      "A temporada 'Viva a Diferença' de 2017 foi elogiada pela representatividade e diversidade",
+      "Novela teen mais longeva da TV brasileira, que revelou estrelas como Grazi Massafera e Cauã Reymond"
+    ]
+  },
+  {
+    resposta: "A Grande Família",
+    categoria: "Coisa",
+    dicas: [
+      "É baseada no seriado homônimo de 1972, criado por Oduvaldo Vianna Filho e Armando Costa",
+      "A versão moderna foi exibida pela Globo de 2001 a 2014, com 14 temporadas e 487 episódios",
+      "Marco Nanini interpreta Lineu Silva, o chefe de família sensato e ranzinza",
+      "Marieta Severo vive Dona Nenê, a esposa que tenta manter a família unida",
+      "Pedro Cardoso interpreta Agostinho Carrara, o genro malandro que arranja confusão",
+      "Tuco, Bebel e Florianinho são outros personagens icônicos da família Silva",
+      "O humor é baseado em situações cotidianas da classe média brasileira",
+      "A casa dos Silva na Zona Norte do Rio é cenário fixo de todas as temporadas",
+      "Teve um filme em 2007 que levou milhões de espectadores aos cinemas",
+      "Seriado de humor da Globo sobre uma família carioca de classe média, com Marco Nanini e Marieta Severo"
+    ]
+  },
+  {
+    resposta: "Segundo Sol",
+    categoria: "Coisa",
+    dicas: [
+      "O autor é João Emanuel Carneiro, o criador de Avenida Brasil",
+      "A trama se passa em Salvador, Bahia, e explora o universo da música baiana",
+      "A protagonista Luzia, vivida por Giovanna Antonelli, é uma mulher que finge a própria morte",
+      "Karola, interpretada por Débora Bloch, é a melhor amiga que trai Luzia",
+      "A novela retrata os bastidores do Carnaval de Salvador e do axé music",
+      "A cantora de axé Manu, personagem de Luisa Arraes, movimenta a trama musical",
+      "O triângulo amoroso entre Luzia, Beto (Emilio Dantas) e Karola é o motor principal",
+      "A fotografia da novela destaca as cores e a beleza de Salvador",
+      "Foi exibida pela Globo em 2018 no horário das 21h",
+      "Novela da Globo ambientada em Salvador sobre uma mulher que finge a morte para se vingar da amiga traidora"
+    ]
   }
 ];
